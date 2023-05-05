@@ -1,0 +1,20 @@
+# ignore venv
+.venv
+.gwrenv
+
+#ignore mac internal files
+.DS_Store
+._.DS_Store
+
+.vscode/
+
+
+#pycache
+**__pycache__
+**/*.pyc
+*.pyc
+
+#Helper files for development
+src/Helpers/
+src/train_test.py
+old/

@@ -1,0 +1,228 @@
+2022-10-21 04:00:29,739 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:29,740 - General-Log - INFO - Evaluation over 10 episodes: -2.458
+2022-10-21 04:00:29,740 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:29,741 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:29,741 - General-Log - INFO - Policy: DDPG, Env: HalfCheetah-v2, Replay Memory: original, Seed: 42
+2022-10-21 04:00:29,741 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:29,741 - General-Log - INFO - Args for GWR: {'a_t': 0.95, 'h_t': 0.8, 'kappa': 1.05, 'tau_b': 0.3, 'tau_n': 0.1, 'max_age': 10, 'eps_b': 0.1, 'eps_n': 0.001, 'beta': 0.7, 'n_context': 4}
+2022-10-21 04:00:29,741 - General-Log - INFO - Args for DDPG: {'discount': 0.99, 'tau': 0.005}
+2022-10-21 04:00:29,943 - General-Log - INFO - Total T: 1000 Episode Num: 1 Episode T: 1000 Reward: -242.456 Memory Size: 1000
+2022-10-21 04:00:30,157 - General-Log - INFO - Total T: 2000 Episode Num: 2 Episode T: 1000 Reward: -273.611 Memory Size: 2000
+2022-10-21 04:00:33,112 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:33,112 - General-Log - INFO - Evaluation over 6 episodes: -2.420
+2022-10-21 04:00:33,112 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:33,244 - General-Log - INFO - Total T: 3000 Episode Num: 3 Episode T: 1000 Reward: -423.454 Memory Size: 3000
+2022-10-21 04:00:33,456 - General-Log - INFO - Total T: 4000 Episode Num: 4 Episode T: 1000 Reward: -451.285 Memory Size: 4000
+2022-10-21 04:00:33,663 - General-Log - INFO - Total T: 5000 Episode Num: 5 Episode T: 1000 Reward: -352.133 Memory Size: 5000
+2022-10-21 04:00:36,505 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:36,505 - General-Log - INFO - Evaluation over 6 episodes: -2.747
+2022-10-21 04:00:36,505 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:36,730 - General-Log - INFO - Total T: 6000 Episode Num: 6 Episode T: 1000 Reward: -320.070 Memory Size: 6000
+2022-10-21 04:00:36,943 - General-Log - INFO - Total T: 7000 Episode Num: 7 Episode T: 1000 Reward: -288.240 Memory Size: 7000
+2022-10-21 04:00:39,858 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:39,858 - General-Log - INFO - Evaluation over 6 episodes: -2.865
+2022-10-21 04:00:39,858 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:39,989 - General-Log - INFO - Total T: 8000 Episode Num: 8 Episode T: 1000 Reward: -257.979 Memory Size: 8000
+2022-10-21 04:00:40,215 - General-Log - INFO - Total T: 9000 Episode Num: 9 Episode T: 1000 Reward: -280.423 Memory Size: 9000
+2022-10-21 04:00:40,438 - General-Log - INFO - Total T: 10000 Episode Num: 10 Episode T: 1000 Reward: -356.539 Memory Size: 10000
+2022-10-21 04:00:43,237 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:43,237 - General-Log - INFO - Evaluation over 6 episodes: -2.453
+2022-10-21 04:00:43,237 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:43,460 - General-Log - INFO - Total T: 11000 Episode Num: 11 Episode T: 1000 Reward: -243.927 Memory Size: 11000
+2022-10-21 04:00:43,672 - General-Log - INFO - Total T: 12000 Episode Num: 12 Episode T: 1000 Reward: -398.726 Memory Size: 12000
+2022-10-21 04:00:46,534 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:46,534 - General-Log - INFO - Evaluation over 6 episodes: -2.158
+2022-10-21 04:00:46,534 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:46,660 - General-Log - INFO - Total T: 13000 Episode Num: 13 Episode T: 1000 Reward: -424.622 Memory Size: 13000
+2022-10-21 04:00:46,885 - General-Log - INFO - Total T: 14000 Episode Num: 14 Episode T: 1000 Reward: -273.744 Memory Size: 14000
+2022-10-21 04:00:47,094 - General-Log - INFO - Total T: 15000 Episode Num: 15 Episode T: 1000 Reward: -262.380 Memory Size: 15000
+2022-10-21 04:00:49,990 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:00:49,990 - General-Log - INFO - Evaluation over 6 episodes: -2.520
+2022-10-21 04:00:49,990 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:01:03,298 - General-Log - INFO - Total T: 16000 Episode Num: 16 Episode T: 1000 Reward: -427.498 Memory Size: 16000
+2022-10-21 04:01:17,585 - General-Log - INFO - Total T: 17000 Episode Num: 17 Episode T: 1000 Reward: -440.139 Memory Size: 17000
+2022-10-21 04:01:27,516 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:01:27,516 - General-Log - INFO - Evaluation over 6 episodes: -685.207
+2022-10-21 04:01:27,516 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:01:34,695 - General-Log - INFO - Total T: 18000 Episode Num: 18 Episode T: 1000 Reward: -495.842 Memory Size: 18000
+2022-10-21 04:01:48,663 - General-Log - INFO - Total T: 19000 Episode Num: 19 Episode T: 1000 Reward: -471.848 Memory Size: 19000
+2022-10-21 04:02:02,468 - General-Log - INFO - Total T: 20000 Episode Num: 20 Episode T: 1000 Reward: -430.799 Memory Size: 20000
+2022-10-21 04:02:05,282 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:02:05,283 - General-Log - INFO - Evaluation over 6 episodes: -507.334
+2022-10-21 04:02:05,283 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:02:19,289 - General-Log - INFO - Total T: 21000 Episode Num: 21 Episode T: 1000 Reward: -658.733 Memory Size: 21000
+2022-10-21 04:02:33,196 - General-Log - INFO - Total T: 22000 Episode Num: 22 Episode T: 1000 Reward: -481.470 Memory Size: 22000
+2022-10-21 04:02:42,977 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:02:42,977 - General-Log - INFO - Evaluation over 6 episodes: -592.699
+2022-10-21 04:02:42,977 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:02:50,011 - General-Log - INFO - Total T: 23000 Episode Num: 23 Episode T: 1000 Reward: -522.573 Memory Size: 23000
+2022-10-21 04:03:04,044 - General-Log - INFO - Total T: 24000 Episode Num: 24 Episode T: 1000 Reward: -746.496 Memory Size: 24000
+2022-10-21 04:03:17,860 - General-Log - INFO - Total T: 25000 Episode Num: 25 Episode T: 1000 Reward: -610.610 Memory Size: 25000
+2022-10-21 04:03:20,685 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:03:20,686 - General-Log - INFO - Evaluation over 6 episodes: -619.567
+2022-10-21 04:03:20,686 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:03:34,635 - General-Log - INFO - Total T: 26000 Episode Num: 26 Episode T: 1000 Reward: 212.588 Memory Size: 26000
+2022-10-21 04:03:48,523 - General-Log - INFO - Total T: 27000 Episode Num: 27 Episode T: 1000 Reward: 338.653 Memory Size: 27000
+2022-10-21 04:03:58,323 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:03:58,324 - General-Log - INFO - Evaluation over 6 episodes: 1014.688
+2022-10-21 04:03:58,324 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:04:05,241 - General-Log - INFO - Total T: 28000 Episode Num: 28 Episode T: 1000 Reward: 613.445 Memory Size: 28000
+2022-10-21 04:04:19,227 - General-Log - INFO - Total T: 29000 Episode Num: 29 Episode T: 1000 Reward: 1785.541 Memory Size: 29000
+2022-10-21 04:04:32,953 - General-Log - INFO - Total T: 30000 Episode Num: 30 Episode T: 1000 Reward: 1200.473 Memory Size: 30000
+2022-10-21 04:04:35,659 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:04:35,659 - General-Log - INFO - Evaluation over 6 episodes: 2095.469
+2022-10-21 04:04:35,659 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:04:49,051 - General-Log - INFO - Total T: 31000 Episode Num: 31 Episode T: 1000 Reward: 1208.874 Memory Size: 31000
+2022-10-21 04:05:03,094 - General-Log - INFO - Total T: 32000 Episode Num: 32 Episode T: 1000 Reward: 508.575 Memory Size: 32000
+2022-10-21 04:05:12,987 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:05:12,987 - General-Log - INFO - Evaluation over 6 episodes: 1519.009
+2022-10-21 04:05:12,987 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:05:20,073 - General-Log - INFO - Total T: 33000 Episode Num: 33 Episode T: 1000 Reward: 1092.494 Memory Size: 33000
+2022-10-21 04:05:34,092 - General-Log - INFO - Total T: 34000 Episode Num: 34 Episode T: 1000 Reward: 1790.371 Memory Size: 34000
+2022-10-21 04:05:48,208 - General-Log - INFO - Total T: 35000 Episode Num: 35 Episode T: 1000 Reward: 569.817 Memory Size: 35000
+2022-10-21 04:05:51,001 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:05:51,001 - General-Log - INFO - Evaluation over 6 episodes: 2297.944
+2022-10-21 04:05:51,001 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:06:04,925 - General-Log - INFO - Total T: 36000 Episode Num: 36 Episode T: 1000 Reward: 2157.386 Memory Size: 36000
+2022-10-21 04:06:18,844 - General-Log - INFO - Total T: 37000 Episode Num: 37 Episode T: 1000 Reward: 452.257 Memory Size: 37000
+2022-10-21 04:06:28,723 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:06:28,723 - General-Log - INFO - Evaluation over 6 episodes: 1815.044
+2022-10-21 04:06:28,723 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:06:35,717 - General-Log - INFO - Total T: 38000 Episode Num: 38 Episode T: 1000 Reward: 905.700 Memory Size: 38000
+2022-10-21 04:06:49,496 - General-Log - INFO - Total T: 39000 Episode Num: 39 Episode T: 1000 Reward: 2242.014 Memory Size: 39000
+2022-10-21 04:07:03,641 - General-Log - INFO - Total T: 40000 Episode Num: 40 Episode T: 1000 Reward: 2775.695 Memory Size: 40000
+2022-10-21 04:07:06,374 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:07:06,374 - General-Log - INFO - Evaluation over 6 episodes: 2173.698
+2022-10-21 04:07:06,374 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:07:20,362 - General-Log - INFO - Total T: 41000 Episode Num: 41 Episode T: 1000 Reward: 2132.799 Memory Size: 41000
+2022-10-21 04:07:34,257 - General-Log - INFO - Total T: 42000 Episode Num: 42 Episode T: 1000 Reward: 2172.552 Memory Size: 42000
+2022-10-21 04:07:44,055 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:07:44,056 - General-Log - INFO - Evaluation over 6 episodes: 2985.293
+2022-10-21 04:07:44,056 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:07:51,003 - General-Log - INFO - Total T: 43000 Episode Num: 43 Episode T: 1000 Reward: 2627.122 Memory Size: 43000
+2022-10-21 04:08:04,868 - General-Log - INFO - Total T: 44000 Episode Num: 44 Episode T: 1000 Reward: 3081.680 Memory Size: 44000
+2022-10-21 04:08:18,543 - General-Log - INFO - Total T: 45000 Episode Num: 45 Episode T: 1000 Reward: 2716.711 Memory Size: 45000
+2022-10-21 04:08:21,217 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:08:21,217 - General-Log - INFO - Evaluation over 6 episodes: 2352.469
+2022-10-21 04:08:21,218 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:08:35,000 - General-Log - INFO - Total T: 46000 Episode Num: 46 Episode T: 1000 Reward: 3087.834 Memory Size: 46000
+2022-10-21 04:08:48,885 - General-Log - INFO - Total T: 47000 Episode Num: 47 Episode T: 1000 Reward: 2745.554 Memory Size: 47000
+2022-10-21 04:08:58,607 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:08:58,607 - General-Log - INFO - Evaluation over 6 episodes: 3221.561
+2022-10-21 04:08:58,608 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:09:05,533 - General-Log - INFO - Total T: 48000 Episode Num: 48 Episode T: 1000 Reward: 3479.743 Memory Size: 48000
+2022-10-21 04:09:19,337 - General-Log - INFO - Total T: 49000 Episode Num: 49 Episode T: 1000 Reward: 3202.274 Memory Size: 49000
+2022-10-21 04:09:33,264 - General-Log - INFO - Total T: 50000 Episode Num: 50 Episode T: 1000 Reward: 3516.945 Memory Size: 50000
+2022-10-21 04:09:36,085 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:09:36,086 - General-Log - INFO - Evaluation over 6 episodes: 3544.192
+2022-10-21 04:09:36,086 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:09:49,373 - General-Log - INFO - Total T: 51000 Episode Num: 51 Episode T: 1000 Reward: 3387.341 Memory Size: 51000
+2022-10-21 04:10:03,535 - General-Log - INFO - Total T: 52000 Episode Num: 52 Episode T: 1000 Reward: 3295.776 Memory Size: 52000
+2022-10-21 04:10:13,558 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:10:13,559 - General-Log - INFO - Evaluation over 6 episodes: 3515.146
+2022-10-21 04:10:13,559 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:10:20,907 - General-Log - INFO - Total T: 53000 Episode Num: 53 Episode T: 1000 Reward: 3792.751 Memory Size: 53000
+2022-10-21 04:10:34,853 - General-Log - INFO - Total T: 54000 Episode Num: 54 Episode T: 1000 Reward: 3249.091 Memory Size: 54000
+2022-10-21 04:10:48,578 - General-Log - INFO - Total T: 55000 Episode Num: 55 Episode T: 1000 Reward: 3799.224 Memory Size: 55000
+2022-10-21 04:10:51,269 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:10:51,269 - General-Log - INFO - Evaluation over 6 episodes: 3704.282
+2022-10-21 04:10:51,269 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:11:05,283 - General-Log - INFO - Total T: 56000 Episode Num: 56 Episode T: 1000 Reward: 3883.163 Memory Size: 56000
+2022-10-21 04:11:19,191 - General-Log - INFO - Total T: 57000 Episode Num: 57 Episode T: 1000 Reward: 3272.862 Memory Size: 57000
+2022-10-21 04:11:28,933 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:11:28,934 - General-Log - INFO - Evaluation over 6 episodes: 4418.981
+2022-10-21 04:11:28,934 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:11:35,959 - General-Log - INFO - Total T: 58000 Episode Num: 58 Episode T: 1000 Reward: 3809.535 Memory Size: 58000
+2022-10-21 04:11:50,045 - General-Log - INFO - Total T: 59000 Episode Num: 59 Episode T: 1000 Reward: 3539.893 Memory Size: 59000
+2022-10-21 04:12:03,911 - General-Log - INFO - Total T: 60000 Episode Num: 60 Episode T: 1000 Reward: 3954.913 Memory Size: 60000
+2022-10-21 04:12:06,609 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:12:06,609 - General-Log - INFO - Evaluation over 6 episodes: 4169.010
+2022-10-21 04:12:06,609 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:12:20,438 - General-Log - INFO - Total T: 61000 Episode Num: 61 Episode T: 1000 Reward: 4124.352 Memory Size: 61000
+2022-10-21 04:12:34,430 - General-Log - INFO - Total T: 62000 Episode Num: 62 Episode T: 1000 Reward: 3499.434 Memory Size: 62000
+2022-10-21 04:12:44,377 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:12:44,377 - General-Log - INFO - Evaluation over 6 episodes: 4509.159
+2022-10-21 04:12:44,377 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:12:51,361 - General-Log - INFO - Total T: 63000 Episode Num: 63 Episode T: 1000 Reward: 4096.332 Memory Size: 63000
+2022-10-21 04:13:05,395 - General-Log - INFO - Total T: 64000 Episode Num: 64 Episode T: 1000 Reward: 4226.994 Memory Size: 64000
+2022-10-21 04:13:19,352 - General-Log - INFO - Total T: 65000 Episode Num: 65 Episode T: 1000 Reward: 4264.238 Memory Size: 65000
+2022-10-21 04:13:22,107 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:13:22,108 - General-Log - INFO - Evaluation over 6 episodes: 4296.172
+2022-10-21 04:13:22,108 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:13:36,186 - General-Log - INFO - Total T: 66000 Episode Num: 66 Episode T: 1000 Reward: 4129.880 Memory Size: 66000
+2022-10-21 04:13:50,192 - General-Log - INFO - Total T: 67000 Episode Num: 67 Episode T: 1000 Reward: 4135.759 Memory Size: 67000
+2022-10-21 04:14:00,004 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:14:00,004 - General-Log - INFO - Evaluation over 6 episodes: 4337.282
+2022-10-21 04:14:00,004 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:14:06,948 - General-Log - INFO - Total T: 68000 Episode Num: 68 Episode T: 1000 Reward: 4093.674 Memory Size: 68000
+2022-10-21 04:14:20,840 - General-Log - INFO - Total T: 69000 Episode Num: 69 Episode T: 1000 Reward: 4128.117 Memory Size: 69000
+2022-10-21 04:14:34,636 - General-Log - INFO - Total T: 70000 Episode Num: 70 Episode T: 1000 Reward: 3972.365 Memory Size: 70000
+2022-10-21 04:14:37,350 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:14:37,350 - General-Log - INFO - Evaluation over 6 episodes: 4486.924
+2022-10-21 04:14:37,350 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:14:50,886 - General-Log - INFO - Total T: 71000 Episode Num: 71 Episode T: 1000 Reward: 4068.845 Memory Size: 71000
+2022-10-21 04:15:04,890 - General-Log - INFO - Total T: 72000 Episode Num: 72 Episode T: 1000 Reward: 4287.541 Memory Size: 72000
+2022-10-21 04:15:14,569 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:15:14,569 - General-Log - INFO - Evaluation over 6 episodes: 3790.485
+2022-10-21 04:15:14,569 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:15:21,481 - General-Log - INFO - Total T: 73000 Episode Num: 73 Episode T: 1000 Reward: 4012.683 Memory Size: 73000
+2022-10-21 04:15:35,434 - General-Log - INFO - Total T: 74000 Episode Num: 74 Episode T: 1000 Reward: 4555.940 Memory Size: 74000
+2022-10-21 04:15:49,420 - General-Log - INFO - Total T: 75000 Episode Num: 75 Episode T: 1000 Reward: 4272.842 Memory Size: 75000
+2022-10-21 04:15:52,214 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:15:52,215 - General-Log - INFO - Evaluation over 6 episodes: 4446.338
+2022-10-21 04:15:52,215 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:16:06,372 - General-Log - INFO - Total T: 76000 Episode Num: 76 Episode T: 1000 Reward: 4359.496 Memory Size: 76000
+2022-10-21 04:16:20,316 - General-Log - INFO - Total T: 77000 Episode Num: 77 Episode T: 1000 Reward: 4120.557 Memory Size: 77000
+2022-10-21 04:16:29,972 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:16:29,972 - General-Log - INFO - Evaluation over 6 episodes: 4287.403
+2022-10-21 04:16:29,973 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:16:37,037 - General-Log - INFO - Total T: 78000 Episode Num: 78 Episode T: 1000 Reward: 4353.381 Memory Size: 78000
+2022-10-21 04:16:50,985 - General-Log - INFO - Total T: 79000 Episode Num: 79 Episode T: 1000 Reward: 3899.301 Memory Size: 79000
+2022-10-21 04:17:04,881 - General-Log - INFO - Total T: 80000 Episode Num: 80 Episode T: 1000 Reward: 4112.520 Memory Size: 80000
+2022-10-21 04:17:07,647 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:17:07,647 - General-Log - INFO - Evaluation over 6 episodes: 4668.384
+2022-10-21 04:17:07,648 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:17:21,605 - General-Log - INFO - Total T: 81000 Episode Num: 81 Episode T: 1000 Reward: 4594.678 Memory Size: 81000
+2022-10-21 04:17:35,666 - General-Log - INFO - Total T: 82000 Episode Num: 82 Episode T: 1000 Reward: 4378.613 Memory Size: 82000
+2022-10-21 04:17:45,504 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:17:45,505 - General-Log - INFO - Evaluation over 6 episodes: 4921.971
+2022-10-21 04:17:45,505 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:17:52,570 - General-Log - INFO - Total T: 83000 Episode Num: 83 Episode T: 1000 Reward: 4509.560 Memory Size: 83000
+2022-10-21 04:18:06,457 - General-Log - INFO - Total T: 84000 Episode Num: 84 Episode T: 1000 Reward: 4476.389 Memory Size: 84000
+2022-10-21 04:18:20,307 - General-Log - INFO - Total T: 85000 Episode Num: 85 Episode T: 1000 Reward: 4450.403 Memory Size: 85000
+2022-10-21 04:18:23,015 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:18:23,015 - General-Log - INFO - Evaluation over 6 episodes: 4760.373
+2022-10-21 04:18:23,016 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:18:36,813 - General-Log - INFO - Total T: 86000 Episode Num: 86 Episode T: 1000 Reward: 4201.619 Memory Size: 86000
+2022-10-21 04:18:50,724 - General-Log - INFO - Total T: 87000 Episode Num: 87 Episode T: 1000 Reward: 4301.637 Memory Size: 87000
+2022-10-21 04:19:00,568 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:19:00,568 - General-Log - INFO - Evaluation over 6 episodes: 4613.845
+2022-10-21 04:19:00,569 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:19:07,469 - General-Log - INFO - Total T: 88000 Episode Num: 88 Episode T: 1000 Reward: 4576.500 Memory Size: 88000
+2022-10-21 04:19:21,609 - General-Log - INFO - Total T: 89000 Episode Num: 89 Episode T: 1000 Reward: 4467.068 Memory Size: 89000
+2022-10-21 04:19:35,182 - General-Log - INFO - Total T: 90000 Episode Num: 90 Episode T: 1000 Reward: 4763.923 Memory Size: 90000
+2022-10-21 04:19:37,845 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:19:37,845 - General-Log - INFO - Evaluation over 6 episodes: 4679.267
+2022-10-21 04:19:37,845 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:19:50,458 - General-Log - INFO - Total T: 91000 Episode Num: 91 Episode T: 1000 Reward: 4137.081 Memory Size: 91000
+2022-10-21 04:20:04,254 - General-Log - INFO - Total T: 92000 Episode Num: 92 Episode T: 1000 Reward: 4547.781 Memory Size: 92000
+2022-10-21 04:20:14,044 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:20:14,044 - General-Log - INFO - Evaluation over 6 episodes: 4720.325
+2022-10-21 04:20:14,044 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:20:21,070 - General-Log - INFO - Total T: 93000 Episode Num: 93 Episode T: 1000 Reward: 4500.003 Memory Size: 93000
+2022-10-21 04:20:34,807 - General-Log - INFO - Total T: 94000 Episode Num: 94 Episode T: 1000 Reward: 4588.151 Memory Size: 94000
+2022-10-21 04:20:48,513 - General-Log - INFO - Total T: 95000 Episode Num: 95 Episode T: 1000 Reward: 4364.029 Memory Size: 95000
+2022-10-21 04:20:51,293 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:20:51,293 - General-Log - INFO - Evaluation over 6 episodes: 4589.981
+2022-10-21 04:20:51,293 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:21:05,307 - General-Log - INFO - Total T: 96000 Episode Num: 96 Episode T: 1000 Reward: 4564.675 Memory Size: 96000
+2022-10-21 04:21:19,160 - General-Log - INFO - Total T: 97000 Episode Num: 97 Episode T: 1000 Reward: 4599.998 Memory Size: 97000
+2022-10-21 04:21:28,728 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:21:28,728 - General-Log - INFO - Evaluation over 6 episodes: 4571.894
+2022-10-21 04:21:28,729 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:21:35,735 - General-Log - INFO - Total T: 98000 Episode Num: 98 Episode T: 1000 Reward: 4787.436 Memory Size: 98000
+2022-10-21 04:21:49,776 - General-Log - INFO - Total T: 99000 Episode Num: 99 Episode T: 1000 Reward: 4530.708 Memory Size: 99000
+2022-10-21 04:22:03,847 - General-Log - INFO - Total T: 100000 Episode Num: 100 Episode T: 1000 Reward: 4464.679 Memory Size: 100000
+2022-10-21 04:22:06,575 - General-Log - INFO - ---------------------------------------
+2022-10-21 04:22:06,575 - General-Log - INFO - Evaluation over 6 episodes: 4950.984
+2022-10-21 04:22:06,575 - General-Log - INFO - ---------------------------------------

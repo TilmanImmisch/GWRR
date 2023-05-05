@@ -1,0 +1,5 @@
+a_T = 0.95, h_T = 0.8: 0h 31min; avg CPU load: 9.348571428571429
+a_T = 0.95, h_T = 0.8: 0h 31min; avg CPU load: 9.348571428571429
+a_T = 0.95, h_T = 0.8: 0h 31min; avg CPU load: 9.348571428571429
+a_T = 0.95, h_T = 0.8: 466841h 52min; avg CPU load: 9.348571428571429
+a_T = 0.95, h_T = 0.8: 0h 44min; avg CPU load: 5.755999999999999

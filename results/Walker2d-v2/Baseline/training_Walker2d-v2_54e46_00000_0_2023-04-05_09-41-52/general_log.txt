@@ -1,0 +1,1288 @@
+2023-04-05 09:43:28,952 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:43:28,952 - General-Log - INFO - Evaluation over 10 episodes: 5.259
+2023-04-05 09:43:28,952 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:43:28,952 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:43:28,953 - General-Log - INFO - Policy: DDPG, Env: Walker2d-v2, Replay Memory: original, Seed: 42
+2023-04-05 09:43:28,953 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:43:28,953 - General-Log - INFO - Args for GWR: {'a_t': 0.95, 'h_t': 0.8, 'kappa': 1.05, 'tau_b': 0.3, 'tau_n': 0.1, 'max_age': 10, 'eps_b': 0.1, 'eps_n': 0.001, 'beta': 0.7, 'n_context': 4}
+2023-04-05 09:43:28,953 - General-Log - INFO - Args for DDPG: {'discount': 0.99, 'tau': 0.005}
+2023-04-05 09:43:28,957 - General-Log - INFO - Total T: 12 Episode Num: 1 Episode T: 12 Reward: -2.792 Memory Size: 12
+2023-04-05 09:43:28,963 - General-Log - INFO - Total T: 30 Episode Num: 2 Episode T: 18 Reward: 6.145 Memory Size: 30
+2023-04-05 09:43:28,969 - General-Log - INFO - Total T: 47 Episode Num: 3 Episode T: 17 Reward: 0.134 Memory Size: 47
+2023-04-05 09:43:28,975 - General-Log - INFO - Total T: 65 Episode Num: 4 Episode T: 18 Reward: 3.325 Memory Size: 65
+2023-04-05 09:43:28,984 - General-Log - INFO - Total T: 92 Episode Num: 5 Episode T: 27 Reward: -4.318 Memory Size: 92
+2023-04-05 09:43:28,990 - General-Log - INFO - Total T: 110 Episode Num: 6 Episode T: 18 Reward: -6.915 Memory Size: 110
+2023-04-05 09:43:28,999 - General-Log - INFO - Total T: 137 Episode Num: 7 Episode T: 27 Reward: 11.211 Memory Size: 137
+2023-04-05 09:43:29,004 - General-Log - INFO - Total T: 153 Episode Num: 8 Episode T: 16 Reward: 2.401 Memory Size: 153
+2023-04-05 09:43:29,011 - General-Log - INFO - Total T: 175 Episode Num: 9 Episode T: 22 Reward: 0.626 Memory Size: 175
+2023-04-05 09:43:29,018 - General-Log - INFO - Total T: 197 Episode Num: 10 Episode T: 22 Reward: 2.299 Memory Size: 197
+2023-04-05 09:43:29,025 - General-Log - INFO - Total T: 217 Episode Num: 11 Episode T: 20 Reward: -3.234 Memory Size: 217
+2023-04-05 09:43:29,034 - General-Log - INFO - Total T: 243 Episode Num: 12 Episode T: 26 Reward: 4.304 Memory Size: 243
+2023-04-05 09:43:29,038 - General-Log - INFO - Total T: 256 Episode Num: 13 Episode T: 13 Reward: 4.747 Memory Size: 256
+2023-04-05 09:43:29,045 - General-Log - INFO - Total T: 277 Episode Num: 14 Episode T: 21 Reward: 8.044 Memory Size: 277
+2023-04-05 09:43:29,054 - General-Log - INFO - Total T: 301 Episode Num: 15 Episode T: 24 Reward: 3.688 Memory Size: 301
+2023-04-05 09:43:29,061 - General-Log - INFO - Total T: 322 Episode Num: 16 Episode T: 21 Reward: 6.776 Memory Size: 322
+2023-04-05 09:43:29,069 - General-Log - INFO - Total T: 346 Episode Num: 17 Episode T: 24 Reward: 14.637 Memory Size: 346
+2023-04-05 09:43:29,073 - General-Log - INFO - Total T: 357 Episode Num: 18 Episode T: 11 Reward: -0.404 Memory Size: 357
+2023-04-05 09:43:29,082 - General-Log - INFO - Total T: 386 Episode Num: 19 Episode T: 29 Reward: 8.905 Memory Size: 386
+2023-04-05 09:43:29,092 - General-Log - INFO - Total T: 414 Episode Num: 20 Episode T: 28 Reward: -0.783 Memory Size: 414
+2023-04-05 09:43:29,103 - General-Log - INFO - Total T: 448 Episode Num: 21 Episode T: 34 Reward: 5.840 Memory Size: 448
+2023-04-05 09:43:29,116 - General-Log - INFO - Total T: 489 Episode Num: 22 Episode T: 41 Reward: 4.983 Memory Size: 489
+2023-04-05 09:43:29,121 - General-Log - INFO - Total T: 503 Episode Num: 23 Episode T: 14 Reward: -0.078 Memory Size: 503
+2023-04-05 09:43:29,125 - General-Log - INFO - Total T: 515 Episode Num: 24 Episode T: 12 Reward: -2.665 Memory Size: 515
+2023-04-05 09:43:29,132 - General-Log - INFO - Total T: 534 Episode Num: 25 Episode T: 19 Reward: -0.187 Memory Size: 534
+2023-04-05 09:43:29,139 - General-Log - INFO - Total T: 555 Episode Num: 26 Episode T: 21 Reward: -1.215 Memory Size: 555
+2023-04-05 09:43:29,147 - General-Log - INFO - Total T: 579 Episode Num: 27 Episode T: 24 Reward: 10.065 Memory Size: 579
+2023-04-05 09:43:29,152 - General-Log - INFO - Total T: 593 Episode Num: 28 Episode T: 14 Reward: -1.065 Memory Size: 593
+2023-04-05 09:43:29,157 - General-Log - INFO - Total T: 606 Episode Num: 29 Episode T: 13 Reward: -1.619 Memory Size: 606
+2023-04-05 09:43:29,161 - General-Log - INFO - Total T: 619 Episode Num: 30 Episode T: 13 Reward: -2.108 Memory Size: 619
+2023-04-05 09:43:29,165 - General-Log - INFO - Total T: 632 Episode Num: 31 Episode T: 13 Reward: 2.622 Memory Size: 632
+2023-04-05 09:43:29,173 - General-Log - INFO - Total T: 654 Episode Num: 32 Episode T: 22 Reward: 1.323 Memory Size: 654
+2023-04-05 09:43:29,180 - General-Log - INFO - Total T: 673 Episode Num: 33 Episode T: 19 Reward: 7.757 Memory Size: 673
+2023-04-05 09:43:29,185 - General-Log - INFO - Total T: 687 Episode Num: 34 Episode T: 14 Reward: 3.020 Memory Size: 687
+2023-04-05 09:43:29,190 - General-Log - INFO - Total T: 702 Episode Num: 35 Episode T: 15 Reward: 1.443 Memory Size: 702
+2023-04-05 09:43:29,198 - General-Log - INFO - Total T: 725 Episode Num: 36 Episode T: 23 Reward: -3.540 Memory Size: 725
+2023-04-05 09:43:29,204 - General-Log - INFO - Total T: 745 Episode Num: 37 Episode T: 20 Reward: 6.953 Memory Size: 745
+2023-04-05 09:43:29,211 - General-Log - INFO - Total T: 766 Episode Num: 38 Episode T: 21 Reward: -12.772 Memory Size: 766
+2023-04-05 09:43:29,214 - General-Log - INFO - Total T: 774 Episode Num: 39 Episode T: 8 Reward: -4.550 Memory Size: 774
+2023-04-05 09:43:29,221 - General-Log - INFO - Total T: 796 Episode Num: 40 Episode T: 22 Reward: -2.130 Memory Size: 796
+2023-04-05 09:43:29,227 - General-Log - INFO - Total T: 810 Episode Num: 41 Episode T: 14 Reward: -1.542 Memory Size: 810
+2023-04-05 09:43:29,236 - General-Log - INFO - Total T: 839 Episode Num: 42 Episode T: 29 Reward: 6.544 Memory Size: 839
+2023-04-05 09:43:29,241 - General-Log - INFO - Total T: 852 Episode Num: 43 Episode T: 13 Reward: -6.566 Memory Size: 852
+2023-04-05 09:43:29,250 - General-Log - INFO - Total T: 875 Episode Num: 44 Episode T: 23 Reward: 0.592 Memory Size: 875
+2023-04-05 09:43:29,256 - General-Log - INFO - Total T: 895 Episode Num: 45 Episode T: 20 Reward: -4.399 Memory Size: 895
+2023-04-05 09:43:29,263 - General-Log - INFO - Total T: 914 Episode Num: 46 Episode T: 19 Reward: -1.244 Memory Size: 914
+2023-04-05 09:43:29,274 - General-Log - INFO - Total T: 948 Episode Num: 47 Episode T: 34 Reward: 1.807 Memory Size: 948
+2023-04-05 09:43:29,278 - General-Log - INFO - Total T: 959 Episode Num: 48 Episode T: 11 Reward: -3.276 Memory Size: 959
+2023-04-05 09:43:29,284 - General-Log - INFO - Total T: 975 Episode Num: 49 Episode T: 16 Reward: -1.792 Memory Size: 975
+2023-04-05 09:43:29,297 - General-Log - INFO - Total T: 1014 Episode Num: 50 Episode T: 39 Reward: 11.343 Memory Size: 1014
+2023-04-05 09:43:29,301 - General-Log - INFO - Total T: 1024 Episode Num: 51 Episode T: 10 Reward: -2.425 Memory Size: 1024
+2023-04-05 09:43:29,309 - General-Log - INFO - Total T: 1050 Episode Num: 52 Episode T: 26 Reward: -2.461 Memory Size: 1050
+2023-04-05 09:43:29,317 - General-Log - INFO - Total T: 1071 Episode Num: 53 Episode T: 21 Reward: -3.232 Memory Size: 1071
+2023-04-05 09:43:29,324 - General-Log - INFO - Total T: 1093 Episode Num: 54 Episode T: 22 Reward: -1.011 Memory Size: 1093
+2023-04-05 09:43:29,332 - General-Log - INFO - Total T: 1119 Episode Num: 55 Episode T: 26 Reward: 9.194 Memory Size: 1119
+2023-04-05 09:43:29,340 - General-Log - INFO - Total T: 1142 Episode Num: 56 Episode T: 23 Reward: 0.484 Memory Size: 1142
+2023-04-05 09:43:29,350 - General-Log - INFO - Total T: 1171 Episode Num: 57 Episode T: 29 Reward: 9.004 Memory Size: 1171
+2023-04-05 09:43:29,355 - General-Log - INFO - Total T: 1186 Episode Num: 58 Episode T: 15 Reward: 3.729 Memory Size: 1186
+2023-04-05 09:43:29,369 - General-Log - INFO - Total T: 1228 Episode Num: 59 Episode T: 42 Reward: 3.846 Memory Size: 1228
+2023-04-05 09:43:29,375 - General-Log - INFO - Total T: 1245 Episode Num: 60 Episode T: 17 Reward: -3.135 Memory Size: 1245
+2023-04-05 09:43:29,381 - General-Log - INFO - Total T: 1266 Episode Num: 61 Episode T: 21 Reward: -2.484 Memory Size: 1266
+2023-04-05 09:43:29,393 - General-Log - INFO - Total T: 1301 Episode Num: 62 Episode T: 35 Reward: 9.399 Memory Size: 1301
+2023-04-05 09:43:29,399 - General-Log - INFO - Total T: 1319 Episode Num: 63 Episode T: 18 Reward: -4.941 Memory Size: 1319
+2023-04-05 09:43:29,404 - General-Log - INFO - Total T: 1331 Episode Num: 64 Episode T: 12 Reward: -3.822 Memory Size: 1331
+2023-04-05 09:43:29,413 - General-Log - INFO - Total T: 1360 Episode Num: 65 Episode T: 29 Reward: -1.146 Memory Size: 1360
+2023-04-05 09:43:29,418 - General-Log - INFO - Total T: 1376 Episode Num: 66 Episode T: 16 Reward: -4.024 Memory Size: 1376
+2023-04-05 09:43:29,427 - General-Log - INFO - Total T: 1401 Episode Num: 67 Episode T: 25 Reward: -5.122 Memory Size: 1401
+2023-04-05 09:43:29,430 - General-Log - INFO - Total T: 1412 Episode Num: 68 Episode T: 11 Reward: -0.066 Memory Size: 1412
+2023-04-05 09:43:29,440 - General-Log - INFO - Total T: 1441 Episode Num: 69 Episode T: 29 Reward: -3.749 Memory Size: 1441
+2023-04-05 09:43:29,446 - General-Log - INFO - Total T: 1458 Episode Num: 70 Episode T: 17 Reward: 2.787 Memory Size: 1458
+2023-04-05 09:43:29,453 - General-Log - INFO - Total T: 1479 Episode Num: 71 Episode T: 21 Reward: 6.408 Memory Size: 1479
+2023-04-05 09:43:29,457 - General-Log - INFO - Total T: 1490 Episode Num: 72 Episode T: 11 Reward: -2.743 Memory Size: 1490
+2023-04-05 09:43:29,463 - General-Log - INFO - Total T: 1506 Episode Num: 73 Episode T: 16 Reward: 0.784 Memory Size: 1506
+2023-04-05 09:43:29,472 - General-Log - INFO - Total T: 1533 Episode Num: 74 Episode T: 27 Reward: 6.521 Memory Size: 1533
+2023-04-05 09:43:29,476 - General-Log - INFO - Total T: 1546 Episode Num: 75 Episode T: 13 Reward: -0.016 Memory Size: 1546
+2023-04-05 09:43:29,483 - General-Log - INFO - Total T: 1565 Episode Num: 76 Episode T: 19 Reward: 8.285 Memory Size: 1565
+2023-04-05 09:43:29,490 - General-Log - INFO - Total T: 1588 Episode Num: 77 Episode T: 23 Reward: -2.553 Memory Size: 1588
+2023-04-05 09:43:29,496 - General-Log - INFO - Total T: 1605 Episode Num: 78 Episode T: 17 Reward: -1.074 Memory Size: 1605
+2023-04-05 09:43:29,503 - General-Log - INFO - Total T: 1625 Episode Num: 79 Episode T: 20 Reward: -0.994 Memory Size: 1625
+2023-04-05 09:43:29,508 - General-Log - INFO - Total T: 1640 Episode Num: 80 Episode T: 15 Reward: -2.054 Memory Size: 1640
+2023-04-05 09:43:29,516 - General-Log - INFO - Total T: 1663 Episode Num: 81 Episode T: 23 Reward: 7.212 Memory Size: 1663
+2023-04-05 09:43:29,530 - General-Log - INFO - Total T: 1706 Episode Num: 82 Episode T: 43 Reward: 10.361 Memory Size: 1706
+2023-04-05 09:43:29,535 - General-Log - INFO - Total T: 1721 Episode Num: 83 Episode T: 15 Reward: 0.080 Memory Size: 1721
+2023-04-05 09:43:29,539 - General-Log - INFO - Total T: 1732 Episode Num: 84 Episode T: 11 Reward: -3.733 Memory Size: 1732
+2023-04-05 09:43:29,544 - General-Log - INFO - Total T: 1748 Episode Num: 85 Episode T: 16 Reward: 6.384 Memory Size: 1748
+2023-04-05 09:43:29,549 - General-Log - INFO - Total T: 1761 Episode Num: 86 Episode T: 13 Reward: -2.683 Memory Size: 1761
+2023-04-05 09:43:29,566 - General-Log - INFO - Total T: 1813 Episode Num: 87 Episode T: 52 Reward: 35.562 Memory Size: 1813
+2023-04-05 09:43:29,571 - General-Log - INFO - Total T: 1826 Episode Num: 88 Episode T: 13 Reward: 0.745 Memory Size: 1826
+2023-04-05 09:43:29,575 - General-Log - INFO - Total T: 1838 Episode Num: 89 Episode T: 12 Reward: -3.145 Memory Size: 1838
+2023-04-05 09:43:29,580 - General-Log - INFO - Total T: 1855 Episode Num: 90 Episode T: 17 Reward: 0.737 Memory Size: 1855
+2023-04-05 09:43:29,585 - General-Log - INFO - Total T: 1867 Episode Num: 91 Episode T: 12 Reward: 1.005 Memory Size: 1867
+2023-04-05 09:43:29,589 - General-Log - INFO - Total T: 1879 Episode Num: 92 Episode T: 12 Reward: 0.342 Memory Size: 1879
+2023-04-05 09:43:29,595 - General-Log - INFO - Total T: 1898 Episode Num: 93 Episode T: 19 Reward: -4.300 Memory Size: 1898
+2023-04-05 09:43:29,603 - General-Log - INFO - Total T: 1921 Episode Num: 94 Episode T: 23 Reward: -2.557 Memory Size: 1921
+2023-04-05 09:43:29,607 - General-Log - INFO - Total T: 1933 Episode Num: 95 Episode T: 12 Reward: -1.858 Memory Size: 1933
+2023-04-05 09:43:29,611 - General-Log - INFO - Total T: 1946 Episode Num: 96 Episode T: 13 Reward: 2.018 Memory Size: 1946
+2023-04-05 09:43:29,617 - General-Log - INFO - Total T: 1964 Episode Num: 97 Episode T: 18 Reward: 1.496 Memory Size: 1964
+2023-04-05 09:43:29,620 - General-Log - INFO - Total T: 1972 Episode Num: 98 Episode T: 8 Reward: -2.892 Memory Size: 1972
+2023-04-05 09:43:29,627 - General-Log - INFO - Total T: 1994 Episode Num: 99 Episode T: 22 Reward: -2.665 Memory Size: 1994
+2023-04-05 09:43:29,631 - General-Log - INFO - Total T: 2005 Episode Num: 100 Episode T: 11 Reward: -0.995 Memory Size: 2005
+2023-04-05 09:43:29,638 - General-Log - INFO - Total T: 2024 Episode Num: 101 Episode T: 19 Reward: 1.727 Memory Size: 2024
+2023-04-05 09:43:29,643 - General-Log - INFO - Total T: 2038 Episode Num: 102 Episode T: 14 Reward: 2.508 Memory Size: 2038
+2023-04-05 09:43:29,646 - General-Log - INFO - Total T: 2048 Episode Num: 103 Episode T: 10 Reward: 0.287 Memory Size: 2048
+2023-04-05 09:43:29,655 - General-Log - INFO - Total T: 2075 Episode Num: 104 Episode T: 27 Reward: 4.663 Memory Size: 2075
+2023-04-05 09:43:29,663 - General-Log - INFO - Total T: 2098 Episode Num: 105 Episode T: 23 Reward: 8.286 Memory Size: 2098
+2023-04-05 09:43:29,673 - General-Log - INFO - Total T: 2126 Episode Num: 106 Episode T: 28 Reward: 1.852 Memory Size: 2126
+2023-04-05 09:43:29,685 - General-Log - INFO - Total T: 2163 Episode Num: 107 Episode T: 37 Reward: 5.958 Memory Size: 2163
+2023-04-05 09:43:29,699 - General-Log - INFO - Total T: 2204 Episode Num: 108 Episode T: 41 Reward: 17.359 Memory Size: 2204
+2023-04-05 09:43:29,703 - General-Log - INFO - Total T: 2216 Episode Num: 109 Episode T: 12 Reward: -0.391 Memory Size: 2216
+2023-04-05 09:43:29,713 - General-Log - INFO - Total T: 2248 Episode Num: 110 Episode T: 32 Reward: -1.750 Memory Size: 2248
+2023-04-05 09:43:29,719 - General-Log - INFO - Total T: 2264 Episode Num: 111 Episode T: 16 Reward: -5.037 Memory Size: 2264
+2023-04-05 09:43:29,723 - General-Log - INFO - Total T: 2277 Episode Num: 112 Episode T: 13 Reward: 3.314 Memory Size: 2277
+2023-04-05 09:43:29,731 - General-Log - INFO - Total T: 2300 Episode Num: 113 Episode T: 23 Reward: -3.529 Memory Size: 2300
+2023-04-05 09:43:29,737 - General-Log - INFO - Total T: 2317 Episode Num: 114 Episode T: 17 Reward: -4.970 Memory Size: 2317
+2023-04-05 09:43:29,743 - General-Log - INFO - Total T: 2336 Episode Num: 115 Episode T: 19 Reward: 2.323 Memory Size: 2336
+2023-04-05 09:43:29,748 - General-Log - INFO - Total T: 2352 Episode Num: 116 Episode T: 16 Reward: -5.800 Memory Size: 2352
+2023-04-05 09:43:29,753 - General-Log - INFO - Total T: 2367 Episode Num: 117 Episode T: 15 Reward: 2.158 Memory Size: 2367
+2023-04-05 09:43:29,762 - General-Log - INFO - Total T: 2393 Episode Num: 118 Episode T: 26 Reward: 9.348 Memory Size: 2393
+2023-04-05 09:43:29,767 - General-Log - INFO - Total T: 2408 Episode Num: 119 Episode T: 15 Reward: 0.366 Memory Size: 2408
+2023-04-05 09:43:29,774 - General-Log - INFO - Total T: 2430 Episode Num: 120 Episode T: 22 Reward: 1.819 Memory Size: 2430
+2023-04-05 09:43:29,781 - General-Log - INFO - Total T: 2452 Episode Num: 121 Episode T: 22 Reward: 9.212 Memory Size: 2452
+2023-04-05 09:43:29,788 - General-Log - INFO - Total T: 2472 Episode Num: 122 Episode T: 20 Reward: -3.851 Memory Size: 2472
+2023-04-05 09:43:29,794 - General-Log - INFO - Total T: 2489 Episode Num: 123 Episode T: 17 Reward: -0.556 Memory Size: 2489
+2023-04-05 09:43:29,866 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:43:29,866 - General-Log - INFO - Evaluation over 6 episodes: 5.354
+2023-04-05 09:43:29,866 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:44:08,625 - General-Log - INFO - Total T: 2511 Episode Num: 124 Episode T: 22 Reward: -2.632 Memory Size: 2511
+2023-04-05 09:44:08,724 - General-Log - INFO - Total T: 2527 Episode Num: 125 Episode T: 16 Reward: -10.487 Memory Size: 2527
+2023-04-05 09:44:08,728 - General-Log - INFO - Total T: 2537 Episode Num: 126 Episode T: 10 Reward: 0.347 Memory Size: 2537
+2023-04-05 09:44:08,733 - General-Log - INFO - Total T: 2554 Episode Num: 127 Episode T: 17 Reward: 1.523 Memory Size: 2554
+2023-04-05 09:44:08,744 - General-Log - INFO - Total T: 2587 Episode Num: 128 Episode T: 33 Reward: 17.275 Memory Size: 2587
+2023-04-05 09:44:08,751 - General-Log - INFO - Total T: 2604 Episode Num: 129 Episode T: 17 Reward: 4.473 Memory Size: 2604
+2023-04-05 09:44:08,755 - General-Log - INFO - Total T: 2618 Episode Num: 130 Episode T: 14 Reward: 1.067 Memory Size: 2618
+2023-04-05 09:44:08,769 - General-Log - INFO - Total T: 2657 Episode Num: 131 Episode T: 39 Reward: 8.542 Memory Size: 2657
+2023-04-05 09:44:08,773 - General-Log - INFO - Total T: 2670 Episode Num: 132 Episode T: 13 Reward: -2.610 Memory Size: 2670
+2023-04-05 09:44:08,782 - General-Log - INFO - Total T: 2696 Episode Num: 133 Episode T: 26 Reward: 10.923 Memory Size: 2696
+2023-04-05 09:44:08,793 - General-Log - INFO - Total T: 2728 Episode Num: 134 Episode T: 32 Reward: 13.727 Memory Size: 2728
+2023-04-05 09:44:08,804 - General-Log - INFO - Total T: 2759 Episode Num: 135 Episode T: 31 Reward: 8.326 Memory Size: 2759
+2023-04-05 09:44:08,809 - General-Log - INFO - Total T: 2773 Episode Num: 136 Episode T: 14 Reward: 2.394 Memory Size: 2773
+2023-04-05 09:44:08,815 - General-Log - INFO - Total T: 2793 Episode Num: 137 Episode T: 20 Reward: -6.520 Memory Size: 2793
+2023-04-05 09:44:08,822 - General-Log - INFO - Total T: 2813 Episode Num: 138 Episode T: 20 Reward: 10.580 Memory Size: 2813
+2023-04-05 09:44:08,828 - General-Log - INFO - Total T: 2832 Episode Num: 139 Episode T: 19 Reward: -0.188 Memory Size: 2832
+2023-04-05 09:44:08,836 - General-Log - INFO - Total T: 2855 Episode Num: 140 Episode T: 23 Reward: 7.780 Memory Size: 2855
+2023-04-05 09:44:08,841 - General-Log - INFO - Total T: 2871 Episode Num: 141 Episode T: 16 Reward: -1.131 Memory Size: 2871
+2023-04-05 09:44:08,847 - General-Log - INFO - Total T: 2890 Episode Num: 142 Episode T: 19 Reward: -6.382 Memory Size: 2890
+2023-04-05 09:44:08,852 - General-Log - INFO - Total T: 2903 Episode Num: 143 Episode T: 13 Reward: 3.164 Memory Size: 2903
+2023-04-05 09:44:08,859 - General-Log - INFO - Total T: 2927 Episode Num: 144 Episode T: 24 Reward: 7.076 Memory Size: 2927
+2023-04-05 09:44:08,870 - General-Log - INFO - Total T: 2960 Episode Num: 145 Episode T: 33 Reward: -0.116 Memory Size: 2960
+2023-04-05 09:44:08,878 - General-Log - INFO - Total T: 2984 Episode Num: 146 Episode T: 24 Reward: 4.782 Memory Size: 2984
+2023-04-05 09:44:08,886 - General-Log - INFO - Total T: 3011 Episode Num: 147 Episode T: 27 Reward: 4.347 Memory Size: 3011
+2023-04-05 09:44:08,892 - General-Log - INFO - Total T: 3027 Episode Num: 148 Episode T: 16 Reward: 2.391 Memory Size: 3027
+2023-04-05 09:44:08,902 - General-Log - INFO - Total T: 3059 Episode Num: 149 Episode T: 32 Reward: 2.534 Memory Size: 3059
+2023-04-05 09:44:08,913 - General-Log - INFO - Total T: 3089 Episode Num: 150 Episode T: 30 Reward: 8.579 Memory Size: 3089
+2023-04-05 09:44:08,916 - General-Log - INFO - Total T: 3100 Episode Num: 151 Episode T: 11 Reward: -3.080 Memory Size: 3100
+2023-04-05 09:44:08,921 - General-Log - INFO - Total T: 3116 Episode Num: 152 Episode T: 16 Reward: -2.282 Memory Size: 3116
+2023-04-05 09:44:08,925 - General-Log - INFO - Total T: 3128 Episode Num: 153 Episode T: 12 Reward: -2.054 Memory Size: 3128
+2023-04-05 09:44:08,931 - General-Log - INFO - Total T: 3145 Episode Num: 154 Episode T: 17 Reward: -2.205 Memory Size: 3145
+2023-04-05 09:44:08,937 - General-Log - INFO - Total T: 3162 Episode Num: 155 Episode T: 17 Reward: -5.486 Memory Size: 3162
+2023-04-05 09:44:08,942 - General-Log - INFO - Total T: 3177 Episode Num: 156 Episode T: 15 Reward: 1.559 Memory Size: 3177
+2023-04-05 09:44:08,947 - General-Log - INFO - Total T: 3192 Episode Num: 157 Episode T: 15 Reward: 0.111 Memory Size: 3192
+2023-04-05 09:44:08,957 - General-Log - INFO - Total T: 3220 Episode Num: 158 Episode T: 28 Reward: 4.531 Memory Size: 3220
+2023-04-05 09:44:08,964 - General-Log - INFO - Total T: 3243 Episode Num: 159 Episode T: 23 Reward: 3.703 Memory Size: 3243
+2023-04-05 09:44:08,968 - General-Log - INFO - Total T: 3254 Episode Num: 160 Episode T: 11 Reward: 2.370 Memory Size: 3254
+2023-04-05 09:44:08,971 - General-Log - INFO - Total T: 3262 Episode Num: 161 Episode T: 8 Reward: -3.707 Memory Size: 3262
+2023-04-05 09:44:08,979 - General-Log - INFO - Total T: 3285 Episode Num: 162 Episode T: 23 Reward: -6.445 Memory Size: 3285
+2023-04-05 09:44:08,984 - General-Log - INFO - Total T: 3299 Episode Num: 163 Episode T: 14 Reward: -2.175 Memory Size: 3299
+2023-04-05 09:44:08,995 - General-Log - INFO - Total T: 3334 Episode Num: 164 Episode T: 35 Reward: 11.159 Memory Size: 3334
+2023-04-05 09:44:09,001 - General-Log - INFO - Total T: 3353 Episode Num: 165 Episode T: 19 Reward: 7.930 Memory Size: 3353
+2023-04-05 09:44:09,011 - General-Log - INFO - Total T: 3381 Episode Num: 166 Episode T: 28 Reward: 1.929 Memory Size: 3381
+2023-04-05 09:44:09,015 - General-Log - INFO - Total T: 3392 Episode Num: 167 Episode T: 11 Reward: -2.182 Memory Size: 3392
+2023-04-05 09:44:09,026 - General-Log - INFO - Total T: 3426 Episode Num: 168 Episode T: 34 Reward: 5.232 Memory Size: 3426
+2023-04-05 09:44:09,034 - General-Log - INFO - Total T: 3449 Episode Num: 169 Episode T: 23 Reward: 9.563 Memory Size: 3449
+2023-04-05 09:44:09,039 - General-Log - INFO - Total T: 3465 Episode Num: 170 Episode T: 16 Reward: -3.185 Memory Size: 3465
+2023-04-05 09:44:09,046 - General-Log - INFO - Total T: 3487 Episode Num: 171 Episode T: 22 Reward: -4.718 Memory Size: 3487
+2023-04-05 09:44:09,050 - General-Log - INFO - Total T: 3499 Episode Num: 172 Episode T: 12 Reward: 1.016 Memory Size: 3499
+2023-04-05 09:44:09,056 - General-Log - INFO - Total T: 3515 Episode Num: 173 Episode T: 16 Reward: -5.376 Memory Size: 3515
+2023-04-05 09:44:09,061 - General-Log - INFO - Total T: 3532 Episode Num: 174 Episode T: 17 Reward: 0.922 Memory Size: 3532
+2023-04-05 09:44:09,067 - General-Log - INFO - Total T: 3547 Episode Num: 175 Episode T: 15 Reward: 1.905 Memory Size: 3547
+2023-04-05 09:44:09,074 - General-Log - INFO - Total T: 3570 Episode Num: 176 Episode T: 23 Reward: 7.095 Memory Size: 3570
+2023-04-05 09:44:09,081 - General-Log - INFO - Total T: 3591 Episode Num: 177 Episode T: 21 Reward: -3.249 Memory Size: 3591
+2023-04-05 09:44:09,093 - General-Log - INFO - Total T: 3628 Episode Num: 178 Episode T: 37 Reward: 7.163 Memory Size: 3628
+2023-04-05 09:44:09,102 - General-Log - INFO - Total T: 3653 Episode Num: 179 Episode T: 25 Reward: 1.587 Memory Size: 3653
+2023-04-05 09:44:09,107 - General-Log - INFO - Total T: 3669 Episode Num: 180 Episode T: 16 Reward: -2.405 Memory Size: 3669
+2023-04-05 09:44:09,110 - General-Log - INFO - Total T: 3679 Episode Num: 181 Episode T: 10 Reward: 0.243 Memory Size: 3679
+2023-04-05 09:44:09,119 - General-Log - INFO - Total T: 3706 Episode Num: 182 Episode T: 27 Reward: -0.333 Memory Size: 3706
+2023-04-05 09:44:09,130 - General-Log - INFO - Total T: 3739 Episode Num: 183 Episode T: 33 Reward: 5.827 Memory Size: 3739
+2023-04-05 09:44:09,144 - General-Log - INFO - Total T: 3781 Episode Num: 184 Episode T: 42 Reward: 14.440 Memory Size: 3781
+2023-04-05 09:44:09,149 - General-Log - INFO - Total T: 3794 Episode Num: 185 Episode T: 13 Reward: -4.002 Memory Size: 3794
+2023-04-05 09:44:09,157 - General-Log - INFO - Total T: 3818 Episode Num: 186 Episode T: 24 Reward: -0.815 Memory Size: 3818
+2023-04-05 09:44:09,162 - General-Log - INFO - Total T: 3832 Episode Num: 187 Episode T: 14 Reward: -4.655 Memory Size: 3832
+2023-04-05 09:44:09,169 - General-Log - INFO - Total T: 3853 Episode Num: 188 Episode T: 21 Reward: 0.260 Memory Size: 3853
+2023-04-05 09:44:09,176 - General-Log - INFO - Total T: 3876 Episode Num: 189 Episode T: 23 Reward: -4.791 Memory Size: 3876
+2023-04-05 09:44:09,181 - General-Log - INFO - Total T: 3890 Episode Num: 190 Episode T: 14 Reward: -3.726 Memory Size: 3890
+2023-04-05 09:44:09,190 - General-Log - INFO - Total T: 3914 Episode Num: 191 Episode T: 24 Reward: 4.879 Memory Size: 3914
+2023-04-05 09:44:09,198 - General-Log - INFO - Total T: 3939 Episode Num: 192 Episode T: 25 Reward: 4.810 Memory Size: 3939
+2023-04-05 09:44:09,203 - General-Log - INFO - Total T: 3955 Episode Num: 193 Episode T: 16 Reward: 0.563 Memory Size: 3955
+2023-04-05 09:44:09,211 - General-Log - INFO - Total T: 3978 Episode Num: 194 Episode T: 23 Reward: -4.195 Memory Size: 3978
+2023-04-05 09:44:09,218 - General-Log - INFO - Total T: 3997 Episode Num: 195 Episode T: 19 Reward: 2.598 Memory Size: 3997
+2023-04-05 09:44:09,223 - General-Log - INFO - Total T: 4012 Episode Num: 196 Episode T: 15 Reward: 5.090 Memory Size: 4012
+2023-04-05 09:44:09,234 - General-Log - INFO - Total T: 4047 Episode Num: 197 Episode T: 35 Reward: 16.950 Memory Size: 4047
+2023-04-05 09:44:09,240 - General-Log - INFO - Total T: 4063 Episode Num: 198 Episode T: 16 Reward: -0.152 Memory Size: 4063
+2023-04-05 09:44:09,244 - General-Log - INFO - Total T: 4076 Episode Num: 199 Episode T: 13 Reward: -0.074 Memory Size: 4076
+2023-04-05 09:44:09,253 - General-Log - INFO - Total T: 4102 Episode Num: 200 Episode T: 26 Reward: 9.690 Memory Size: 4102
+2023-04-05 09:44:09,260 - General-Log - INFO - Total T: 4122 Episode Num: 201 Episode T: 20 Reward: 2.228 Memory Size: 4122
+2023-04-05 09:44:09,265 - General-Log - INFO - Total T: 4137 Episode Num: 202 Episode T: 15 Reward: 0.980 Memory Size: 4137
+2023-04-05 09:44:09,269 - General-Log - INFO - Total T: 4149 Episode Num: 203 Episode T: 12 Reward: -1.832 Memory Size: 4149
+2023-04-05 09:44:09,276 - General-Log - INFO - Total T: 4170 Episode Num: 204 Episode T: 21 Reward: 8.891 Memory Size: 4170
+2023-04-05 09:44:09,279 - General-Log - INFO - Total T: 4179 Episode Num: 205 Episode T: 9 Reward: -3.905 Memory Size: 4179
+2023-04-05 09:44:09,285 - General-Log - INFO - Total T: 4194 Episode Num: 206 Episode T: 15 Reward: 0.560 Memory Size: 4194
+2023-04-05 09:44:09,290 - General-Log - INFO - Total T: 4208 Episode Num: 207 Episode T: 14 Reward: -1.031 Memory Size: 4208
+2023-04-05 09:44:09,296 - General-Log - INFO - Total T: 4227 Episode Num: 208 Episode T: 19 Reward: -2.557 Memory Size: 4227
+2023-04-05 09:44:09,310 - General-Log - INFO - Total T: 4268 Episode Num: 209 Episode T: 41 Reward: 24.365 Memory Size: 4268
+2023-04-05 09:44:09,317 - General-Log - INFO - Total T: 4289 Episode Num: 210 Episode T: 21 Reward: 5.241 Memory Size: 4289
+2023-04-05 09:44:09,326 - General-Log - INFO - Total T: 4317 Episode Num: 211 Episode T: 28 Reward: 8.856 Memory Size: 4317
+2023-04-05 09:44:09,331 - General-Log - INFO - Total T: 4332 Episode Num: 212 Episode T: 15 Reward: -1.581 Memory Size: 4332
+2023-04-05 09:44:09,338 - General-Log - INFO - Total T: 4352 Episode Num: 213 Episode T: 20 Reward: 0.954 Memory Size: 4352
+2023-04-05 09:44:09,346 - General-Log - INFO - Total T: 4374 Episode Num: 214 Episode T: 22 Reward: 8.741 Memory Size: 4374
+2023-04-05 09:44:09,350 - General-Log - INFO - Total T: 4384 Episode Num: 215 Episode T: 10 Reward: -3.085 Memory Size: 4384
+2023-04-05 09:44:09,356 - General-Log - INFO - Total T: 4402 Episode Num: 216 Episode T: 18 Reward: -1.921 Memory Size: 4402
+2023-04-05 09:44:09,361 - General-Log - INFO - Total T: 4417 Episode Num: 217 Episode T: 15 Reward: 0.021 Memory Size: 4417
+2023-04-05 09:44:09,366 - General-Log - INFO - Total T: 4433 Episode Num: 218 Episode T: 16 Reward: 1.220 Memory Size: 4433
+2023-04-05 09:44:09,376 - General-Log - INFO - Total T: 4461 Episode Num: 219 Episode T: 28 Reward: 3.105 Memory Size: 4461
+2023-04-05 09:44:09,382 - General-Log - INFO - Total T: 4479 Episode Num: 220 Episode T: 18 Reward: -0.624 Memory Size: 4479
+2023-04-05 09:44:09,394 - General-Log - INFO - Total T: 4515 Episode Num: 221 Episode T: 36 Reward: 16.053 Memory Size: 4515
+2023-04-05 09:44:09,399 - General-Log - INFO - Total T: 4530 Episode Num: 222 Episode T: 15 Reward: 3.496 Memory Size: 4530
+2023-04-05 09:44:09,404 - General-Log - INFO - Total T: 4546 Episode Num: 223 Episode T: 16 Reward: 2.808 Memory Size: 4546
+2023-04-05 09:44:09,409 - General-Log - INFO - Total T: 4559 Episode Num: 224 Episode T: 13 Reward: 3.144 Memory Size: 4559
+2023-04-05 09:44:09,416 - General-Log - INFO - Total T: 4582 Episode Num: 225 Episode T: 23 Reward: -0.141 Memory Size: 4582
+2023-04-05 09:44:09,421 - General-Log - INFO - Total T: 4595 Episode Num: 226 Episode T: 13 Reward: 1.188 Memory Size: 4595
+2023-04-05 09:44:09,429 - General-Log - INFO - Total T: 4620 Episode Num: 227 Episode T: 25 Reward: -1.079 Memory Size: 4620
+2023-04-05 09:44:09,433 - General-Log - INFO - Total T: 4632 Episode Num: 228 Episode T: 12 Reward: -1.256 Memory Size: 4632
+2023-04-05 09:44:09,437 - General-Log - INFO - Total T: 4643 Episode Num: 229 Episode T: 11 Reward: -2.922 Memory Size: 4643
+2023-04-05 09:44:09,443 - General-Log - INFO - Total T: 4659 Episode Num: 230 Episode T: 16 Reward: 2.070 Memory Size: 4659
+2023-04-05 09:44:09,452 - General-Log - INFO - Total T: 4684 Episode Num: 231 Episode T: 25 Reward: 11.252 Memory Size: 4684
+2023-04-05 09:44:09,463 - General-Log - INFO - Total T: 4716 Episode Num: 232 Episode T: 32 Reward: 15.132 Memory Size: 4716
+2023-04-05 09:44:09,470 - General-Log - INFO - Total T: 4736 Episode Num: 233 Episode T: 20 Reward: 6.137 Memory Size: 4736
+2023-04-05 09:44:09,477 - General-Log - INFO - Total T: 4757 Episode Num: 234 Episode T: 21 Reward: 1.948 Memory Size: 4757
+2023-04-05 09:44:09,487 - General-Log - INFO - Total T: 4785 Episode Num: 235 Episode T: 28 Reward: 9.797 Memory Size: 4785
+2023-04-05 09:44:09,492 - General-Log - INFO - Total T: 4800 Episode Num: 236 Episode T: 15 Reward: 0.760 Memory Size: 4800
+2023-04-05 09:44:09,500 - General-Log - INFO - Total T: 4827 Episode Num: 237 Episode T: 27 Reward: 4.678 Memory Size: 4827
+2023-04-05 09:44:09,504 - General-Log - INFO - Total T: 4836 Episode Num: 238 Episode T: 9 Reward: -4.649 Memory Size: 4836
+2023-04-05 09:44:09,509 - General-Log - INFO - Total T: 4851 Episode Num: 239 Episode T: 15 Reward: -0.380 Memory Size: 4851
+2023-04-05 09:44:09,515 - General-Log - INFO - Total T: 4869 Episode Num: 240 Episode T: 18 Reward: -2.865 Memory Size: 4869
+2023-04-05 09:44:09,519 - General-Log - INFO - Total T: 4882 Episode Num: 241 Episode T: 13 Reward: 2.255 Memory Size: 4882
+2023-04-05 09:44:09,533 - General-Log - INFO - Total T: 4909 Episode Num: 242 Episode T: 27 Reward: 1.952 Memory Size: 4909
+2023-04-05 09:44:09,538 - General-Log - INFO - Total T: 4925 Episode Num: 243 Episode T: 16 Reward: -1.379 Memory Size: 4925
+2023-04-05 09:44:09,547 - General-Log - INFO - Total T: 4951 Episode Num: 244 Episode T: 26 Reward: 1.238 Memory Size: 4951
+2023-04-05 09:44:09,554 - General-Log - INFO - Total T: 4971 Episode Num: 245 Episode T: 20 Reward: -2.539 Memory Size: 4971
+2023-04-05 09:44:09,559 - General-Log - INFO - Total T: 4988 Episode Num: 246 Episode T: 17 Reward: 0.521 Memory Size: 4988
+2023-04-05 09:44:09,650 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:44:09,650 - General-Log - INFO - Evaluation over 6 episodes: 5.248
+2023-04-05 09:44:09,650 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:44:45,740 - General-Log - INFO - Total T: 5002 Episode Num: 247 Episode T: 14 Reward: 1.280 Memory Size: 5002
+2023-04-05 09:44:45,747 - General-Log - INFO - Total T: 5017 Episode Num: 248 Episode T: 15 Reward: 5.098 Memory Size: 5017
+2023-04-05 09:44:45,753 - General-Log - INFO - Total T: 5035 Episode Num: 249 Episode T: 18 Reward: 7.883 Memory Size: 5035
+2023-04-05 09:44:45,764 - General-Log - INFO - Total T: 5067 Episode Num: 250 Episode T: 32 Reward: 7.802 Memory Size: 5067
+2023-04-05 09:44:45,770 - General-Log - INFO - Total T: 5083 Episode Num: 251 Episode T: 16 Reward: -0.760 Memory Size: 5083
+2023-04-05 09:44:45,780 - General-Log - INFO - Total T: 5110 Episode Num: 252 Episode T: 27 Reward: 8.580 Memory Size: 5110
+2023-04-05 09:44:45,786 - General-Log - INFO - Total T: 5127 Episode Num: 253 Episode T: 17 Reward: 4.115 Memory Size: 5127
+2023-04-05 09:44:45,789 - General-Log - INFO - Total T: 5137 Episode Num: 254 Episode T: 10 Reward: 0.273 Memory Size: 5137
+2023-04-05 09:44:45,796 - General-Log - INFO - Total T: 5155 Episode Num: 255 Episode T: 18 Reward: -3.031 Memory Size: 5155
+2023-04-05 09:44:45,804 - General-Log - INFO - Total T: 5177 Episode Num: 256 Episode T: 22 Reward: -1.287 Memory Size: 5177
+2023-04-05 09:44:45,811 - General-Log - INFO - Total T: 5196 Episode Num: 257 Episode T: 19 Reward: -1.297 Memory Size: 5196
+2023-04-05 09:44:45,822 - General-Log - INFO - Total T: 5225 Episode Num: 258 Episode T: 29 Reward: 12.135 Memory Size: 5225
+2023-04-05 09:44:45,847 - General-Log - INFO - Total T: 5264 Episode Num: 259 Episode T: 39 Reward: 0.024 Memory Size: 5264
+2023-04-05 09:44:45,856 - General-Log - INFO - Total T: 5290 Episode Num: 260 Episode T: 26 Reward: 9.892 Memory Size: 5290
+2023-04-05 09:44:45,861 - General-Log - INFO - Total T: 5303 Episode Num: 261 Episode T: 13 Reward: 2.519 Memory Size: 5303
+2023-04-05 09:44:45,873 - General-Log - INFO - Total T: 5338 Episode Num: 262 Episode T: 35 Reward: 8.982 Memory Size: 5338
+2023-04-05 09:44:45,878 - General-Log - INFO - Total T: 5352 Episode Num: 263 Episode T: 14 Reward: 3.746 Memory Size: 5352
+2023-04-05 09:44:45,884 - General-Log - INFO - Total T: 5370 Episode Num: 264 Episode T: 18 Reward: -4.069 Memory Size: 5370
+2023-04-05 09:44:45,890 - General-Log - INFO - Total T: 5388 Episode Num: 265 Episode T: 18 Reward: 0.693 Memory Size: 5388
+2023-04-05 09:44:45,903 - General-Log - INFO - Total T: 5425 Episode Num: 266 Episode T: 37 Reward: 5.789 Memory Size: 5425
+2023-04-05 09:44:45,916 - General-Log - INFO - Total T: 5460 Episode Num: 267 Episode T: 35 Reward: 7.828 Memory Size: 5460
+2023-04-05 09:44:45,920 - General-Log - INFO - Total T: 5473 Episode Num: 268 Episode T: 13 Reward: 1.378 Memory Size: 5473
+2023-04-05 09:44:45,933 - General-Log - INFO - Total T: 5508 Episode Num: 269 Episode T: 35 Reward: 17.601 Memory Size: 5508
+2023-04-05 09:44:45,939 - General-Log - INFO - Total T: 5523 Episode Num: 270 Episode T: 15 Reward: -0.930 Memory Size: 5523
+2023-04-05 09:44:45,950 - General-Log - INFO - Total T: 5554 Episode Num: 271 Episode T: 31 Reward: 8.093 Memory Size: 5554
+2023-04-05 09:44:45,963 - General-Log - INFO - Total T: 5591 Episode Num: 272 Episode T: 37 Reward: 11.355 Memory Size: 5591
+2023-04-05 09:44:45,970 - General-Log - INFO - Total T: 5613 Episode Num: 273 Episode T: 22 Reward: -2.647 Memory Size: 5613
+2023-04-05 09:44:45,977 - General-Log - INFO - Total T: 5630 Episode Num: 274 Episode T: 17 Reward: -4.232 Memory Size: 5630
+2023-04-05 09:44:45,986 - General-Log - INFO - Total T: 5658 Episode Num: 275 Episode T: 28 Reward: -6.441 Memory Size: 5658
+2023-04-05 09:44:45,997 - General-Log - INFO - Total T: 5690 Episode Num: 276 Episode T: 32 Reward: -2.758 Memory Size: 5690
+2023-04-05 09:44:46,000 - General-Log - INFO - Total T: 5699 Episode Num: 277 Episode T: 9 Reward: -3.753 Memory Size: 5699
+2023-04-05 09:44:46,006 - General-Log - INFO - Total T: 5714 Episode Num: 278 Episode T: 15 Reward: -4.260 Memory Size: 5714
+2023-04-05 09:44:46,016 - General-Log - INFO - Total T: 5743 Episode Num: 279 Episode T: 29 Reward: 3.610 Memory Size: 5743
+2023-04-05 09:44:46,024 - General-Log - INFO - Total T: 5765 Episode Num: 280 Episode T: 22 Reward: 9.616 Memory Size: 5765
+2023-04-05 09:44:46,028 - General-Log - INFO - Total T: 5774 Episode Num: 281 Episode T: 9 Reward: -5.530 Memory Size: 5774
+2023-04-05 09:44:46,034 - General-Log - INFO - Total T: 5791 Episode Num: 282 Episode T: 17 Reward: 5.418 Memory Size: 5791
+2023-04-05 09:44:46,040 - General-Log - INFO - Total T: 5808 Episode Num: 283 Episode T: 17 Reward: 7.067 Memory Size: 5808
+2023-04-05 09:44:46,047 - General-Log - INFO - Total T: 5828 Episode Num: 284 Episode T: 20 Reward: 1.810 Memory Size: 5828
+2023-04-05 09:44:46,051 - General-Log - INFO - Total T: 5839 Episode Num: 285 Episode T: 11 Reward: 1.137 Memory Size: 5839
+2023-04-05 09:44:46,059 - General-Log - INFO - Total T: 5862 Episode Num: 286 Episode T: 23 Reward: -3.363 Memory Size: 5862
+2023-04-05 09:44:46,072 - General-Log - INFO - Total T: 5898 Episode Num: 287 Episode T: 36 Reward: 21.510 Memory Size: 5898
+2023-04-05 09:44:46,079 - General-Log - INFO - Total T: 5916 Episode Num: 288 Episode T: 18 Reward: 4.200 Memory Size: 5916
+2023-04-05 09:44:46,085 - General-Log - INFO - Total T: 5933 Episode Num: 289 Episode T: 17 Reward: -2.311 Memory Size: 5933
+2023-04-05 09:44:46,093 - General-Log - INFO - Total T: 5954 Episode Num: 290 Episode T: 21 Reward: 4.671 Memory Size: 5954
+2023-04-05 09:44:46,099 - General-Log - INFO - Total T: 5970 Episode Num: 291 Episode T: 16 Reward: -3.837 Memory Size: 5970
+2023-04-05 09:44:46,107 - General-Log - INFO - Total T: 5993 Episode Num: 292 Episode T: 23 Reward: -4.098 Memory Size: 5993
+2023-04-05 09:44:46,111 - General-Log - INFO - Total T: 6005 Episode Num: 293 Episode T: 12 Reward: 0.686 Memory Size: 6005
+2023-04-05 09:44:46,121 - General-Log - INFO - Total T: 6033 Episode Num: 294 Episode T: 28 Reward: 6.217 Memory Size: 6033
+2023-04-05 09:44:46,131 - General-Log - INFO - Total T: 6058 Episode Num: 295 Episode T: 25 Reward: 7.346 Memory Size: 6058
+2023-04-05 09:44:46,137 - General-Log - INFO - Total T: 6072 Episode Num: 296 Episode T: 14 Reward: 1.618 Memory Size: 6072
+2023-04-05 09:44:46,145 - General-Log - INFO - Total T: 6095 Episode Num: 297 Episode T: 23 Reward: 0.244 Memory Size: 6095
+2023-04-05 09:44:46,148 - General-Log - INFO - Total T: 6105 Episode Num: 298 Episode T: 10 Reward: -1.154 Memory Size: 6105
+2023-04-05 09:44:46,153 - General-Log - INFO - Total T: 6119 Episode Num: 299 Episode T: 14 Reward: 2.237 Memory Size: 6119
+2023-04-05 09:44:46,161 - General-Log - INFO - Total T: 6142 Episode Num: 300 Episode T: 23 Reward: 7.249 Memory Size: 6142
+2023-04-05 09:44:46,165 - General-Log - INFO - Total T: 6152 Episode Num: 301 Episode T: 10 Reward: -4.414 Memory Size: 6152
+2023-04-05 09:44:46,176 - General-Log - INFO - Total T: 6181 Episode Num: 302 Episode T: 29 Reward: 2.758 Memory Size: 6181
+2023-04-05 09:44:46,182 - General-Log - INFO - Total T: 6199 Episode Num: 303 Episode T: 18 Reward: -5.817 Memory Size: 6199
+2023-04-05 09:44:46,189 - General-Log - INFO - Total T: 6218 Episode Num: 304 Episode T: 19 Reward: 1.344 Memory Size: 6218
+2023-04-05 09:44:46,198 - General-Log - INFO - Total T: 6242 Episode Num: 305 Episode T: 24 Reward: 5.127 Memory Size: 6242
+2023-04-05 09:44:46,204 - General-Log - INFO - Total T: 6259 Episode Num: 306 Episode T: 17 Reward: 0.031 Memory Size: 6259
+2023-04-05 09:44:46,209 - General-Log - INFO - Total T: 6271 Episode Num: 307 Episode T: 12 Reward: -1.401 Memory Size: 6271
+2023-04-05 09:44:46,222 - General-Log - INFO - Total T: 6309 Episode Num: 308 Episode T: 38 Reward: 11.234 Memory Size: 6309
+2023-04-05 09:44:46,229 - General-Log - INFO - Total T: 6327 Episode Num: 309 Episode T: 18 Reward: -3.118 Memory Size: 6327
+2023-04-05 09:44:46,236 - General-Log - INFO - Total T: 6346 Episode Num: 310 Episode T: 19 Reward: 1.932 Memory Size: 6346
+2023-04-05 09:44:46,244 - General-Log - INFO - Total T: 6368 Episode Num: 311 Episode T: 22 Reward: 2.310 Memory Size: 6368
+2023-04-05 09:44:46,249 - General-Log - INFO - Total T: 6384 Episode Num: 312 Episode T: 16 Reward: -3.781 Memory Size: 6384
+2023-04-05 09:44:46,256 - General-Log - INFO - Total T: 6403 Episode Num: 313 Episode T: 19 Reward: -1.333 Memory Size: 6403
+2023-04-05 09:44:46,264 - General-Log - INFO - Total T: 6424 Episode Num: 314 Episode T: 21 Reward: -2.350 Memory Size: 6424
+2023-04-05 09:44:46,267 - General-Log - INFO - Total T: 6433 Episode Num: 315 Episode T: 9 Reward: -5.884 Memory Size: 6433
+2023-04-05 09:44:46,273 - General-Log - INFO - Total T: 6450 Episode Num: 316 Episode T: 17 Reward: -3.592 Memory Size: 6450
+2023-04-05 09:44:46,280 - General-Log - INFO - Total T: 6466 Episode Num: 317 Episode T: 16 Reward: -1.948 Memory Size: 6466
+2023-04-05 09:44:46,284 - General-Log - INFO - Total T: 6480 Episode Num: 318 Episode T: 14 Reward: 2.652 Memory Size: 6480
+2023-04-05 09:44:46,291 - General-Log - INFO - Total T: 6499 Episode Num: 319 Episode T: 19 Reward: -0.116 Memory Size: 6499
+2023-04-05 09:44:46,296 - General-Log - INFO - Total T: 6511 Episode Num: 320 Episode T: 12 Reward: -1.533 Memory Size: 6511
+2023-04-05 09:44:46,306 - General-Log - INFO - Total T: 6539 Episode Num: 321 Episode T: 28 Reward: 8.874 Memory Size: 6539
+2023-04-05 09:44:46,312 - General-Log - INFO - Total T: 6555 Episode Num: 322 Episode T: 16 Reward: -6.694 Memory Size: 6555
+2023-04-05 09:44:46,320 - General-Log - INFO - Total T: 6575 Episode Num: 323 Episode T: 20 Reward: 6.442 Memory Size: 6575
+2023-04-05 09:44:46,325 - General-Log - INFO - Total T: 6586 Episode Num: 324 Episode T: 11 Reward: 0.841 Memory Size: 6586
+2023-04-05 09:44:46,330 - General-Log - INFO - Total T: 6600 Episode Num: 325 Episode T: 14 Reward: 3.500 Memory Size: 6600
+2023-04-05 09:44:46,334 - General-Log - INFO - Total T: 6611 Episode Num: 326 Episode T: 11 Reward: 1.121 Memory Size: 6611
+2023-04-05 09:44:46,343 - General-Log - INFO - Total T: 6636 Episode Num: 327 Episode T: 25 Reward: -1.317 Memory Size: 6636
+2023-04-05 09:44:46,351 - General-Log - INFO - Total T: 6656 Episode Num: 328 Episode T: 20 Reward: 0.170 Memory Size: 6656
+2023-04-05 09:44:46,362 - General-Log - INFO - Total T: 6686 Episode Num: 329 Episode T: 30 Reward: 8.642 Memory Size: 6686
+2023-04-05 09:44:46,365 - General-Log - INFO - Total T: 6694 Episode Num: 330 Episode T: 8 Reward: -3.995 Memory Size: 6694
+2023-04-05 09:44:46,369 - General-Log - INFO - Total T: 6705 Episode Num: 331 Episode T: 11 Reward: 1.037 Memory Size: 6705
+2023-04-05 09:44:46,376 - General-Log - INFO - Total T: 6726 Episode Num: 332 Episode T: 21 Reward: 0.117 Memory Size: 6726
+2023-04-05 09:44:46,386 - General-Log - INFO - Total T: 6754 Episode Num: 333 Episode T: 28 Reward: -3.918 Memory Size: 6754
+2023-04-05 09:44:46,390 - General-Log - INFO - Total T: 6764 Episode Num: 334 Episode T: 10 Reward: -3.252 Memory Size: 6764
+2023-04-05 09:44:46,393 - General-Log - INFO - Total T: 6773 Episode Num: 335 Episode T: 9 Reward: -0.602 Memory Size: 6773
+2023-04-05 09:44:46,401 - General-Log - INFO - Total T: 6797 Episode Num: 336 Episode T: 24 Reward: 2.857 Memory Size: 6797
+2023-04-05 09:44:46,414 - General-Log - INFO - Total T: 6832 Episode Num: 337 Episode T: 35 Reward: 10.726 Memory Size: 6832
+2023-04-05 09:44:46,419 - General-Log - INFO - Total T: 6845 Episode Num: 338 Episode T: 13 Reward: 2.905 Memory Size: 6845
+2023-04-05 09:44:46,432 - General-Log - INFO - Total T: 6883 Episode Num: 339 Episode T: 38 Reward: 13.408 Memory Size: 6883
+2023-04-05 09:44:46,442 - General-Log - INFO - Total T: 6908 Episode Num: 340 Episode T: 25 Reward: -6.434 Memory Size: 6908
+2023-04-05 09:44:46,454 - General-Log - INFO - Total T: 6941 Episode Num: 341 Episode T: 33 Reward: 6.439 Memory Size: 6941
+2023-04-05 09:44:46,463 - General-Log - INFO - Total T: 6969 Episode Num: 342 Episode T: 28 Reward: 10.809 Memory Size: 6969
+2023-04-05 09:44:46,472 - General-Log - INFO - Total T: 6993 Episode Num: 343 Episode T: 24 Reward: 12.338 Memory Size: 6993
+2023-04-05 09:44:46,477 - General-Log - INFO - Total T: 7006 Episode Num: 344 Episode T: 13 Reward: -0.997 Memory Size: 7006
+2023-04-05 09:44:46,486 - General-Log - INFO - Total T: 7032 Episode Num: 345 Episode T: 26 Reward: -0.064 Memory Size: 7032
+2023-04-05 09:44:46,496 - General-Log - INFO - Total T: 7059 Episode Num: 346 Episode T: 27 Reward: -3.593 Memory Size: 7059
+2023-04-05 09:44:46,508 - General-Log - INFO - Total T: 7094 Episode Num: 347 Episode T: 35 Reward: 4.516 Memory Size: 7094
+2023-04-05 09:44:46,520 - General-Log - INFO - Total T: 7125 Episode Num: 348 Episode T: 31 Reward: 5.302 Memory Size: 7125
+2023-04-05 09:44:46,526 - General-Log - INFO - Total T: 7143 Episode Num: 349 Episode T: 18 Reward: 3.783 Memory Size: 7143
+2023-04-05 09:44:46,534 - General-Log - INFO - Total T: 7166 Episode Num: 350 Episode T: 23 Reward: -7.125 Memory Size: 7166
+2023-04-05 09:44:46,546 - General-Log - INFO - Total T: 7201 Episode Num: 351 Episode T: 35 Reward: 8.314 Memory Size: 7201
+2023-04-05 09:44:46,552 - General-Log - INFO - Total T: 7216 Episode Num: 352 Episode T: 15 Reward: 2.193 Memory Size: 7216
+2023-04-05 09:44:46,568 - General-Log - INFO - Total T: 7262 Episode Num: 353 Episode T: 46 Reward: 12.008 Memory Size: 7262
+2023-04-05 09:44:46,573 - General-Log - INFO - Total T: 7276 Episode Num: 354 Episode T: 14 Reward: 1.100 Memory Size: 7276
+2023-04-05 09:44:46,581 - General-Log - INFO - Total T: 7297 Episode Num: 355 Episode T: 21 Reward: -11.140 Memory Size: 7297
+2023-04-05 09:44:46,588 - General-Log - INFO - Total T: 7320 Episode Num: 356 Episode T: 23 Reward: 10.189 Memory Size: 7320
+2023-04-05 09:44:46,593 - General-Log - INFO - Total T: 7333 Episode Num: 357 Episode T: 13 Reward: -1.806 Memory Size: 7333
+2023-04-05 09:44:46,600 - General-Log - INFO - Total T: 7351 Episode Num: 358 Episode T: 18 Reward: 3.429 Memory Size: 7351
+2023-04-05 09:44:46,613 - General-Log - INFO - Total T: 7389 Episode Num: 359 Episode T: 38 Reward: 7.706 Memory Size: 7389
+2023-04-05 09:44:46,620 - General-Log - INFO - Total T: 7411 Episode Num: 360 Episode T: 22 Reward: 1.132 Memory Size: 7411
+2023-04-05 09:44:46,628 - General-Log - INFO - Total T: 7431 Episode Num: 361 Episode T: 20 Reward: 5.894 Memory Size: 7431
+2023-04-05 09:44:46,634 - General-Log - INFO - Total T: 7447 Episode Num: 362 Episode T: 16 Reward: -2.944 Memory Size: 7447
+2023-04-05 09:44:46,644 - General-Log - INFO - Total T: 7474 Episode Num: 363 Episode T: 27 Reward: 6.364 Memory Size: 7474
+2023-04-05 09:44:46,650 - General-Log - INFO - Total T: 7492 Episode Num: 364 Episode T: 18 Reward: 6.702 Memory Size: 7492
+2023-04-05 09:44:46,750 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:44:46,750 - General-Log - INFO - Evaluation over 6 episodes: 5.351
+2023-04-05 09:44:46,750 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:45:24,180 - General-Log - INFO - Total T: 7516 Episode Num: 365 Episode T: 24 Reward: -1.238 Memory Size: 7516
+2023-04-05 09:45:24,190 - General-Log - INFO - Total T: 7536 Episode Num: 366 Episode T: 20 Reward: -4.163 Memory Size: 7536
+2023-04-05 09:45:24,194 - General-Log - INFO - Total T: 7546 Episode Num: 367 Episode T: 10 Reward: -2.125 Memory Size: 7546
+2023-04-05 09:45:24,201 - General-Log - INFO - Total T: 7566 Episode Num: 368 Episode T: 20 Reward: 2.896 Memory Size: 7566
+2023-04-05 09:45:24,211 - General-Log - INFO - Total T: 7591 Episode Num: 369 Episode T: 25 Reward: 6.547 Memory Size: 7591
+2023-04-05 09:45:24,221 - General-Log - INFO - Total T: 7615 Episode Num: 370 Episode T: 24 Reward: 1.775 Memory Size: 7615
+2023-04-05 09:45:24,227 - General-Log - INFO - Total T: 7631 Episode Num: 371 Episode T: 16 Reward: 1.765 Memory Size: 7631
+2023-04-05 09:45:24,234 - General-Log - INFO - Total T: 7649 Episode Num: 372 Episode T: 18 Reward: 6.643 Memory Size: 7649
+2023-04-05 09:45:24,239 - General-Log - INFO - Total T: 7662 Episode Num: 373 Episode T: 13 Reward: 3.107 Memory Size: 7662
+2023-04-05 09:45:24,247 - General-Log - INFO - Total T: 7684 Episode Num: 374 Episode T: 22 Reward: -1.178 Memory Size: 7684
+2023-04-05 09:45:24,257 - General-Log - INFO - Total T: 7709 Episode Num: 375 Episode T: 25 Reward: 9.851 Memory Size: 7709
+2023-04-05 09:45:24,264 - General-Log - INFO - Total T: 7729 Episode Num: 376 Episode T: 20 Reward: -7.614 Memory Size: 7729
+2023-04-05 09:45:24,270 - General-Log - INFO - Total T: 7741 Episode Num: 377 Episode T: 12 Reward: 1.218 Memory Size: 7741
+2023-04-05 09:45:24,282 - General-Log - INFO - Total T: 7772 Episode Num: 378 Episode T: 31 Reward: 8.832 Memory Size: 7772
+2023-04-05 09:45:24,287 - General-Log - INFO - Total T: 7784 Episode Num: 379 Episode T: 12 Reward: 1.093 Memory Size: 7784
+2023-04-05 09:45:24,292 - General-Log - INFO - Total T: 7796 Episode Num: 380 Episode T: 12 Reward: -1.202 Memory Size: 7796
+2023-04-05 09:45:24,297 - General-Log - INFO - Total T: 7811 Episode Num: 381 Episode T: 15 Reward: 4.560 Memory Size: 7811
+2023-04-05 09:45:24,302 - General-Log - INFO - Total T: 7824 Episode Num: 382 Episode T: 13 Reward: -0.461 Memory Size: 7824
+2023-04-05 09:45:24,306 - General-Log - INFO - Total T: 7833 Episode Num: 383 Episode T: 9 Reward: -2.892 Memory Size: 7833
+2023-04-05 09:45:24,311 - General-Log - INFO - Total T: 7846 Episode Num: 384 Episode T: 13 Reward: 2.607 Memory Size: 7846
+2023-04-05 09:45:24,316 - General-Log - INFO - Total T: 7860 Episode Num: 385 Episode T: 14 Reward: 0.964 Memory Size: 7860
+2023-04-05 09:45:24,331 - General-Log - INFO - Total T: 7900 Episode Num: 386 Episode T: 40 Reward: 11.310 Memory Size: 7900
+2023-04-05 09:45:24,337 - General-Log - INFO - Total T: 7917 Episode Num: 387 Episode T: 17 Reward: -5.514 Memory Size: 7917
+2023-04-05 09:45:24,344 - General-Log - INFO - Total T: 7934 Episode Num: 388 Episode T: 17 Reward: -0.061 Memory Size: 7934
+2023-04-05 09:45:24,357 - General-Log - INFO - Total T: 7968 Episode Num: 389 Episode T: 34 Reward: 9.582 Memory Size: 7968
+2023-04-05 09:45:24,364 - General-Log - INFO - Total T: 7985 Episode Num: 390 Episode T: 17 Reward: -1.202 Memory Size: 7985
+2023-04-05 09:45:24,372 - General-Log - INFO - Total T: 8007 Episode Num: 391 Episode T: 22 Reward: 7.517 Memory Size: 8007
+2023-04-05 09:45:24,379 - General-Log - INFO - Total T: 8024 Episode Num: 392 Episode T: 17 Reward: -9.000 Memory Size: 8024
+2023-04-05 09:45:24,387 - General-Log - INFO - Total T: 8044 Episode Num: 393 Episode T: 20 Reward: 0.502 Memory Size: 8044
+2023-04-05 09:45:24,399 - General-Log - INFO - Total T: 8076 Episode Num: 394 Episode T: 32 Reward: 0.616 Memory Size: 8076
+2023-04-05 09:45:24,404 - General-Log - INFO - Total T: 8088 Episode Num: 395 Episode T: 12 Reward: -1.034 Memory Size: 8088
+2023-04-05 09:45:24,410 - General-Log - INFO - Total T: 8105 Episode Num: 396 Episode T: 17 Reward: 1.624 Memory Size: 8105
+2023-04-05 09:45:24,420 - General-Log - INFO - Total T: 8128 Episode Num: 397 Episode T: 23 Reward: 8.646 Memory Size: 8128
+2023-04-05 09:45:24,426 - General-Log - INFO - Total T: 8144 Episode Num: 398 Episode T: 16 Reward: -5.714 Memory Size: 8144
+2023-04-05 09:45:24,431 - General-Log - INFO - Total T: 8156 Episode Num: 399 Episode T: 12 Reward: -0.076 Memory Size: 8156
+2023-04-05 09:45:24,440 - General-Log - INFO - Total T: 8181 Episode Num: 400 Episode T: 25 Reward: 13.270 Memory Size: 8181
+2023-04-05 09:45:24,448 - General-Log - INFO - Total T: 8202 Episode Num: 401 Episode T: 21 Reward: -2.355 Memory Size: 8202
+2023-04-05 09:45:24,457 - General-Log - INFO - Total T: 8226 Episode Num: 402 Episode T: 24 Reward: -0.829 Memory Size: 8226
+2023-04-05 09:45:24,463 - General-Log - INFO - Total T: 8240 Episode Num: 403 Episode T: 14 Reward: 3.733 Memory Size: 8240
+2023-04-05 09:45:24,474 - General-Log - INFO - Total T: 8269 Episode Num: 404 Episode T: 29 Reward: 1.621 Memory Size: 8269
+2023-04-05 09:45:24,482 - General-Log - INFO - Total T: 8292 Episode Num: 405 Episode T: 23 Reward: -9.677 Memory Size: 8292
+2023-04-05 09:45:24,494 - General-Log - INFO - Total T: 8322 Episode Num: 406 Episode T: 30 Reward: 9.515 Memory Size: 8322
+2023-04-05 09:45:24,505 - General-Log - INFO - Total T: 8351 Episode Num: 407 Episode T: 29 Reward: -0.317 Memory Size: 8351
+2023-04-05 09:45:24,515 - General-Log - INFO - Total T: 8378 Episode Num: 408 Episode T: 27 Reward: 16.816 Memory Size: 8378
+2023-04-05 09:45:24,527 - General-Log - INFO - Total T: 8412 Episode Num: 409 Episode T: 34 Reward: 12.025 Memory Size: 8412
+2023-04-05 09:45:24,535 - General-Log - INFO - Total T: 8433 Episode Num: 410 Episode T: 21 Reward: 4.922 Memory Size: 8433
+2023-04-05 09:45:24,540 - General-Log - INFO - Total T: 8449 Episode Num: 411 Episode T: 16 Reward: 2.777 Memory Size: 8449
+2023-04-05 09:45:24,544 - General-Log - INFO - Total T: 8457 Episode Num: 412 Episode T: 8 Reward: -3.104 Memory Size: 8457
+2023-04-05 09:45:24,554 - General-Log - INFO - Total T: 8485 Episode Num: 413 Episode T: 28 Reward: 5.656 Memory Size: 8485
+2023-04-05 09:45:24,558 - General-Log - INFO - Total T: 8498 Episode Num: 414 Episode T: 13 Reward: -3.805 Memory Size: 8498
+2023-04-05 09:45:24,567 - General-Log - INFO - Total T: 8522 Episode Num: 415 Episode T: 24 Reward: 2.448 Memory Size: 8522
+2023-04-05 09:45:24,573 - General-Log - INFO - Total T: 8540 Episode Num: 416 Episode T: 18 Reward: 2.712 Memory Size: 8540
+2023-04-05 09:45:24,577 - General-Log - INFO - Total T: 8550 Episode Num: 417 Episode T: 10 Reward: -2.534 Memory Size: 8550
+2023-04-05 09:45:24,581 - General-Log - INFO - Total T: 8562 Episode Num: 418 Episode T: 12 Reward: -2.030 Memory Size: 8562
+2023-04-05 09:45:24,591 - General-Log - INFO - Total T: 8590 Episode Num: 419 Episode T: 28 Reward: 6.826 Memory Size: 8590
+2023-04-05 09:45:24,599 - General-Log - INFO - Total T: 8611 Episode Num: 420 Episode T: 21 Reward: 7.721 Memory Size: 8611
+2023-04-05 09:45:24,605 - General-Log - INFO - Total T: 8627 Episode Num: 421 Episode T: 16 Reward: -0.576 Memory Size: 8627
+2023-04-05 09:45:24,616 - General-Log - INFO - Total T: 8656 Episode Num: 422 Episode T: 29 Reward: 11.678 Memory Size: 8656
+2023-04-05 09:45:24,622 - General-Log - INFO - Total T: 8672 Episode Num: 423 Episode T: 16 Reward: 4.310 Memory Size: 8672
+2023-04-05 09:45:24,626 - General-Log - INFO - Total T: 8681 Episode Num: 424 Episode T: 9 Reward: -1.559 Memory Size: 8681
+2023-04-05 09:45:24,633 - General-Log - INFO - Total T: 8699 Episode Num: 425 Episode T: 18 Reward: -0.773 Memory Size: 8699
+2023-04-05 09:45:24,640 - General-Log - INFO - Total T: 8718 Episode Num: 426 Episode T: 19 Reward: -5.735 Memory Size: 8718
+2023-04-05 09:45:24,648 - General-Log - INFO - Total T: 8739 Episode Num: 427 Episode T: 21 Reward: -9.187 Memory Size: 8739
+2023-04-05 09:45:24,660 - General-Log - INFO - Total T: 8773 Episode Num: 428 Episode T: 34 Reward: 9.825 Memory Size: 8773
+2023-04-05 09:45:24,668 - General-Log - INFO - Total T: 8792 Episode Num: 429 Episode T: 19 Reward: -1.072 Memory Size: 8792
+2023-04-05 09:45:24,681 - General-Log - INFO - Total T: 8827 Episode Num: 430 Episode T: 35 Reward: 3.348 Memory Size: 8827
+2023-04-05 09:45:24,690 - General-Log - INFO - Total T: 8852 Episode Num: 431 Episode T: 25 Reward: 8.198 Memory Size: 8852
+2023-04-05 09:45:24,698 - General-Log - INFO - Total T: 8874 Episode Num: 432 Episode T: 22 Reward: -2.300 Memory Size: 8874
+2023-04-05 09:45:24,705 - General-Log - INFO - Total T: 8891 Episode Num: 433 Episode T: 17 Reward: -3.324 Memory Size: 8891
+2023-04-05 09:45:24,709 - General-Log - INFO - Total T: 8901 Episode Num: 434 Episode T: 10 Reward: -3.612 Memory Size: 8901
+2023-04-05 09:45:24,719 - General-Log - INFO - Total T: 8926 Episode Num: 435 Episode T: 25 Reward: 1.562 Memory Size: 8926
+2023-04-05 09:45:24,733 - General-Log - INFO - Total T: 8951 Episode Num: 436 Episode T: 25 Reward: -2.574 Memory Size: 8951
+2023-04-05 09:45:24,742 - General-Log - INFO - Total T: 8972 Episode Num: 437 Episode T: 21 Reward: -10.493 Memory Size: 8972
+2023-04-05 09:45:24,748 - General-Log - INFO - Total T: 8986 Episode Num: 438 Episode T: 14 Reward: 0.203 Memory Size: 8986
+2023-04-05 09:45:24,757 - General-Log - INFO - Total T: 9005 Episode Num: 439 Episode T: 19 Reward: -0.078 Memory Size: 9005
+2023-04-05 09:45:24,763 - General-Log - INFO - Total T: 9020 Episode Num: 440 Episode T: 15 Reward: -0.584 Memory Size: 9020
+2023-04-05 09:45:24,770 - General-Log - INFO - Total T: 9035 Episode Num: 441 Episode T: 15 Reward: 0.390 Memory Size: 9035
+2023-04-05 09:45:24,777 - General-Log - INFO - Total T: 9050 Episode Num: 442 Episode T: 15 Reward: 1.061 Memory Size: 9050
+2023-04-05 09:45:24,788 - General-Log - INFO - Total T: 9075 Episode Num: 443 Episode T: 25 Reward: 8.157 Memory Size: 9075
+2023-04-05 09:45:24,794 - General-Log - INFO - Total T: 9089 Episode Num: 444 Episode T: 14 Reward: -1.340 Memory Size: 9089
+2023-04-05 09:45:24,800 - General-Log - INFO - Total T: 9101 Episode Num: 445 Episode T: 12 Reward: -0.921 Memory Size: 9101
+2023-04-05 09:45:24,806 - General-Log - INFO - Total T: 9115 Episode Num: 446 Episode T: 14 Reward: 2.287 Memory Size: 9115
+2023-04-05 09:45:24,816 - General-Log - INFO - Total T: 9136 Episode Num: 447 Episode T: 21 Reward: -7.557 Memory Size: 9136
+2023-04-05 09:45:24,830 - General-Log - INFO - Total T: 9169 Episode Num: 448 Episode T: 33 Reward: 15.055 Memory Size: 9169
+2023-04-05 09:45:24,837 - General-Log - INFO - Total T: 9184 Episode Num: 449 Episode T: 15 Reward: 1.545 Memory Size: 9184
+2023-04-05 09:45:24,843 - General-Log - INFO - Total T: 9197 Episode Num: 450 Episode T: 13 Reward: 4.497 Memory Size: 9197
+2023-04-05 09:45:24,856 - General-Log - INFO - Total T: 9227 Episode Num: 451 Episode T: 30 Reward: 3.632 Memory Size: 9227
+2023-04-05 09:45:24,871 - General-Log - INFO - Total T: 9262 Episode Num: 452 Episode T: 35 Reward: 0.593 Memory Size: 9262
+2023-04-05 09:45:24,879 - General-Log - INFO - Total T: 9280 Episode Num: 453 Episode T: 18 Reward: 3.760 Memory Size: 9280
+2023-04-05 09:45:24,888 - General-Log - INFO - Total T: 9301 Episode Num: 454 Episode T: 21 Reward: 3.216 Memory Size: 9301
+2023-04-05 09:45:24,899 - General-Log - INFO - Total T: 9326 Episode Num: 455 Episode T: 25 Reward: -2.759 Memory Size: 9326
+2023-04-05 09:45:24,912 - General-Log - INFO - Total T: 9364 Episode Num: 456 Episode T: 38 Reward: 8.861 Memory Size: 9364
+2023-04-05 09:45:24,919 - General-Log - INFO - Total T: 9383 Episode Num: 457 Episode T: 19 Reward: -6.199 Memory Size: 9383
+2023-04-05 09:45:24,924 - General-Log - INFO - Total T: 9396 Episode Num: 458 Episode T: 13 Reward: -1.513 Memory Size: 9396
+2023-04-05 09:45:24,928 - General-Log - INFO - Total T: 9407 Episode Num: 459 Episode T: 11 Reward: -0.500 Memory Size: 9407
+2023-04-05 09:45:24,934 - General-Log - INFO - Total T: 9423 Episode Num: 460 Episode T: 16 Reward: 3.690 Memory Size: 9423
+2023-04-05 09:45:24,941 - General-Log - INFO - Total T: 9442 Episode Num: 461 Episode T: 19 Reward: -1.301 Memory Size: 9442
+2023-04-05 09:45:24,948 - General-Log - INFO - Total T: 9459 Episode Num: 462 Episode T: 17 Reward: -0.058 Memory Size: 9459
+2023-04-05 09:45:24,956 - General-Log - INFO - Total T: 9474 Episode Num: 463 Episode T: 15 Reward: -2.786 Memory Size: 9474
+2023-04-05 09:45:24,965 - General-Log - INFO - Total T: 9493 Episode Num: 464 Episode T: 19 Reward: 0.357 Memory Size: 9493
+2023-04-05 09:45:24,972 - General-Log - INFO - Total T: 9509 Episode Num: 465 Episode T: 16 Reward: 1.142 Memory Size: 9509
+2023-04-05 09:45:24,983 - General-Log - INFO - Total T: 9534 Episode Num: 466 Episode T: 25 Reward: 5.309 Memory Size: 9534
+2023-04-05 09:45:24,988 - General-Log - INFO - Total T: 9543 Episode Num: 467 Episode T: 9 Reward: -4.100 Memory Size: 9543
+2023-04-05 09:45:24,999 - General-Log - INFO - Total T: 9567 Episode Num: 468 Episode T: 24 Reward: 7.648 Memory Size: 9567
+2023-04-05 09:45:25,014 - General-Log - INFO - Total T: 9602 Episode Num: 469 Episode T: 35 Reward: 8.357 Memory Size: 9602
+2023-04-05 09:45:25,027 - General-Log - INFO - Total T: 9632 Episode Num: 470 Episode T: 30 Reward: 4.003 Memory Size: 9632
+2023-04-05 09:45:25,037 - General-Log - INFO - Total T: 9652 Episode Num: 471 Episode T: 20 Reward: 0.996 Memory Size: 9652
+2023-04-05 09:45:25,045 - General-Log - INFO - Total T: 9670 Episode Num: 472 Episode T: 18 Reward: 2.523 Memory Size: 9670
+2023-04-05 09:45:25,053 - General-Log - INFO - Total T: 9689 Episode Num: 473 Episode T: 19 Reward: 2.441 Memory Size: 9689
+2023-04-05 09:45:25,058 - General-Log - INFO - Total T: 9700 Episode Num: 474 Episode T: 11 Reward: 0.011 Memory Size: 9700
+2023-04-05 09:45:25,069 - General-Log - INFO - Total T: 9724 Episode Num: 475 Episode T: 24 Reward: 8.004 Memory Size: 9724
+2023-04-05 09:45:25,078 - General-Log - INFO - Total T: 9744 Episode Num: 476 Episode T: 20 Reward: -8.688 Memory Size: 9744
+2023-04-05 09:45:25,085 - General-Log - INFO - Total T: 9760 Episode Num: 477 Episode T: 16 Reward: -2.111 Memory Size: 9760
+2023-04-05 09:45:25,091 - General-Log - INFO - Total T: 9774 Episode Num: 478 Episode T: 14 Reward: -6.549 Memory Size: 9774
+2023-04-05 09:45:25,099 - General-Log - INFO - Total T: 9791 Episode Num: 479 Episode T: 17 Reward: -1.563 Memory Size: 9791
+2023-04-05 09:45:25,108 - General-Log - INFO - Total T: 9812 Episode Num: 480 Episode T: 21 Reward: -3.982 Memory Size: 9812
+2023-04-05 09:45:25,117 - General-Log - INFO - Total T: 9834 Episode Num: 481 Episode T: 22 Reward: 9.480 Memory Size: 9834
+2023-04-05 09:45:25,125 - General-Log - INFO - Total T: 9852 Episode Num: 482 Episode T: 18 Reward: 5.505 Memory Size: 9852
+2023-04-05 09:45:25,136 - General-Log - INFO - Total T: 9875 Episode Num: 483 Episode T: 23 Reward: 5.613 Memory Size: 9875
+2023-04-05 09:45:25,145 - General-Log - INFO - Total T: 9896 Episode Num: 484 Episode T: 21 Reward: 3.713 Memory Size: 9896
+2023-04-05 09:45:25,150 - General-Log - INFO - Total T: 9908 Episode Num: 485 Episode T: 12 Reward: -2.822 Memory Size: 9908
+2023-04-05 09:45:25,157 - General-Log - INFO - Total T: 9923 Episode Num: 486 Episode T: 15 Reward: -2.031 Memory Size: 9923
+2023-04-05 09:45:25,169 - General-Log - INFO - Total T: 9944 Episode Num: 487 Episode T: 21 Reward: -5.867 Memory Size: 9944
+2023-04-05 09:45:25,178 - General-Log - INFO - Total T: 9965 Episode Num: 488 Episode T: 21 Reward: 4.290 Memory Size: 9965
+2023-04-05 09:45:25,181 - General-Log - INFO - Total T: 9973 Episode Num: 489 Episode T: 8 Reward: -2.783 Memory Size: 9973
+2023-04-05 09:45:25,189 - General-Log - INFO - Total T: 9994 Episode Num: 490 Episode T: 21 Reward: 3.876 Memory Size: 9994
+2023-04-05 09:45:25,281 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:45:25,282 - General-Log - INFO - Evaluation over 6 episodes: 5.346
+2023-04-05 09:45:25,282 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:46:02,151 - General-Log - INFO - Total T: 10025 Episode Num: 491 Episode T: 31 Reward: 13.144 Memory Size: 10025
+2023-04-05 09:46:02,163 - General-Log - INFO - Total T: 10055 Episode Num: 492 Episode T: 30 Reward: 2.360 Memory Size: 10055
+2023-04-05 09:46:02,171 - General-Log - INFO - Total T: 10076 Episode Num: 493 Episode T: 21 Reward: -0.526 Memory Size: 10076
+2023-04-05 09:46:02,180 - General-Log - INFO - Total T: 10100 Episode Num: 494 Episode T: 24 Reward: 10.227 Memory Size: 10100
+2023-04-05 09:46:02,188 - General-Log - INFO - Total T: 10123 Episode Num: 495 Episode T: 23 Reward: 6.912 Memory Size: 10123
+2023-04-05 09:46:02,196 - General-Log - INFO - Total T: 10147 Episode Num: 496 Episode T: 24 Reward: 0.061 Memory Size: 10147
+2023-04-05 09:46:02,207 - General-Log - INFO - Total T: 10175 Episode Num: 497 Episode T: 28 Reward: 6.239 Memory Size: 10175
+2023-04-05 09:46:02,211 - General-Log - INFO - Total T: 10184 Episode Num: 498 Episode T: 9 Reward: -2.745 Memory Size: 10184
+2023-04-05 09:46:02,218 - General-Log - INFO - Total T: 10204 Episode Num: 499 Episode T: 20 Reward: 3.905 Memory Size: 10204
+2023-04-05 09:46:02,227 - General-Log - INFO - Total T: 10230 Episode Num: 500 Episode T: 26 Reward: -9.011 Memory Size: 10230
+2023-04-05 09:46:02,236 - General-Log - INFO - Total T: 10254 Episode Num: 501 Episode T: 24 Reward: 6.732 Memory Size: 10254
+2023-04-05 09:46:02,241 - General-Log - INFO - Total T: 10267 Episode Num: 502 Episode T: 13 Reward: 1.824 Memory Size: 10267
+2023-04-05 09:46:02,254 - General-Log - INFO - Total T: 10303 Episode Num: 503 Episode T: 36 Reward: 3.391 Memory Size: 10303
+2023-04-05 09:46:02,261 - General-Log - INFO - Total T: 10322 Episode Num: 504 Episode T: 19 Reward: 0.593 Memory Size: 10322
+2023-04-05 09:46:02,268 - General-Log - INFO - Total T: 10339 Episode Num: 505 Episode T: 17 Reward: 1.063 Memory Size: 10339
+2023-04-05 09:46:02,279 - General-Log - INFO - Total T: 10372 Episode Num: 506 Episode T: 33 Reward: 6.821 Memory Size: 10372
+2023-04-05 09:46:02,285 - General-Log - INFO - Total T: 10389 Episode Num: 507 Episode T: 17 Reward: 4.612 Memory Size: 10389
+2023-04-05 09:46:02,290 - General-Log - INFO - Total T: 10402 Episode Num: 508 Episode T: 13 Reward: -3.689 Memory Size: 10402
+2023-04-05 09:46:02,298 - General-Log - INFO - Total T: 10426 Episode Num: 509 Episode T: 24 Reward: -3.337 Memory Size: 10426
+2023-04-05 09:46:02,306 - General-Log - INFO - Total T: 10448 Episode Num: 510 Episode T: 22 Reward: -1.785 Memory Size: 10448
+2023-04-05 09:46:02,312 - General-Log - INFO - Total T: 10464 Episode Num: 511 Episode T: 16 Reward: 2.181 Memory Size: 10464
+2023-04-05 09:46:02,321 - General-Log - INFO - Total T: 10489 Episode Num: 512 Episode T: 25 Reward: -10.459 Memory Size: 10489
+2023-04-05 09:46:02,325 - General-Log - INFO - Total T: 10501 Episode Num: 513 Episode T: 12 Reward: -1.704 Memory Size: 10501
+2023-04-05 09:46:02,332 - General-Log - INFO - Total T: 10519 Episode Num: 514 Episode T: 18 Reward: 2.506 Memory Size: 10519
+2023-04-05 09:46:02,337 - General-Log - INFO - Total T: 10533 Episode Num: 515 Episode T: 14 Reward: -0.174 Memory Size: 10533
+2023-04-05 09:46:02,347 - General-Log - INFO - Total T: 10559 Episode Num: 516 Episode T: 26 Reward: 0.411 Memory Size: 10559
+2023-04-05 09:46:02,355 - General-Log - INFO - Total T: 10584 Episode Num: 517 Episode T: 25 Reward: -2.540 Memory Size: 10584
+2023-04-05 09:46:02,359 - General-Log - INFO - Total T: 10593 Episode Num: 518 Episode T: 9 Reward: -2.425 Memory Size: 10593
+2023-04-05 09:46:02,367 - General-Log - INFO - Total T: 10616 Episode Num: 519 Episode T: 23 Reward: -4.133 Memory Size: 10616
+2023-04-05 09:46:02,372 - General-Log - INFO - Total T: 10631 Episode Num: 520 Episode T: 15 Reward: 5.769 Memory Size: 10631
+2023-04-05 09:46:02,379 - General-Log - INFO - Total T: 10651 Episode Num: 521 Episode T: 20 Reward: -5.996 Memory Size: 10651
+2023-04-05 09:46:02,385 - General-Log - INFO - Total T: 10667 Episode Num: 522 Episode T: 16 Reward: 2.946 Memory Size: 10667
+2023-04-05 09:46:02,389 - General-Log - INFO - Total T: 10680 Episode Num: 523 Episode T: 13 Reward: -3.778 Memory Size: 10680
+2023-04-05 09:46:02,395 - General-Log - INFO - Total T: 10696 Episode Num: 524 Episode T: 16 Reward: 1.383 Memory Size: 10696
+2023-04-05 09:46:02,404 - General-Log - INFO - Total T: 10721 Episode Num: 525 Episode T: 25 Reward: -6.712 Memory Size: 10721
+2023-04-05 09:46:02,409 - General-Log - INFO - Total T: 10733 Episode Num: 526 Episode T: 12 Reward: -3.931 Memory Size: 10733
+2023-04-05 09:46:02,416 - General-Log - INFO - Total T: 10753 Episode Num: 527 Episode T: 20 Reward: -4.418 Memory Size: 10753
+2023-04-05 09:46:02,421 - General-Log - INFO - Total T: 10767 Episode Num: 528 Episode T: 14 Reward: -0.782 Memory Size: 10767
+2023-04-05 09:46:02,429 - General-Log - INFO - Total T: 10787 Episode Num: 529 Episode T: 20 Reward: 4.373 Memory Size: 10787
+2023-04-05 09:46:02,441 - General-Log - INFO - Total T: 10822 Episode Num: 530 Episode T: 35 Reward: -0.060 Memory Size: 10822
+2023-04-05 09:46:02,449 - General-Log - INFO - Total T: 10843 Episode Num: 531 Episode T: 21 Reward: 1.660 Memory Size: 10843
+2023-04-05 09:46:02,460 - General-Log - INFO - Total T: 10874 Episode Num: 532 Episode T: 31 Reward: 4.126 Memory Size: 10874
+2023-04-05 09:46:02,464 - General-Log - INFO - Total T: 10884 Episode Num: 533 Episode T: 10 Reward: 1.040 Memory Size: 10884
+2023-04-05 09:46:02,471 - General-Log - INFO - Total T: 10904 Episode Num: 534 Episode T: 20 Reward: -3.290 Memory Size: 10904
+2023-04-05 09:46:02,477 - General-Log - INFO - Total T: 10921 Episode Num: 535 Episode T: 17 Reward: 4.494 Memory Size: 10921
+2023-04-05 09:46:02,482 - General-Log - INFO - Total T: 10936 Episode Num: 536 Episode T: 15 Reward: -4.895 Memory Size: 10936
+2023-04-05 09:46:02,491 - General-Log - INFO - Total T: 10961 Episode Num: 537 Episode T: 25 Reward: 6.129 Memory Size: 10961
+2023-04-05 09:46:02,499 - General-Log - INFO - Total T: 10981 Episode Num: 538 Episode T: 20 Reward: 7.305 Memory Size: 10981
+2023-04-05 09:46:02,503 - General-Log - INFO - Total T: 10992 Episode Num: 539 Episode T: 11 Reward: -6.534 Memory Size: 10992
+2023-04-05 09:46:02,510 - General-Log - INFO - Total T: 11011 Episode Num: 540 Episode T: 19 Reward: 4.336 Memory Size: 11011
+2023-04-05 09:46:02,514 - General-Log - INFO - Total T: 11022 Episode Num: 541 Episode T: 11 Reward: -1.214 Memory Size: 11022
+2023-04-05 09:46:02,523 - General-Log - INFO - Total T: 11045 Episode Num: 542 Episode T: 23 Reward: -2.814 Memory Size: 11045
+2023-04-05 09:46:02,530 - General-Log - INFO - Total T: 11066 Episode Num: 543 Episode T: 21 Reward: -1.986 Memory Size: 11066
+2023-04-05 09:46:02,536 - General-Log - INFO - Total T: 11082 Episode Num: 544 Episode T: 16 Reward: 1.161 Memory Size: 11082
+2023-04-05 09:46:02,548 - General-Log - INFO - Total T: 11117 Episode Num: 545 Episode T: 35 Reward: 14.332 Memory Size: 11117
+2023-04-05 09:46:02,552 - General-Log - INFO - Total T: 11129 Episode Num: 546 Episode T: 12 Reward: -0.422 Memory Size: 11129
+2023-04-05 09:46:02,558 - General-Log - INFO - Total T: 11145 Episode Num: 547 Episode T: 16 Reward: 0.138 Memory Size: 11145
+2023-04-05 09:46:02,568 - General-Log - INFO - Total T: 11174 Episode Num: 548 Episode T: 29 Reward: 1.413 Memory Size: 11174
+2023-04-05 09:46:02,576 - General-Log - INFO - Total T: 11195 Episode Num: 549 Episode T: 21 Reward: 6.660 Memory Size: 11195
+2023-04-05 09:46:02,582 - General-Log - INFO - Total T: 11211 Episode Num: 550 Episode T: 16 Reward: -1.993 Memory Size: 11211
+2023-04-05 09:46:02,586 - General-Log - INFO - Total T: 11224 Episode Num: 551 Episode T: 13 Reward: 1.481 Memory Size: 11224
+2023-04-05 09:46:02,599 - General-Log - INFO - Total T: 11259 Episode Num: 552 Episode T: 35 Reward: 4.165 Memory Size: 11259
+2023-04-05 09:46:02,606 - General-Log - INFO - Total T: 11281 Episode Num: 553 Episode T: 22 Reward: 3.310 Memory Size: 11281
+2023-04-05 09:46:02,611 - General-Log - INFO - Total T: 11292 Episode Num: 554 Episode T: 11 Reward: 0.767 Memory Size: 11292
+2023-04-05 09:46:02,618 - General-Log - INFO - Total T: 11312 Episode Num: 555 Episode T: 20 Reward: 0.424 Memory Size: 11312
+2023-04-05 09:46:02,623 - General-Log - INFO - Total T: 11326 Episode Num: 556 Episode T: 14 Reward: -3.546 Memory Size: 11326
+2023-04-05 09:46:02,630 - General-Log - INFO - Total T: 11343 Episode Num: 557 Episode T: 17 Reward: -1.092 Memory Size: 11343
+2023-04-05 09:46:02,638 - General-Log - INFO - Total T: 11367 Episode Num: 558 Episode T: 24 Reward: -3.328 Memory Size: 11367
+2023-04-05 09:46:02,644 - General-Log - INFO - Total T: 11383 Episode Num: 559 Episode T: 16 Reward: -0.511 Memory Size: 11383
+2023-04-05 09:46:02,651 - General-Log - INFO - Total T: 11403 Episode Num: 560 Episode T: 20 Reward: -3.914 Memory Size: 11403
+2023-04-05 09:46:02,660 - General-Log - INFO - Total T: 11430 Episode Num: 561 Episode T: 27 Reward: 0.640 Memory Size: 11430
+2023-04-05 09:46:02,665 - General-Log - INFO - Total T: 11444 Episode Num: 562 Episode T: 14 Reward: -7.004 Memory Size: 11444
+2023-04-05 09:46:02,676 - General-Log - INFO - Total T: 11475 Episode Num: 563 Episode T: 31 Reward: 14.277 Memory Size: 11475
+2023-04-05 09:46:02,684 - General-Log - INFO - Total T: 11498 Episode Num: 564 Episode T: 23 Reward: -6.467 Memory Size: 11498
+2023-04-05 09:46:02,693 - General-Log - INFO - Total T: 11523 Episode Num: 565 Episode T: 25 Reward: 14.614 Memory Size: 11523
+2023-04-05 09:46:02,699 - General-Log - INFO - Total T: 11539 Episode Num: 566 Episode T: 16 Reward: 2.752 Memory Size: 11539
+2023-04-05 09:46:02,702 - General-Log - INFO - Total T: 11548 Episode Num: 567 Episode T: 9 Reward: -1.531 Memory Size: 11548
+2023-04-05 09:46:02,709 - General-Log - INFO - Total T: 11568 Episode Num: 568 Episode T: 20 Reward: 1.431 Memory Size: 11568
+2023-04-05 09:46:02,717 - General-Log - INFO - Total T: 11587 Episode Num: 569 Episode T: 19 Reward: 6.732 Memory Size: 11587
+2023-04-05 09:46:02,728 - General-Log - INFO - Total T: 11621 Episode Num: 570 Episode T: 34 Reward: 17.954 Memory Size: 11621
+2023-04-05 09:46:02,733 - General-Log - INFO - Total T: 11634 Episode Num: 571 Episode T: 13 Reward: 2.171 Memory Size: 11634
+2023-04-05 09:46:02,738 - General-Log - INFO - Total T: 11649 Episode Num: 572 Episode T: 15 Reward: 1.802 Memory Size: 11649
+2023-04-05 09:46:02,742 - General-Log - INFO - Total T: 11659 Episode Num: 573 Episode T: 10 Reward: -2.618 Memory Size: 11659
+2023-04-05 09:46:02,754 - General-Log - INFO - Total T: 11692 Episode Num: 574 Episode T: 33 Reward: 3.544 Memory Size: 11692
+2023-04-05 09:46:02,760 - General-Log - INFO - Total T: 11712 Episode Num: 575 Episode T: 20 Reward: 4.827 Memory Size: 11712
+2023-04-05 09:46:02,766 - General-Log - INFO - Total T: 11727 Episode Num: 576 Episode T: 15 Reward: -0.026 Memory Size: 11727
+2023-04-05 09:46:02,771 - General-Log - INFO - Total T: 11741 Episode Num: 577 Episode T: 14 Reward: 0.759 Memory Size: 11741
+2023-04-05 09:46:02,776 - General-Log - INFO - Total T: 11756 Episode Num: 578 Episode T: 15 Reward: 4.554 Memory Size: 11756
+2023-04-05 09:46:02,783 - General-Log - INFO - Total T: 11778 Episode Num: 579 Episode T: 22 Reward: 2.091 Memory Size: 11778
+2023-04-05 09:46:02,788 - General-Log - INFO - Total T: 11792 Episode Num: 580 Episode T: 14 Reward: -2.276 Memory Size: 11792
+2023-04-05 09:46:02,793 - General-Log - INFO - Total T: 11806 Episode Num: 581 Episode T: 14 Reward: 1.561 Memory Size: 11806
+2023-04-05 09:46:02,802 - General-Log - INFO - Total T: 11833 Episode Num: 582 Episode T: 27 Reward: -11.989 Memory Size: 11833
+2023-04-05 09:46:02,805 - General-Log - INFO - Total T: 11841 Episode Num: 583 Episode T: 8 Reward: -2.142 Memory Size: 11841
+2023-04-05 09:46:02,814 - General-Log - INFO - Total T: 11867 Episode Num: 584 Episode T: 26 Reward: -0.581 Memory Size: 11867
+2023-04-05 09:46:02,819 - General-Log - INFO - Total T: 11880 Episode Num: 585 Episode T: 13 Reward: -2.249 Memory Size: 11880
+2023-04-05 09:46:02,827 - General-Log - INFO - Total T: 11901 Episode Num: 586 Episode T: 21 Reward: 8.258 Memory Size: 11901
+2023-04-05 09:46:02,833 - General-Log - INFO - Total T: 11919 Episode Num: 587 Episode T: 18 Reward: 4.144 Memory Size: 11919
+2023-04-05 09:46:02,839 - General-Log - INFO - Total T: 11935 Episode Num: 588 Episode T: 16 Reward: 2.088 Memory Size: 11935
+2023-04-05 09:46:02,849 - General-Log - INFO - Total T: 11965 Episode Num: 589 Episode T: 30 Reward: 3.221 Memory Size: 11965
+2023-04-05 09:46:02,854 - General-Log - INFO - Total T: 11980 Episode Num: 590 Episode T: 15 Reward: -3.922 Memory Size: 11980
+2023-04-05 09:46:02,858 - General-Log - INFO - Total T: 11989 Episode Num: 591 Episode T: 9 Reward: -1.089 Memory Size: 11989
+2023-04-05 09:46:02,869 - General-Log - INFO - Total T: 12022 Episode Num: 592 Episode T: 33 Reward: 8.333 Memory Size: 12022
+2023-04-05 09:46:02,873 - General-Log - INFO - Total T: 12034 Episode Num: 593 Episode T: 12 Reward: 1.891 Memory Size: 12034
+2023-04-05 09:46:02,880 - General-Log - INFO - Total T: 12053 Episode Num: 594 Episode T: 19 Reward: -0.300 Memory Size: 12053
+2023-04-05 09:46:02,884 - General-Log - INFO - Total T: 12064 Episode Num: 595 Episode T: 11 Reward: -3.703 Memory Size: 12064
+2023-04-05 09:46:02,894 - General-Log - INFO - Total T: 12093 Episode Num: 596 Episode T: 29 Reward: 11.641 Memory Size: 12093
+2023-04-05 09:46:02,900 - General-Log - INFO - Total T: 12110 Episode Num: 597 Episode T: 17 Reward: 2.286 Memory Size: 12110
+2023-04-05 09:46:02,904 - General-Log - INFO - Total T: 12120 Episode Num: 598 Episode T: 10 Reward: -4.323 Memory Size: 12120
+2023-04-05 09:46:02,910 - General-Log - INFO - Total T: 12138 Episode Num: 599 Episode T: 18 Reward: 5.141 Memory Size: 12138
+2023-04-05 09:46:02,915 - General-Log - INFO - Total T: 12153 Episode Num: 600 Episode T: 15 Reward: 2.328 Memory Size: 12153
+2023-04-05 09:46:02,930 - General-Log - INFO - Total T: 12192 Episode Num: 601 Episode T: 39 Reward: 21.688 Memory Size: 12192
+2023-04-05 09:46:02,938 - General-Log - INFO - Total T: 12214 Episode Num: 602 Episode T: 22 Reward: -4.264 Memory Size: 12214
+2023-04-05 09:46:02,943 - General-Log - INFO - Total T: 12228 Episode Num: 603 Episode T: 14 Reward: 1.131 Memory Size: 12228
+2023-04-05 09:46:02,959 - General-Log - INFO - Total T: 12275 Episode Num: 604 Episode T: 47 Reward: 2.688 Memory Size: 12275
+2023-04-05 09:46:02,966 - General-Log - INFO - Total T: 12293 Episode Num: 605 Episode T: 18 Reward: 5.145 Memory Size: 12293
+2023-04-05 09:46:02,970 - General-Log - INFO - Total T: 12305 Episode Num: 606 Episode T: 12 Reward: -5.217 Memory Size: 12305
+2023-04-05 09:46:02,979 - General-Log - INFO - Total T: 12332 Episode Num: 607 Episode T: 27 Reward: -0.174 Memory Size: 12332
+2023-04-05 09:46:02,984 - General-Log - INFO - Total T: 12344 Episode Num: 608 Episode T: 12 Reward: 0.611 Memory Size: 12344
+2023-04-05 09:46:02,989 - General-Log - INFO - Total T: 12361 Episode Num: 609 Episode T: 17 Reward: 0.195 Memory Size: 12361
+2023-04-05 09:46:02,997 - General-Log - INFO - Total T: 12383 Episode Num: 610 Episode T: 22 Reward: -0.099 Memory Size: 12383
+2023-04-05 09:46:03,005 - General-Log - INFO - Total T: 12404 Episode Num: 611 Episode T: 21 Reward: 1.969 Memory Size: 12404
+2023-04-05 09:46:03,016 - General-Log - INFO - Total T: 12435 Episode Num: 612 Episode T: 31 Reward: -1.961 Memory Size: 12435
+2023-04-05 09:46:03,026 - General-Log - INFO - Total T: 12464 Episode Num: 613 Episode T: 29 Reward: 3.643 Memory Size: 12464
+2023-04-05 09:46:03,033 - General-Log - INFO - Total T: 12486 Episode Num: 614 Episode T: 22 Reward: 1.859 Memory Size: 12486
+2023-04-05 09:46:03,128 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:46:03,128 - General-Log - INFO - Evaluation over 6 episodes: 5.350
+2023-04-05 09:46:03,128 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:46:42,306 - General-Log - INFO - Total T: 12526 Episode Num: 615 Episode T: 40 Reward: 21.669 Memory Size: 12526
+2023-04-05 09:46:42,317 - General-Log - INFO - Total T: 12552 Episode Num: 616 Episode T: 26 Reward: 7.810 Memory Size: 12552
+2023-04-05 09:46:42,322 - General-Log - INFO - Total T: 12566 Episode Num: 617 Episode T: 14 Reward: -1.114 Memory Size: 12566
+2023-04-05 09:46:42,327 - General-Log - INFO - Total T: 12581 Episode Num: 618 Episode T: 15 Reward: -1.844 Memory Size: 12581
+2023-04-05 09:46:42,332 - General-Log - INFO - Total T: 12593 Episode Num: 619 Episode T: 12 Reward: 0.691 Memory Size: 12593
+2023-04-05 09:46:42,344 - General-Log - INFO - Total T: 12627 Episode Num: 620 Episode T: 34 Reward: 6.675 Memory Size: 12627
+2023-04-05 09:46:42,351 - General-Log - INFO - Total T: 12649 Episode Num: 621 Episode T: 22 Reward: 5.377 Memory Size: 12649
+2023-04-05 09:46:42,356 - General-Log - INFO - Total T: 12663 Episode Num: 622 Episode T: 14 Reward: -2.090 Memory Size: 12663
+2023-04-05 09:46:42,360 - General-Log - INFO - Total T: 12674 Episode Num: 623 Episode T: 11 Reward: -2.177 Memory Size: 12674
+2023-04-05 09:46:42,364 - General-Log - INFO - Total T: 12685 Episode Num: 624 Episode T: 11 Reward: -0.200 Memory Size: 12685
+2023-04-05 09:46:42,370 - General-Log - INFO - Total T: 12702 Episode Num: 625 Episode T: 17 Reward: 6.507 Memory Size: 12702
+2023-04-05 09:46:42,378 - General-Log - INFO - Total T: 12727 Episode Num: 626 Episode T: 25 Reward: 0.027 Memory Size: 12727
+2023-04-05 09:46:42,387 - General-Log - INFO - Total T: 12752 Episode Num: 627 Episode T: 25 Reward: -0.985 Memory Size: 12752
+2023-04-05 09:46:42,394 - General-Log - INFO - Total T: 12773 Episode Num: 628 Episode T: 21 Reward: -4.099 Memory Size: 12773
+2023-04-05 09:46:42,401 - General-Log - INFO - Total T: 12792 Episode Num: 629 Episode T: 19 Reward: -2.411 Memory Size: 12792
+2023-04-05 09:46:42,409 - General-Log - INFO - Total T: 12815 Episode Num: 630 Episode T: 23 Reward: -0.321 Memory Size: 12815
+2023-04-05 09:46:42,417 - General-Log - INFO - Total T: 12838 Episode Num: 631 Episode T: 23 Reward: 4.241 Memory Size: 12838
+2023-04-05 09:46:42,426 - General-Log - INFO - Total T: 12862 Episode Num: 632 Episode T: 24 Reward: -2.757 Memory Size: 12862
+2023-04-05 09:46:42,437 - General-Log - INFO - Total T: 12893 Episode Num: 633 Episode T: 31 Reward: 6.155 Memory Size: 12893
+2023-04-05 09:46:42,444 - General-Log - INFO - Total T: 12911 Episode Num: 634 Episode T: 18 Reward: -7.416 Memory Size: 12911
+2023-04-05 09:46:42,456 - General-Log - INFO - Total T: 12943 Episode Num: 635 Episode T: 32 Reward: 2.538 Memory Size: 12943
+2023-04-05 09:46:42,463 - General-Log - INFO - Total T: 12961 Episode Num: 636 Episode T: 18 Reward: -0.260 Memory Size: 12961
+2023-04-05 09:46:42,475 - General-Log - INFO - Total T: 12994 Episode Num: 637 Episode T: 33 Reward: -5.552 Memory Size: 12994
+2023-04-05 09:46:42,481 - General-Log - INFO - Total T: 13010 Episode Num: 638 Episode T: 16 Reward: 3.929 Memory Size: 13010
+2023-04-05 09:46:42,488 - General-Log - INFO - Total T: 13030 Episode Num: 639 Episode T: 20 Reward: 7.251 Memory Size: 13030
+2023-04-05 09:46:42,497 - General-Log - INFO - Total T: 13053 Episode Num: 640 Episode T: 23 Reward: 9.457 Memory Size: 13053
+2023-04-05 09:46:42,504 - General-Log - INFO - Total T: 13074 Episode Num: 641 Episode T: 21 Reward: -6.857 Memory Size: 13074
+2023-04-05 09:46:42,511 - General-Log - INFO - Total T: 13092 Episode Num: 642 Episode T: 18 Reward: 3.208 Memory Size: 13092
+2023-04-05 09:46:42,520 - General-Log - INFO - Total T: 13118 Episode Num: 643 Episode T: 26 Reward: -9.158 Memory Size: 13118
+2023-04-05 09:46:42,524 - General-Log - INFO - Total T: 13129 Episode Num: 644 Episode T: 11 Reward: -0.289 Memory Size: 13129
+2023-04-05 09:46:42,535 - General-Log - INFO - Total T: 13158 Episode Num: 645 Episode T: 29 Reward: 16.323 Memory Size: 13158
+2023-04-05 09:46:42,542 - General-Log - INFO - Total T: 13177 Episode Num: 646 Episode T: 19 Reward: 0.306 Memory Size: 13177
+2023-04-05 09:46:42,554 - General-Log - INFO - Total T: 13210 Episode Num: 647 Episode T: 33 Reward: 13.867 Memory Size: 13210
+2023-04-05 09:46:42,559 - General-Log - INFO - Total T: 13223 Episode Num: 648 Episode T: 13 Reward: 0.429 Memory Size: 13223
+2023-04-05 09:46:42,569 - General-Log - INFO - Total T: 13249 Episode Num: 649 Episode T: 26 Reward: 12.470 Memory Size: 13249
+2023-04-05 09:46:42,572 - General-Log - INFO - Total T: 13260 Episode Num: 650 Episode T: 11 Reward: 0.886 Memory Size: 13260
+2023-04-05 09:46:42,576 - General-Log - INFO - Total T: 13270 Episode Num: 651 Episode T: 10 Reward: -1.360 Memory Size: 13270
+2023-04-05 09:46:42,581 - General-Log - INFO - Total T: 13284 Episode Num: 652 Episode T: 14 Reward: 4.391 Memory Size: 13284
+2023-04-05 09:46:42,588 - General-Log - INFO - Total T: 13302 Episode Num: 653 Episode T: 18 Reward: 5.371 Memory Size: 13302
+2023-04-05 09:46:42,594 - General-Log - INFO - Total T: 13320 Episode Num: 654 Episode T: 18 Reward: -3.508 Memory Size: 13320
+2023-04-05 09:46:42,600 - General-Log - INFO - Total T: 13334 Episode Num: 655 Episode T: 14 Reward: 0.256 Memory Size: 13334
+2023-04-05 09:46:42,606 - General-Log - INFO - Total T: 13353 Episode Num: 656 Episode T: 19 Reward: 3.491 Memory Size: 13353
+2023-04-05 09:46:42,611 - General-Log - INFO - Total T: 13365 Episode Num: 657 Episode T: 12 Reward: -1.046 Memory Size: 13365
+2023-04-05 09:46:42,624 - General-Log - INFO - Total T: 13401 Episode Num: 658 Episode T: 36 Reward: 15.040 Memory Size: 13401
+2023-04-05 09:46:42,634 - General-Log - INFO - Total T: 13429 Episode Num: 659 Episode T: 28 Reward: 0.604 Memory Size: 13429
+2023-04-05 09:46:42,643 - General-Log - INFO - Total T: 13453 Episode Num: 660 Episode T: 24 Reward: -0.519 Memory Size: 13453
+2023-04-05 09:46:42,651 - General-Log - INFO - Total T: 13475 Episode Num: 661 Episode T: 22 Reward: -1.235 Memory Size: 13475
+2023-04-05 09:46:42,660 - General-Log - INFO - Total T: 13500 Episode Num: 662 Episode T: 25 Reward: -4.401 Memory Size: 13500
+2023-04-05 09:46:42,669 - General-Log - INFO - Total T: 13524 Episode Num: 663 Episode T: 24 Reward: -2.703 Memory Size: 13524
+2023-04-05 09:46:42,676 - General-Log - INFO - Total T: 13543 Episode Num: 664 Episode T: 19 Reward: 7.685 Memory Size: 13543
+2023-04-05 09:46:42,687 - General-Log - INFO - Total T: 13575 Episode Num: 665 Episode T: 32 Reward: -0.920 Memory Size: 13575
+2023-04-05 09:46:42,694 - General-Log - INFO - Total T: 13594 Episode Num: 666 Episode T: 19 Reward: 2.866 Memory Size: 13594
+2023-04-05 09:46:42,700 - General-Log - INFO - Total T: 13612 Episode Num: 667 Episode T: 18 Reward: 8.143 Memory Size: 13612
+2023-04-05 09:46:42,713 - General-Log - INFO - Total T: 13646 Episode Num: 668 Episode T: 34 Reward: 16.587 Memory Size: 13646
+2023-04-05 09:46:42,718 - General-Log - INFO - Total T: 13660 Episode Num: 669 Episode T: 14 Reward: 2.958 Memory Size: 13660
+2023-04-05 09:46:42,723 - General-Log - INFO - Total T: 13673 Episode Num: 670 Episode T: 13 Reward: 3.911 Memory Size: 13673
+2023-04-05 09:46:42,727 - General-Log - INFO - Total T: 13685 Episode Num: 671 Episode T: 12 Reward: 2.991 Memory Size: 13685
+2023-04-05 09:46:42,732 - General-Log - INFO - Total T: 13700 Episode Num: 672 Episode T: 15 Reward: -2.837 Memory Size: 13700
+2023-04-05 09:46:42,744 - General-Log - INFO - Total T: 13733 Episode Num: 673 Episode T: 33 Reward: 5.556 Memory Size: 13733
+2023-04-05 09:46:42,759 - General-Log - INFO - Total T: 13774 Episode Num: 674 Episode T: 41 Reward: 14.821 Memory Size: 13774
+2023-04-05 09:46:42,764 - General-Log - INFO - Total T: 13787 Episode Num: 675 Episode T: 13 Reward: -3.147 Memory Size: 13787
+2023-04-05 09:46:42,767 - General-Log - INFO - Total T: 13797 Episode Num: 676 Episode T: 10 Reward: -3.064 Memory Size: 13797
+2023-04-05 09:46:42,773 - General-Log - INFO - Total T: 13812 Episode Num: 677 Episode T: 15 Reward: -2.238 Memory Size: 13812
+2023-04-05 09:46:42,782 - General-Log - INFO - Total T: 13838 Episode Num: 678 Episode T: 26 Reward: 3.081 Memory Size: 13838
+2023-04-05 09:46:42,790 - General-Log - INFO - Total T: 13861 Episode Num: 679 Episode T: 23 Reward: -0.498 Memory Size: 13861
+2023-04-05 09:46:42,794 - General-Log - INFO - Total T: 13873 Episode Num: 680 Episode T: 12 Reward: -1.791 Memory Size: 13873
+2023-04-05 09:46:42,800 - General-Log - INFO - Total T: 13887 Episode Num: 681 Episode T: 14 Reward: 3.492 Memory Size: 13887
+2023-04-05 09:46:42,807 - General-Log - INFO - Total T: 13907 Episode Num: 682 Episode T: 20 Reward: 9.100 Memory Size: 13907
+2023-04-05 09:46:42,819 - General-Log - INFO - Total T: 13940 Episode Num: 683 Episode T: 33 Reward: 16.960 Memory Size: 13940
+2023-04-05 09:46:42,823 - General-Log - INFO - Total T: 13952 Episode Num: 684 Episode T: 12 Reward: -0.281 Memory Size: 13952
+2023-04-05 09:46:42,829 - General-Log - INFO - Total T: 13967 Episode Num: 685 Episode T: 15 Reward: 2.300 Memory Size: 13967
+2023-04-05 09:46:42,833 - General-Log - INFO - Total T: 13980 Episode Num: 686 Episode T: 13 Reward: -4.463 Memory Size: 13980
+2023-04-05 09:46:42,840 - General-Log - INFO - Total T: 13998 Episode Num: 687 Episode T: 18 Reward: 7.012 Memory Size: 13998
+2023-04-05 09:46:42,851 - General-Log - INFO - Total T: 14028 Episode Num: 688 Episode T: 30 Reward: 16.920 Memory Size: 14028
+2023-04-05 09:46:42,869 - General-Log - INFO - Total T: 14078 Episode Num: 689 Episode T: 50 Reward: 13.371 Memory Size: 14078
+2023-04-05 09:46:42,881 - General-Log - INFO - Total T: 14114 Episode Num: 690 Episode T: 36 Reward: 11.577 Memory Size: 14114
+2023-04-05 09:46:42,889 - General-Log - INFO - Total T: 14137 Episode Num: 691 Episode T: 23 Reward: -7.933 Memory Size: 14137
+2023-04-05 09:46:42,905 - General-Log - INFO - Total T: 14184 Episode Num: 692 Episode T: 47 Reward: 9.351 Memory Size: 14184
+2023-04-05 09:46:42,915 - General-Log - INFO - Total T: 14211 Episode Num: 693 Episode T: 27 Reward: 1.217 Memory Size: 14211
+2023-04-05 09:46:42,920 - General-Log - INFO - Total T: 14225 Episode Num: 694 Episode T: 14 Reward: 0.742 Memory Size: 14225
+2023-04-05 09:46:42,931 - General-Log - INFO - Total T: 14255 Episode Num: 695 Episode T: 30 Reward: 2.960 Memory Size: 14255
+2023-04-05 09:46:42,937 - General-Log - INFO - Total T: 14271 Episode Num: 696 Episode T: 16 Reward: 0.056 Memory Size: 14271
+2023-04-05 09:46:42,943 - General-Log - INFO - Total T: 14290 Episode Num: 697 Episode T: 19 Reward: 7.450 Memory Size: 14290
+2023-04-05 09:46:42,952 - General-Log - INFO - Total T: 14315 Episode Num: 698 Episode T: 25 Reward: 9.838 Memory Size: 14315
+2023-04-05 09:46:42,957 - General-Log - INFO - Total T: 14328 Episode Num: 699 Episode T: 13 Reward: 0.276 Memory Size: 14328
+2023-04-05 09:46:42,961 - General-Log - INFO - Total T: 14341 Episode Num: 700 Episode T: 13 Reward: 1.279 Memory Size: 14341
+2023-04-05 09:46:42,972 - General-Log - INFO - Total T: 14371 Episode Num: 701 Episode T: 30 Reward: 13.865 Memory Size: 14371
+2023-04-05 09:46:42,985 - General-Log - INFO - Total T: 14411 Episode Num: 702 Episode T: 40 Reward: 13.908 Memory Size: 14411
+2023-04-05 09:46:42,988 - General-Log - INFO - Total T: 14419 Episode Num: 703 Episode T: 8 Reward: -1.989 Memory Size: 14419
+2023-04-05 09:46:43,007 - General-Log - INFO - Total T: 14479 Episode Num: 704 Episode T: 60 Reward: 20.788 Memory Size: 14479
+2023-04-05 09:46:43,017 - General-Log - INFO - Total T: 14507 Episode Num: 705 Episode T: 28 Reward: -1.554 Memory Size: 14507
+2023-04-05 09:46:43,026 - General-Log - INFO - Total T: 14534 Episode Num: 706 Episode T: 27 Reward: 12.924 Memory Size: 14534
+2023-04-05 09:46:43,038 - General-Log - INFO - Total T: 14568 Episode Num: 707 Episode T: 34 Reward: 6.921 Memory Size: 14568
+2023-04-05 09:46:43,042 - General-Log - INFO - Total T: 14579 Episode Num: 708 Episode T: 11 Reward: -1.895 Memory Size: 14579
+2023-04-05 09:46:43,049 - General-Log - INFO - Total T: 14599 Episode Num: 709 Episode T: 20 Reward: 6.530 Memory Size: 14599
+2023-04-05 09:46:43,053 - General-Log - INFO - Total T: 14612 Episode Num: 710 Episode T: 13 Reward: -0.460 Memory Size: 14612
+2023-04-05 09:46:43,063 - General-Log - INFO - Total T: 14640 Episode Num: 711 Episode T: 28 Reward: 8.605 Memory Size: 14640
+2023-04-05 09:46:43,069 - General-Log - INFO - Total T: 14657 Episode Num: 712 Episode T: 17 Reward: 0.499 Memory Size: 14657
+2023-04-05 09:46:43,075 - General-Log - INFO - Total T: 14674 Episode Num: 713 Episode T: 17 Reward: 2.244 Memory Size: 14674
+2023-04-05 09:46:43,081 - General-Log - INFO - Total T: 14693 Episode Num: 714 Episode T: 19 Reward: 4.675 Memory Size: 14693
+2023-04-05 09:46:43,085 - General-Log - INFO - Total T: 14705 Episode Num: 715 Episode T: 12 Reward: -2.338 Memory Size: 14705
+2023-04-05 09:46:43,090 - General-Log - INFO - Total T: 14719 Episode Num: 716 Episode T: 14 Reward: -7.493 Memory Size: 14719
+2023-04-05 09:46:43,094 - General-Log - INFO - Total T: 14731 Episode Num: 717 Episode T: 12 Reward: -3.741 Memory Size: 14731
+2023-04-05 09:46:43,103 - General-Log - INFO - Total T: 14756 Episode Num: 718 Episode T: 25 Reward: -5.058 Memory Size: 14756
+2023-04-05 09:46:43,111 - General-Log - INFO - Total T: 14781 Episode Num: 719 Episode T: 25 Reward: 11.889 Memory Size: 14781
+2023-04-05 09:46:43,121 - General-Log - INFO - Total T: 14809 Episode Num: 720 Episode T: 28 Reward: 7.275 Memory Size: 14809
+2023-04-05 09:46:43,127 - General-Log - INFO - Total T: 14827 Episode Num: 721 Episode T: 18 Reward: -2.785 Memory Size: 14827
+2023-04-05 09:46:43,133 - General-Log - INFO - Total T: 14845 Episode Num: 722 Episode T: 18 Reward: 1.443 Memory Size: 14845
+2023-04-05 09:46:43,141 - General-Log - INFO - Total T: 14868 Episode Num: 723 Episode T: 23 Reward: 1.246 Memory Size: 14868
+2023-04-05 09:46:43,147 - General-Log - INFO - Total T: 14885 Episode Num: 724 Episode T: 17 Reward: 4.546 Memory Size: 14885
+2023-04-05 09:46:43,159 - General-Log - INFO - Total T: 14912 Episode Num: 725 Episode T: 27 Reward: 15.813 Memory Size: 14912
+2023-04-05 09:46:43,166 - General-Log - INFO - Total T: 14921 Episode Num: 726 Episode T: 9 Reward: -3.559 Memory Size: 14921
+2023-04-05 09:46:43,172 - General-Log - INFO - Total T: 14934 Episode Num: 727 Episode T: 13 Reward: 2.327 Memory Size: 14934
+2023-04-05 09:46:43,181 - General-Log - INFO - Total T: 14956 Episode Num: 728 Episode T: 22 Reward: -1.286 Memory Size: 14956
+2023-04-05 09:46:43,192 - General-Log - INFO - Total T: 14982 Episode Num: 729 Episode T: 26 Reward: 7.427 Memory Size: 14982
+2023-04-05 09:46:43,197 - General-Log - INFO - Total T: 14993 Episode Num: 730 Episode T: 11 Reward: -1.889 Memory Size: 14993
+2023-04-05 09:46:43,308 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:46:43,308 - General-Log - INFO - Evaluation over 6 episodes: 5.376
+2023-04-05 09:46:43,308 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:47:23,135 - General-Log - INFO - Total T: 15007 Episode Num: 731 Episode T: 14 Reward: 3.749 Memory Size: 15007
+2023-04-05 09:47:23,241 - General-Log - INFO - Total T: 15016 Episode Num: 732 Episode T: 9 Reward: -2.454 Memory Size: 15016
+2023-04-05 09:47:23,324 - General-Log - INFO - Total T: 15023 Episode Num: 733 Episode T: 7 Reward: -4.278 Memory Size: 15023
+2023-04-05 09:47:23,406 - General-Log - INFO - Total T: 15029 Episode Num: 734 Episode T: 6 Reward: -4.364 Memory Size: 15029
+2023-04-05 09:47:23,487 - General-Log - INFO - Total T: 15035 Episode Num: 735 Episode T: 6 Reward: -4.312 Memory Size: 15035
+2023-04-05 09:47:23,567 - General-Log - INFO - Total T: 15041 Episode Num: 736 Episode T: 6 Reward: -4.315 Memory Size: 15041
+2023-04-05 09:47:23,654 - General-Log - INFO - Total T: 15047 Episode Num: 737 Episode T: 6 Reward: -4.906 Memory Size: 15047
+2023-04-05 09:47:23,751 - General-Log - INFO - Total T: 15053 Episode Num: 738 Episode T: 6 Reward: -4.834 Memory Size: 15053
+2023-04-05 09:47:23,820 - General-Log - INFO - Total T: 15059 Episode Num: 739 Episode T: 6 Reward: -4.863 Memory Size: 15059
+2023-04-05 09:47:23,889 - General-Log - INFO - Total T: 15065 Episode Num: 740 Episode T: 6 Reward: -4.336 Memory Size: 15065
+2023-04-05 09:47:23,959 - General-Log - INFO - Total T: 15071 Episode Num: 741 Episode T: 6 Reward: -4.740 Memory Size: 15071
+2023-04-05 09:47:24,028 - General-Log - INFO - Total T: 15077 Episode Num: 742 Episode T: 6 Reward: -4.777 Memory Size: 15077
+2023-04-05 09:47:24,092 - General-Log - INFO - Total T: 15083 Episode Num: 743 Episode T: 6 Reward: -4.558 Memory Size: 15083
+2023-04-05 09:47:24,154 - General-Log - INFO - Total T: 15089 Episode Num: 744 Episode T: 6 Reward: -4.882 Memory Size: 15089
+2023-04-05 09:47:24,216 - General-Log - INFO - Total T: 15095 Episode Num: 745 Episode T: 6 Reward: -4.881 Memory Size: 15095
+2023-04-05 09:47:24,280 - General-Log - INFO - Total T: 15101 Episode Num: 746 Episode T: 6 Reward: -4.666 Memory Size: 15101
+2023-04-05 09:47:24,971 - General-Log - INFO - Total T: 15159 Episode Num: 747 Episode T: 58 Reward: -9.812 Memory Size: 15159
+2023-04-05 09:47:25,769 - General-Log - INFO - Total T: 15226 Episode Num: 748 Episode T: 67 Reward: -9.078 Memory Size: 15226
+2023-04-05 09:47:26,661 - General-Log - INFO - Total T: 15293 Episode Num: 749 Episode T: 67 Reward: -5.840 Memory Size: 15293
+2023-04-05 09:47:27,454 - General-Log - INFO - Total T: 15360 Episode Num: 750 Episode T: 67 Reward: -8.547 Memory Size: 15360
+2023-04-05 09:47:28,179 - General-Log - INFO - Total T: 15426 Episode Num: 751 Episode T: 66 Reward: -6.127 Memory Size: 15426
+2023-04-05 09:47:30,177 - General-Log - INFO - Total T: 15597 Episode Num: 752 Episode T: 171 Reward: 53.041 Memory Size: 15597
+2023-04-05 09:47:30,936 - General-Log - INFO - Total T: 15666 Episode Num: 753 Episode T: 69 Reward: -13.139 Memory Size: 15666
+2023-04-05 09:47:31,718 - General-Log - INFO - Total T: 15735 Episode Num: 754 Episode T: 69 Reward: -11.720 Memory Size: 15735
+2023-04-05 09:47:32,619 - General-Log - INFO - Total T: 15806 Episode Num: 755 Episode T: 71 Reward: -14.658 Memory Size: 15806
+2023-04-05 09:47:33,608 - General-Log - INFO - Total T: 15875 Episode Num: 756 Episode T: 69 Reward: -10.948 Memory Size: 15875
+2023-04-05 09:47:34,453 - General-Log - INFO - Total T: 15944 Episode Num: 757 Episode T: 69 Reward: -10.234 Memory Size: 15944
+2023-04-05 09:47:35,235 - General-Log - INFO - Total T: 16010 Episode Num: 758 Episode T: 66 Reward: -7.271 Memory Size: 16010
+2023-04-05 09:47:39,256 - General-Log - INFO - Total T: 16354 Episode Num: 759 Episode T: 344 Reward: 369.972 Memory Size: 16354
+2023-04-05 09:47:39,964 - General-Log - INFO - Total T: 16422 Episode Num: 760 Episode T: 68 Reward: 76.722 Memory Size: 16422
+2023-04-05 09:47:40,678 - General-Log - INFO - Total T: 16490 Episode Num: 761 Episode T: 68 Reward: 71.804 Memory Size: 16490
+2023-04-05 09:47:41,396 - General-Log - INFO - Total T: 16558 Episode Num: 762 Episode T: 68 Reward: 73.560 Memory Size: 16558
+2023-04-05 09:47:42,124 - General-Log - INFO - Total T: 16628 Episode Num: 763 Episode T: 70 Reward: 82.276 Memory Size: 16628
+2023-04-05 09:47:43,654 - General-Log - INFO - Total T: 16773 Episode Num: 764 Episode T: 145 Reward: 250.336 Memory Size: 16773
+2023-04-05 09:47:46,418 - General-Log - INFO - Total T: 17000 Episode Num: 765 Episode T: 227 Reward: 332.064 Memory Size: 17000
+2023-04-05 09:47:56,766 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:47:56,766 - General-Log - INFO - Evaluation over 6 episodes: 894.510
+2023-04-05 09:47:56,766 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:48:42,273 - General-Log - INFO - Total T: 18000 Episode Num: 766 Episode T: 1000 Reward: 1020.510 Memory Size: 18000
+2023-04-05 09:48:44,451 - General-Log - INFO - Total T: 18183 Episode Num: 767 Episode T: 183 Reward: 298.959 Memory Size: 18183
+2023-04-05 09:48:46,435 - General-Log - INFO - Total T: 18352 Episode Num: 768 Episode T: 169 Reward: 280.409 Memory Size: 18352
+2023-04-05 09:48:50,300 - General-Log - INFO - Total T: 18697 Episode Num: 769 Episode T: 345 Reward: 467.781 Memory Size: 18697
+2023-04-05 09:48:51,339 - General-Log - INFO - Total T: 18792 Episode Num: 770 Episode T: 95 Reward: 174.795 Memory Size: 18792
+2023-04-05 09:48:52,793 - General-Log - INFO - Total T: 18927 Episode Num: 771 Episode T: 135 Reward: 218.965 Memory Size: 18927
+2023-04-05 09:48:54,927 - General-Log - INFO - Total T: 19119 Episode Num: 772 Episode T: 192 Reward: 235.598 Memory Size: 19119
+2023-04-05 09:48:56,049 - General-Log - INFO - Total T: 19217 Episode Num: 773 Episode T: 98 Reward: 196.033 Memory Size: 19217
+2023-04-05 09:48:57,323 - General-Log - INFO - Total T: 19328 Episode Num: 774 Episode T: 111 Reward: 39.019 Memory Size: 19328
+2023-04-05 09:48:58,612 - General-Log - INFO - Total T: 19448 Episode Num: 775 Episode T: 120 Reward: 228.914 Memory Size: 19448
+2023-04-05 09:48:59,626 - General-Log - INFO - Total T: 19544 Episode Num: 776 Episode T: 96 Reward: 196.130 Memory Size: 19544
+2023-04-05 09:49:00,846 - General-Log - INFO - Total T: 19655 Episode Num: 777 Episode T: 111 Reward: 156.245 Memory Size: 19655
+2023-04-05 09:49:02,578 - General-Log - INFO - Total T: 19808 Episode Num: 778 Episode T: 153 Reward: 31.631 Memory Size: 19808
+2023-04-05 09:49:04,184 - General-Log - INFO - Total T: 19941 Episode Num: 779 Episode T: 133 Reward: 266.530 Memory Size: 19941
+2023-04-05 09:49:05,354 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:49:05,354 - General-Log - INFO - Evaluation over 6 episodes: 223.689
+2023-04-05 09:49:05,355 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:49:44,005 - General-Log - INFO - Total T: 20088 Episode Num: 780 Episode T: 147 Reward: 299.068 Memory Size: 20088
+2023-04-05 09:49:46,228 - General-Log - INFO - Total T: 20263 Episode Num: 781 Episode T: 175 Reward: 55.558 Memory Size: 20263
+2023-04-05 09:49:47,389 - General-Log - INFO - Total T: 20350 Episode Num: 782 Episode T: 87 Reward: -31.096 Memory Size: 20350
+2023-04-05 09:49:48,063 - General-Log - INFO - Total T: 20415 Episode Num: 783 Episode T: 65 Reward: -8.235 Memory Size: 20415
+2023-04-05 09:49:48,817 - General-Log - INFO - Total T: 20486 Episode Num: 784 Episode T: 71 Reward: -6.010 Memory Size: 20486
+2023-04-05 09:49:49,496 - General-Log - INFO - Total T: 20543 Episode Num: 785 Episode T: 57 Reward: -12.016 Memory Size: 20543
+2023-04-05 09:49:50,108 - General-Log - INFO - Total T: 20600 Episode Num: 786 Episode T: 57 Reward: -8.517 Memory Size: 20600
+2023-04-05 09:49:50,699 - General-Log - INFO - Total T: 20655 Episode Num: 787 Episode T: 55 Reward: -7.573 Memory Size: 20655
+2023-04-05 09:49:51,164 - General-Log - INFO - Total T: 20695 Episode Num: 788 Episode T: 40 Reward: -8.806 Memory Size: 20695
+2023-04-05 09:49:51,729 - General-Log - INFO - Total T: 20746 Episode Num: 789 Episode T: 51 Reward: -5.034 Memory Size: 20746
+2023-04-05 09:49:52,196 - General-Log - INFO - Total T: 20790 Episode Num: 790 Episode T: 44 Reward: -14.868 Memory Size: 20790
+2023-04-05 09:49:52,729 - General-Log - INFO - Total T: 20836 Episode Num: 791 Episode T: 46 Reward: -13.481 Memory Size: 20836
+2023-04-05 09:49:53,400 - General-Log - INFO - Total T: 20894 Episode Num: 792 Episode T: 58 Reward: -8.559 Memory Size: 20894
+2023-04-05 09:49:54,678 - General-Log - INFO - Total T: 21011 Episode Num: 793 Episode T: 117 Reward: -6.602 Memory Size: 21011
+2023-04-05 09:49:55,175 - General-Log - INFO - Total T: 21056 Episode Num: 794 Episode T: 45 Reward: -11.704 Memory Size: 21056
+2023-04-05 09:49:55,746 - General-Log - INFO - Total T: 21106 Episode Num: 795 Episode T: 50 Reward: -13.970 Memory Size: 21106
+2023-04-05 09:49:56,406 - General-Log - INFO - Total T: 21164 Episode Num: 796 Episode T: 58 Reward: -4.533 Memory Size: 21164
+2023-04-05 09:49:56,817 - General-Log - INFO - Total T: 21200 Episode Num: 797 Episode T: 36 Reward: -6.700 Memory Size: 21200
+2023-04-05 09:49:57,300 - General-Log - INFO - Total T: 21242 Episode Num: 798 Episode T: 42 Reward: -5.355 Memory Size: 21242
+2023-04-05 09:49:59,351 - General-Log - INFO - Total T: 21420 Episode Num: 799 Episode T: 178 Reward: 336.527 Memory Size: 21420
+2023-04-05 09:50:00,353 - General-Log - INFO - Total T: 21506 Episode Num: 800 Episode T: 86 Reward: -1.903 Memory Size: 21506
+2023-04-05 09:50:01,795 - General-Log - INFO - Total T: 21631 Episode Num: 801 Episode T: 125 Reward: 20.213 Memory Size: 21631
+2023-04-05 09:50:03,463 - General-Log - INFO - Total T: 21788 Episode Num: 802 Episode T: 157 Reward: 177.800 Memory Size: 21788
+2023-04-05 09:50:03,798 - General-Log - INFO - Total T: 21820 Episode Num: 803 Episode T: 32 Reward: 13.254 Memory Size: 21820
+2023-04-05 09:50:05,680 - General-Log - INFO - Total T: 21962 Episode Num: 804 Episode T: 142 Reward: 173.991 Memory Size: 21962
+2023-04-05 09:50:06,836 - General-Log - INFO - Total T: 22046 Episode Num: 805 Episode T: 84 Reward: 170.195 Memory Size: 22046
+2023-04-05 09:50:08,152 - General-Log - INFO - Total T: 22151 Episode Num: 806 Episode T: 105 Reward: 182.784 Memory Size: 22151
+2023-04-05 09:50:09,066 - General-Log - INFO - Total T: 22229 Episode Num: 807 Episode T: 78 Reward: 138.905 Memory Size: 22229
+2023-04-05 09:50:10,273 - General-Log - INFO - Total T: 22321 Episode Num: 808 Episode T: 92 Reward: 166.076 Memory Size: 22321
+2023-04-05 09:50:11,705 - General-Log - INFO - Total T: 22444 Episode Num: 809 Episode T: 123 Reward: 178.028 Memory Size: 22444
+2023-04-05 09:50:12,889 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:50:12,889 - General-Log - INFO - Evaluation over 6 episodes: 217.622
+2023-04-05 09:50:12,889 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:50:50,485 - General-Log - INFO - Total T: 22530 Episode Num: 810 Episode T: 86 Reward: 121.827 Memory Size: 22530
+2023-04-05 09:50:51,633 - General-Log - INFO - Total T: 22631 Episode Num: 811 Episode T: 101 Reward: 183.162 Memory Size: 22631
+2023-04-05 09:50:52,960 - General-Log - INFO - Total T: 22745 Episode Num: 812 Episode T: 114 Reward: 209.375 Memory Size: 22745
+2023-04-05 09:50:54,166 - General-Log - INFO - Total T: 22849 Episode Num: 813 Episode T: 104 Reward: 196.792 Memory Size: 22849
+2023-04-05 09:50:55,604 - General-Log - INFO - Total T: 22985 Episode Num: 814 Episode T: 136 Reward: 20.960 Memory Size: 22985
+2023-04-05 09:50:56,745 - General-Log - INFO - Total T: 23093 Episode Num: 815 Episode T: 108 Reward: 73.931 Memory Size: 23093
+2023-04-05 09:50:57,870 - General-Log - INFO - Total T: 23194 Episode Num: 816 Episode T: 101 Reward: 172.891 Memory Size: 23194
+2023-04-05 09:50:59,271 - General-Log - INFO - Total T: 23319 Episode Num: 817 Episode T: 125 Reward: 195.900 Memory Size: 23319
+2023-04-05 09:51:00,333 - General-Log - INFO - Total T: 23409 Episode Num: 818 Episode T: 90 Reward: 174.353 Memory Size: 23409
+2023-04-05 09:51:01,471 - General-Log - INFO - Total T: 23514 Episode Num: 819 Episode T: 105 Reward: 194.097 Memory Size: 23514
+2023-04-05 09:51:02,547 - General-Log - INFO - Total T: 23616 Episode Num: 820 Episode T: 102 Reward: 189.256 Memory Size: 23616
+2023-04-05 09:51:03,691 - General-Log - INFO - Total T: 23715 Episode Num: 821 Episode T: 99 Reward: -50.326 Memory Size: 23715
+2023-04-05 09:51:05,356 - General-Log - INFO - Total T: 23861 Episode Num: 822 Episode T: 146 Reward: 172.625 Memory Size: 23861
+2023-04-05 09:51:05,911 - General-Log - INFO - Total T: 23914 Episode Num: 823 Episode T: 53 Reward: 12.069 Memory Size: 23914
+2023-04-05 09:51:06,822 - General-Log - INFO - Total T: 24002 Episode Num: 824 Episode T: 88 Reward: 8.335 Memory Size: 24002
+2023-04-05 09:51:07,819 - General-Log - INFO - Total T: 24093 Episode Num: 825 Episode T: 91 Reward: 13.193 Memory Size: 24093
+2023-04-05 09:51:08,515 - General-Log - INFO - Total T: 24160 Episode Num: 826 Episode T: 67 Reward: -6.152 Memory Size: 24160
+2023-04-05 09:51:09,505 - General-Log - INFO - Total T: 24245 Episode Num: 827 Episode T: 85 Reward: 0.017 Memory Size: 24245
+2023-04-05 09:51:11,840 - General-Log - INFO - Total T: 24443 Episode Num: 828 Episode T: 198 Reward: 296.869 Memory Size: 24443
+2023-04-05 09:51:12,974 - General-Log - INFO - Total T: 24542 Episode Num: 829 Episode T: 99 Reward: 156.713 Memory Size: 24542
+2023-04-05 09:51:14,236 - General-Log - INFO - Total T: 24652 Episode Num: 830 Episode T: 110 Reward: 171.738 Memory Size: 24652
+2023-04-05 09:51:15,435 - General-Log - INFO - Total T: 24758 Episode Num: 831 Episode T: 106 Reward: 169.201 Memory Size: 24758
+2023-04-05 09:51:16,651 - General-Log - INFO - Total T: 24864 Episode Num: 832 Episode T: 106 Reward: 179.555 Memory Size: 24864
+2023-04-05 09:51:18,348 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:51:18,348 - General-Log - INFO - Evaluation over 6 episodes: 19.740
+2023-04-05 09:51:18,348 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:51:57,077 - General-Log - INFO - Total T: 25013 Episode Num: 833 Episode T: 149 Reward: 225.055 Memory Size: 25013
+2023-04-05 09:51:57,577 - General-Log - INFO - Total T: 25051 Episode Num: 834 Episode T: 38 Reward: 32.152 Memory Size: 25051
+2023-04-05 09:51:59,421 - General-Log - INFO - Total T: 25193 Episode Num: 835 Episode T: 142 Reward: 134.877 Memory Size: 25193
+2023-04-05 09:52:00,050 - General-Log - INFO - Total T: 25251 Episode Num: 836 Episode T: 58 Reward: -6.949 Memory Size: 25251
+2023-04-05 09:52:00,692 - General-Log - INFO - Total T: 25306 Episode Num: 837 Episode T: 55 Reward: 17.484 Memory Size: 25306
+2023-04-05 09:52:02,137 - General-Log - INFO - Total T: 25425 Episode Num: 838 Episode T: 119 Reward: 246.564 Memory Size: 25425
+2023-04-05 09:52:04,104 - General-Log - INFO - Total T: 25567 Episode Num: 839 Episode T: 142 Reward: 172.117 Memory Size: 25567
+2023-04-05 09:52:05,339 - General-Log - INFO - Total T: 25657 Episode Num: 840 Episode T: 90 Reward: 157.893 Memory Size: 25657
+2023-04-05 09:52:06,927 - General-Log - INFO - Total T: 25772 Episode Num: 841 Episode T: 115 Reward: -53.688 Memory Size: 25772
+2023-04-05 09:52:08,688 - General-Log - INFO - Total T: 25923 Episode Num: 842 Episode T: 151 Reward: 225.192 Memory Size: 25923
+2023-04-05 09:52:13,009 - General-Log - INFO - Total T: 26290 Episode Num: 843 Episode T: 367 Reward: 225.622 Memory Size: 26290
+2023-04-05 09:52:14,866 - General-Log - INFO - Total T: 26451 Episode Num: 844 Episode T: 161 Reward: 109.961 Memory Size: 26451
+2023-04-05 09:52:16,900 - General-Log - INFO - Total T: 26627 Episode Num: 845 Episode T: 176 Reward: 231.566 Memory Size: 26627
+2023-04-05 09:52:18,189 - General-Log - INFO - Total T: 26744 Episode Num: 846 Episode T: 117 Reward: 229.728 Memory Size: 26744
+2023-04-05 09:52:19,837 - General-Log - INFO - Total T: 26871 Episode Num: 847 Episode T: 127 Reward: 227.937 Memory Size: 26871
+2023-04-05 09:52:22,616 - General-Log - INFO - Total T: 27118 Episode Num: 848 Episode T: 247 Reward: 394.520 Memory Size: 27118
+2023-04-05 09:52:23,610 - General-Log - INFO - Total T: 27209 Episode Num: 849 Episode T: 91 Reward: 169.321 Memory Size: 27209
+2023-04-05 09:52:25,080 - General-Log - INFO - Total T: 27331 Episode Num: 850 Episode T: 122 Reward: 193.656 Memory Size: 27331
+2023-04-05 09:52:27,687 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:52:27,688 - General-Log - INFO - Evaluation over 6 episodes: 186.152
+2023-04-05 09:52:27,688 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:53:06,714 - General-Log - INFO - Total T: 27569 Episode Num: 851 Episode T: 238 Reward: 89.138 Memory Size: 27569
+2023-04-05 09:53:10,178 - General-Log - INFO - Total T: 27855 Episode Num: 852 Episode T: 286 Reward: 538.132 Memory Size: 27855
+2023-04-05 09:53:11,112 - General-Log - INFO - Total T: 27933 Episode Num: 853 Episode T: 78 Reward: 34.966 Memory Size: 27933
+2023-04-05 09:53:13,588 - General-Log - INFO - Total T: 28158 Episode Num: 854 Episode T: 225 Reward: 212.159 Memory Size: 28158
+2023-04-05 09:53:15,776 - General-Log - INFO - Total T: 28344 Episode Num: 855 Episode T: 186 Reward: 176.242 Memory Size: 28344
+2023-04-05 09:53:19,465 - General-Log - INFO - Total T: 28688 Episode Num: 856 Episode T: 344 Reward: 142.786 Memory Size: 28688
+2023-04-05 09:53:20,828 - General-Log - INFO - Total T: 28814 Episode Num: 857 Episode T: 126 Reward: 151.582 Memory Size: 28814
+2023-04-05 09:53:22,270 - General-Log - INFO - Total T: 28941 Episode Num: 858 Episode T: 127 Reward: -8.601 Memory Size: 28941
+2023-04-05 09:53:24,527 - General-Log - INFO - Total T: 29114 Episode Num: 859 Episode T: 173 Reward: 267.390 Memory Size: 29114
+2023-04-05 09:53:25,727 - General-Log - INFO - Total T: 29207 Episode Num: 860 Episode T: 93 Reward: 184.383 Memory Size: 29207
+2023-04-05 09:53:27,101 - General-Log - INFO - Total T: 29326 Episode Num: 861 Episode T: 119 Reward: 180.251 Memory Size: 29326
+2023-04-05 09:53:28,279 - General-Log - INFO - Total T: 29431 Episode Num: 862 Episode T: 105 Reward: 165.583 Memory Size: 29431
+2023-04-05 09:53:29,401 - General-Log - INFO - Total T: 29525 Episode Num: 863 Episode T: 94 Reward: 190.381 Memory Size: 29525
+2023-04-05 09:53:31,145 - General-Log - INFO - Total T: 29666 Episode Num: 864 Episode T: 141 Reward: -23.003 Memory Size: 29666
+2023-04-05 09:53:32,232 - General-Log - INFO - Total T: 29754 Episode Num: 865 Episode T: 88 Reward: -58.208 Memory Size: 29754
+2023-04-05 09:53:33,016 - General-Log - INFO - Total T: 29827 Episode Num: 866 Episode T: 73 Reward: -23.285 Memory Size: 29827
+2023-04-05 09:53:33,834 - General-Log - INFO - Total T: 29896 Episode Num: 867 Episode T: 69 Reward: -11.124 Memory Size: 29896
+2023-04-05 09:53:34,574 - General-Log - INFO - Total T: 29961 Episode Num: 868 Episode T: 65 Reward: -15.488 Memory Size: 29961
+2023-04-05 09:53:35,270 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:53:35,270 - General-Log - INFO - Evaluation over 6 episodes: -9.460
+2023-04-05 09:53:35,270 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:54:13,256 - General-Log - INFO - Total T: 30029 Episode Num: 869 Episode T: 68 Reward: 0.222 Memory Size: 30029
+2023-04-05 09:54:13,878 - General-Log - INFO - Total T: 30086 Episode Num: 870 Episode T: 57 Reward: -13.528 Memory Size: 30086
+2023-04-05 09:54:14,505 - General-Log - INFO - Total T: 30144 Episode Num: 871 Episode T: 58 Reward: -13.687 Memory Size: 30144
+2023-04-05 09:54:15,137 - General-Log - INFO - Total T: 30200 Episode Num: 872 Episode T: 56 Reward: -10.626 Memory Size: 30200
+2023-04-05 09:54:15,726 - General-Log - INFO - Total T: 30257 Episode Num: 873 Episode T: 57 Reward: -6.079 Memory Size: 30257
+2023-04-05 09:54:16,661 - General-Log - INFO - Total T: 30346 Episode Num: 874 Episode T: 89 Reward: 31.100 Memory Size: 30346
+2023-04-05 09:54:23,871 - General-Log - INFO - Total T: 30948 Episode Num: 875 Episode T: 602 Reward: 425.631 Memory Size: 30948
+2023-04-05 09:54:35,979 - General-Log - INFO - Total T: 31948 Episode Num: 876 Episode T: 1000 Reward: 751.647 Memory Size: 31948
+2023-04-05 09:54:36,649 - General-Log - INFO - Total T: 32004 Episode Num: 877 Episode T: 56 Reward: 4.659 Memory Size: 32004
+2023-04-05 09:54:40,831 - General-Log - INFO - Total T: 32328 Episode Num: 878 Episode T: 324 Reward: 322.632 Memory Size: 32328
+2023-04-05 09:54:41,583 - General-Log - INFO - Total T: 32386 Episode Num: 879 Episode T: 58 Reward: 9.156 Memory Size: 32386
+2023-04-05 09:54:44,716 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:54:44,717 - General-Log - INFO - Evaluation over 6 episodes: 392.198
+2023-04-05 09:54:44,717 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:55:30,462 - General-Log - INFO - Total T: 33033 Episode Num: 880 Episode T: 647 Reward: 529.163 Memory Size: 33033
+2023-04-05 09:55:33,374 - General-Log - INFO - Total T: 33290 Episode Num: 881 Episode T: 257 Reward: 131.570 Memory Size: 33290
+2023-04-05 09:55:35,364 - General-Log - INFO - Total T: 33458 Episode Num: 882 Episode T: 168 Reward: 14.429 Memory Size: 33458
+2023-04-05 09:55:36,512 - General-Log - INFO - Total T: 33561 Episode Num: 883 Episode T: 103 Reward: -10.756 Memory Size: 33561
+2023-04-05 09:55:38,257 - General-Log - INFO - Total T: 33713 Episode Num: 884 Episode T: 152 Reward: 47.963 Memory Size: 33713
+2023-04-05 09:55:49,623 - General-Log - INFO - Total T: 34713 Episode Num: 885 Episode T: 1000 Reward: 488.087 Memory Size: 34713
+2023-04-05 09:55:51,193 - General-Log - INFO - Total T: 34859 Episode Num: 886 Episode T: 146 Reward: 248.020 Memory Size: 34859
+2023-04-05 09:55:52,469 - General-Log - INFO - Total T: 34976 Episode Num: 887 Episode T: 117 Reward: 199.603 Memory Size: 34976
+2023-04-05 09:55:52,839 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:55:52,839 - General-Log - INFO - Evaluation over 6 episodes: 10.880
+2023-04-05 09:55:52,839 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:56:33,973 - General-Log - INFO - Total T: 35153 Episode Num: 888 Episode T: 177 Reward: 254.911 Memory Size: 35153
+2023-04-05 09:56:39,451 - General-Log - INFO - Total T: 35644 Episode Num: 889 Episode T: 491 Reward: 134.588 Memory Size: 35644
+2023-04-05 09:56:40,389 - General-Log - INFO - Total T: 35728 Episode Num: 890 Episode T: 84 Reward: 114.716 Memory Size: 35728
+2023-04-05 09:56:41,714 - General-Log - INFO - Total T: 35844 Episode Num: 891 Episode T: 116 Reward: -20.876 Memory Size: 35844
+2023-04-05 09:56:43,453 - General-Log - INFO - Total T: 35996 Episode Num: 892 Episode T: 152 Reward: 2.600 Memory Size: 35996
+2023-04-05 09:56:43,835 - General-Log - INFO - Total T: 36033 Episode Num: 893 Episode T: 37 Reward: -10.308 Memory Size: 36033
+2023-04-05 09:56:44,929 - General-Log - INFO - Total T: 36135 Episode Num: 894 Episode T: 102 Reward: -45.107 Memory Size: 36135
+2023-04-05 09:56:49,222 - General-Log - INFO - Total T: 36532 Episode Num: 895 Episode T: 397 Reward: 104.821 Memory Size: 36532
+2023-04-05 09:56:58,009 - General-Log - INFO - Total T: 37294 Episode Num: 896 Episode T: 762 Reward: 729.457 Memory Size: 37294
+2023-04-05 09:56:58,896 - General-Log - INFO - Total T: 37357 Episode Num: 897 Episode T: 63 Reward: 80.180 Memory Size: 37357
+2023-04-05 09:57:01,386 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:57:01,386 - General-Log - INFO - Evaluation over 6 episodes: 152.613
+2023-04-05 09:57:01,386 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:57:44,220 - General-Log - INFO - Total T: 37678 Episode Num: 898 Episode T: 321 Reward: 302.099 Memory Size: 37678
+2023-04-05 09:57:46,223 - General-Log - INFO - Total T: 37869 Episode Num: 899 Episode T: 191 Reward: 200.265 Memory Size: 37869
+2023-04-05 09:57:51,430 - General-Log - INFO - Total T: 38332 Episode Num: 900 Episode T: 463 Reward: 372.638 Memory Size: 38332
+2023-04-05 09:57:51,924 - General-Log - INFO - Total T: 38379 Episode Num: 901 Episode T: 47 Reward: 25.760 Memory Size: 38379
+2023-04-05 09:57:55,717 - General-Log - INFO - Total T: 38720 Episode Num: 902 Episode T: 341 Reward: 411.387 Memory Size: 38720
+2023-04-05 09:57:57,228 - General-Log - INFO - Total T: 38843 Episode Num: 903 Episode T: 123 Reward: 1.636 Memory Size: 38843
+2023-04-05 09:57:58,185 - General-Log - INFO - Total T: 38926 Episode Num: 904 Episode T: 83 Reward: -11.255 Memory Size: 38926
+2023-04-05 09:57:59,754 - General-Log - INFO - Total T: 39072 Episode Num: 905 Episode T: 146 Reward: -54.560 Memory Size: 39072
+2023-04-05 09:58:06,643 - General-Log - INFO - Total T: 39655 Episode Num: 906 Episode T: 583 Reward: 423.274 Memory Size: 39655
+2023-04-05 09:58:13,268 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:58:13,269 - General-Log - INFO - Evaluation over 6 episodes: 733.006
+2023-04-05 09:58:13,269 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:58:54,393 - General-Log - INFO - Total T: 40325 Episode Num: 907 Episode T: 670 Reward: 654.413 Memory Size: 40325
+2023-04-05 09:58:55,818 - General-Log - INFO - Total T: 40440 Episode Num: 908 Episode T: 115 Reward: 24.292 Memory Size: 40440
+2023-04-05 09:58:58,851 - General-Log - INFO - Total T: 40702 Episode Num: 909 Episode T: 262 Reward: -45.087 Memory Size: 40702
+2023-04-05 09:59:00,483 - General-Log - INFO - Total T: 40851 Episode Num: 910 Episode T: 149 Reward: 187.998 Memory Size: 40851
+2023-04-05 09:59:01,528 - General-Log - INFO - Total T: 40933 Episode Num: 911 Episode T: 82 Reward: 77.208 Memory Size: 40933
+2023-04-05 09:59:02,888 - General-Log - INFO - Total T: 41056 Episode Num: 912 Episode T: 123 Reward: 146.718 Memory Size: 41056
+2023-04-05 09:59:03,422 - General-Log - INFO - Total T: 41106 Episode Num: 913 Episode T: 50 Reward: 40.986 Memory Size: 41106
+2023-04-05 09:59:04,582 - General-Log - INFO - Total T: 41206 Episode Num: 914 Episode T: 100 Reward: -9.476 Memory Size: 41206
+2023-04-05 09:59:05,958 - General-Log - INFO - Total T: 41320 Episode Num: 915 Episode T: 114 Reward: -53.976 Memory Size: 41320
+2023-04-05 09:59:08,945 - General-Log - INFO - Total T: 41574 Episode Num: 916 Episode T: 254 Reward: 374.850 Memory Size: 41574
+2023-04-05 09:59:09,325 - General-Log - INFO - Total T: 41606 Episode Num: 917 Episode T: 32 Reward: -10.585 Memory Size: 41606
+2023-04-05 09:59:09,751 - General-Log - INFO - Total T: 41641 Episode Num: 918 Episode T: 35 Reward: -9.311 Memory Size: 41641
+2023-04-05 09:59:10,473 - General-Log - INFO - Total T: 41698 Episode Num: 919 Episode T: 57 Reward: -9.559 Memory Size: 41698
+2023-04-05 09:59:12,679 - General-Log - INFO - Total T: 41893 Episode Num: 920 Episode T: 195 Reward: 152.061 Memory Size: 41893
+2023-04-05 09:59:14,767 - General-Log - INFO - Total T: 42083 Episode Num: 921 Episode T: 190 Reward: 359.255 Memory Size: 42083
+2023-04-05 09:59:15,930 - General-Log - INFO - Total T: 42187 Episode Num: 922 Episode T: 104 Reward: 42.898 Memory Size: 42187
+2023-04-05 09:59:17,214 - General-Log - INFO - Total T: 42300 Episode Num: 923 Episode T: 113 Reward: 16.799 Memory Size: 42300
+2023-04-05 09:59:17,692 - General-Log - INFO - Total T: 42344 Episode Num: 924 Episode T: 44 Reward: 29.274 Memory Size: 42344
+2023-04-05 09:59:18,502 - General-Log - INFO - Total T: 42415 Episode Num: 925 Episode T: 71 Reward: 62.881 Memory Size: 42415
+2023-04-05 09:59:21,046 - General-Log - INFO - ---------------------------------------
+2023-04-05 09:59:21,047 - General-Log - INFO - Evaluation over 6 episodes: 368.797
+2023-04-05 09:59:21,047 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:00:03,955 - General-Log - INFO - Total T: 43000 Episode Num: 926 Episode T: 585 Reward: 649.660 Memory Size: 43000
+2023-04-05 10:00:07,435 - General-Log - INFO - Total T: 43297 Episode Num: 927 Episode T: 297 Reward: 204.259 Memory Size: 43297
+2023-04-05 10:00:09,525 - General-Log - INFO - Total T: 43468 Episode Num: 928 Episode T: 171 Reward: 51.901 Memory Size: 43468
+2023-04-05 10:00:10,604 - General-Log - INFO - Total T: 43569 Episode Num: 929 Episode T: 101 Reward: 169.258 Memory Size: 43569
+2023-04-05 10:00:12,131 - General-Log - INFO - Total T: 43702 Episode Num: 930 Episode T: 133 Reward: 204.394 Memory Size: 43702
+2023-04-05 10:00:15,476 - General-Log - INFO - Total T: 43981 Episode Num: 931 Episode T: 279 Reward: 138.884 Memory Size: 43981
+2023-04-05 10:00:19,857 - General-Log - INFO - Total T: 44323 Episode Num: 932 Episode T: 342 Reward: 316.713 Memory Size: 44323
+2023-04-05 10:00:21,513 - General-Log - INFO - Total T: 44466 Episode Num: 933 Episode T: 143 Reward: 281.341 Memory Size: 44466
+2023-04-05 10:00:23,846 - General-Log - INFO - Total T: 44678 Episode Num: 934 Episode T: 212 Reward: 56.932 Memory Size: 44678
+2023-04-05 10:00:26,600 - General-Log - INFO - Total T: 44921 Episode Num: 935 Episode T: 243 Reward: 371.920 Memory Size: 44921
+2023-04-05 10:00:28,391 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:00:28,391 - General-Log - INFO - Evaluation over 6 episodes: 125.133
+2023-04-05 10:00:28,392 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:01:07,432 - General-Log - INFO - Total T: 45093 Episode Num: 936 Episode T: 172 Reward: 187.208 Memory Size: 45093
+2023-04-05 10:01:11,172 - General-Log - INFO - Total T: 45378 Episode Num: 937 Episode T: 285 Reward: 176.908 Memory Size: 45378
+2023-04-05 10:01:12,533 - General-Log - INFO - Total T: 45487 Episode Num: 938 Episode T: 109 Reward: 232.612 Memory Size: 45487
+2023-04-05 10:01:14,147 - General-Log - INFO - Total T: 45599 Episode Num: 939 Episode T: 112 Reward: 146.271 Memory Size: 45599
+2023-04-05 10:01:16,022 - General-Log - INFO - Total T: 45749 Episode Num: 940 Episode T: 150 Reward: 266.669 Memory Size: 45749
+2023-04-05 10:01:17,421 - General-Log - INFO - Total T: 45867 Episode Num: 941 Episode T: 118 Reward: -40.760 Memory Size: 45867
+2023-04-05 10:01:19,337 - General-Log - INFO - Total T: 46013 Episode Num: 942 Episode T: 146 Reward: 238.311 Memory Size: 46013
+2023-04-05 10:01:23,083 - General-Log - INFO - Total T: 46330 Episode Num: 943 Episode T: 317 Reward: 103.318 Memory Size: 46330
+2023-04-05 10:01:24,412 - General-Log - INFO - Total T: 46453 Episode Num: 944 Episode T: 123 Reward: 205.059 Memory Size: 46453
+2023-04-05 10:01:28,688 - General-Log - INFO - Total T: 46786 Episode Num: 945 Episode T: 333 Reward: 184.278 Memory Size: 46786
+2023-04-05 10:01:31,155 - General-Log - INFO - Total T: 46987 Episode Num: 946 Episode T: 201 Reward: 229.352 Memory Size: 46987
+2023-04-05 10:01:34,635 - General-Log - INFO - Total T: 47310 Episode Num: 947 Episode T: 323 Reward: 185.006 Memory Size: 47310
+2023-04-05 10:01:40,711 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:01:40,714 - General-Log - INFO - Evaluation over 6 episodes: 831.121
+2023-04-05 10:01:40,714 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:02:23,482 - General-Log - INFO - Total T: 48053 Episode Num: 948 Episode T: 743 Reward: 727.224 Memory Size: 48053
+2023-04-05 10:02:25,638 - General-Log - INFO - Total T: 48246 Episode Num: 949 Episode T: 193 Reward: 127.513 Memory Size: 48246
+2023-04-05 10:02:27,635 - General-Log - INFO - Total T: 48419 Episode Num: 950 Episode T: 173 Reward: -35.748 Memory Size: 48419
+2023-04-05 10:02:28,727 - General-Log - INFO - Total T: 48517 Episode Num: 951 Episode T: 98 Reward: 58.170 Memory Size: 48517
+2023-04-05 10:02:32,079 - General-Log - INFO - Total T: 48823 Episode Num: 952 Episode T: 306 Reward: 339.420 Memory Size: 48823
+2023-04-05 10:02:33,450 - General-Log - INFO - Total T: 48940 Episode Num: 953 Episode T: 117 Reward: 148.501 Memory Size: 48940
+2023-04-05 10:02:34,754 - General-Log - INFO - Total T: 49064 Episode Num: 954 Episode T: 124 Reward: 48.911 Memory Size: 49064
+2023-04-05 10:02:42,464 - General-Log - INFO - Total T: 49723 Episode Num: 955 Episode T: 659 Reward: 645.851 Memory Size: 49723
+2023-04-05 10:02:43,738 - General-Log - INFO - Total T: 49837 Episode Num: 956 Episode T: 114 Reward: -3.076 Memory Size: 49837
+2023-04-05 10:02:45,496 - General-Log - INFO - Total T: 49994 Episode Num: 957 Episode T: 157 Reward: 264.824 Memory Size: 49994
+2023-04-05 10:02:46,134 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:02:46,134 - General-Log - INFO - Evaluation over 6 episodes: 15.635
+2023-04-05 10:02:46,134 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:03:28,756 - General-Log - INFO - Total T: 50470 Episode Num: 958 Episode T: 476 Reward: 528.239 Memory Size: 50470
+2023-04-05 10:03:30,774 - General-Log - INFO - Total T: 50642 Episode Num: 959 Episode T: 172 Reward: 301.256 Memory Size: 50642
+2023-04-05 10:03:31,846 - General-Log - INFO - Total T: 50736 Episode Num: 960 Episode T: 94 Reward: 168.439 Memory Size: 50736
+2023-04-05 10:03:32,625 - General-Log - INFO - Total T: 50803 Episode Num: 961 Episode T: 67 Reward: 109.214 Memory Size: 50803
+2023-04-05 10:03:33,924 - General-Log - INFO - Total T: 50908 Episode Num: 962 Episode T: 105 Reward: 181.943 Memory Size: 50908
+2023-04-05 10:03:36,270 - General-Log - INFO - Total T: 51099 Episode Num: 963 Episode T: 191 Reward: 21.355 Memory Size: 51099
+2023-04-05 10:03:39,893 - General-Log - INFO - Total T: 51415 Episode Num: 964 Episode T: 316 Reward: 111.180 Memory Size: 51415
+2023-04-05 10:03:41,370 - General-Log - INFO - Total T: 51544 Episode Num: 965 Episode T: 129 Reward: 11.453 Memory Size: 51544
+2023-04-05 10:03:42,728 - General-Log - INFO - Total T: 51670 Episode Num: 966 Episode T: 126 Reward: 208.248 Memory Size: 51670
+2023-04-05 10:03:45,370 - General-Log - INFO - Total T: 51897 Episode Num: 967 Episode T: 227 Reward: 242.663 Memory Size: 51897
+2023-04-05 10:03:46,991 - General-Log - INFO - Total T: 52032 Episode Num: 968 Episode T: 135 Reward: 6.518 Memory Size: 52032
+2023-04-05 10:03:48,636 - General-Log - INFO - Total T: 52178 Episode Num: 969 Episode T: 146 Reward: 2.198 Memory Size: 52178
+2023-04-05 10:03:55,011 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:03:55,012 - General-Log - INFO - Evaluation over 6 episodes: 569.293
+2023-04-05 10:03:55,012 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:04:37,921 - General-Log - INFO - Total T: 53178 Episode Num: 970 Episode T: 1000 Reward: 964.246 Memory Size: 53178
+2023-04-05 10:04:40,249 - General-Log - INFO - Total T: 53375 Episode Num: 971 Episode T: 197 Reward: 299.943 Memory Size: 53375
+2023-04-05 10:04:41,836 - General-Log - INFO - Total T: 53509 Episode Num: 972 Episode T: 134 Reward: 100.973 Memory Size: 53509
+2023-04-05 10:04:43,717 - General-Log - INFO - Total T: 53671 Episode Num: 973 Episode T: 162 Reward: 236.109 Memory Size: 53671
+2023-04-05 10:04:55,298 - General-Log - INFO - Total T: 54671 Episode Num: 974 Episode T: 1000 Reward: 924.088 Memory Size: 54671
+2023-04-05 10:04:56,884 - General-Log - INFO - Total T: 54816 Episode Num: 975 Episode T: 145 Reward: 185.735 Memory Size: 54816
+2023-04-05 10:04:57,348 - General-Log - INFO - Total T: 54861 Episode Num: 976 Episode T: 45 Reward: -14.349 Memory Size: 54861
+2023-04-05 10:04:59,222 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:04:59,223 - General-Log - INFO - Evaluation over 6 episodes: -13.974
+2023-04-05 10:04:59,223 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:05:38,196 - General-Log - INFO - Total T: 55091 Episode Num: 977 Episode T: 230 Reward: 101.417 Memory Size: 55091
+2023-04-05 10:05:39,361 - General-Log - INFO - Total T: 55189 Episode Num: 978 Episode T: 98 Reward: -21.472 Memory Size: 55189
+2023-04-05 10:05:40,469 - General-Log - INFO - Total T: 55289 Episode Num: 979 Episode T: 100 Reward: 71.894 Memory Size: 55289
+2023-04-05 10:05:41,929 - General-Log - INFO - Total T: 55420 Episode Num: 980 Episode T: 131 Reward: 13.680 Memory Size: 55420
+2023-04-05 10:05:42,610 - General-Log - INFO - Total T: 55486 Episode Num: 981 Episode T: 66 Reward: 64.149 Memory Size: 55486
+2023-04-05 10:05:42,785 - General-Log - INFO - Total T: 55503 Episode Num: 982 Episode T: 17 Reward: -14.649 Memory Size: 55503
+2023-04-05 10:05:42,960 - General-Log - INFO - Total T: 55520 Episode Num: 983 Episode T: 17 Reward: -14.277 Memory Size: 55520
+2023-04-05 10:05:44,937 - General-Log - INFO - Total T: 55705 Episode Num: 984 Episode T: 185 Reward: 62.675 Memory Size: 55705
+2023-04-05 10:05:46,607 - General-Log - INFO - Total T: 55844 Episode Num: 985 Episode T: 139 Reward: 74.286 Memory Size: 55844
+2023-04-05 10:05:49,437 - General-Log - INFO - Total T: 56084 Episode Num: 986 Episode T: 240 Reward: 215.001 Memory Size: 56084
+2023-04-05 10:05:55,767 - General-Log - INFO - Total T: 56612 Episode Num: 987 Episode T: 528 Reward: 509.635 Memory Size: 56612
+2023-04-05 10:05:57,841 - General-Log - INFO - Total T: 56797 Episode Num: 988 Episode T: 185 Reward: 326.132 Memory Size: 56797
+2023-04-05 10:06:00,799 - General-Log - INFO - Total T: 57078 Episode Num: 989 Episode T: 281 Reward: 350.089 Memory Size: 57078
+2023-04-05 10:06:03,352 - General-Log - INFO - Total T: 57305 Episode Num: 990 Episode T: 227 Reward: 230.490 Memory Size: 57305
+2023-04-05 10:06:04,145 - General-Log - INFO - Total T: 57381 Episode Num: 991 Episode T: 76 Reward: 22.206 Memory Size: 57381
+2023-04-05 10:06:06,976 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:06:06,977 - General-Log - INFO - Evaluation over 6 episodes: 61.832
+2023-04-05 10:06:06,977 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:06:45,116 - General-Log - INFO - Total T: 57547 Episode Num: 992 Episode T: 166 Reward: -100.654 Memory Size: 57547
+2023-04-05 10:06:51,007 - General-Log - INFO - Total T: 58065 Episode Num: 993 Episode T: 518 Reward: 216.713 Memory Size: 58065
+2023-04-05 10:06:53,307 - General-Log - INFO - Total T: 58280 Episode Num: 994 Episode T: 215 Reward: 283.725 Memory Size: 58280
+2023-04-05 10:06:59,238 - General-Log - INFO - Total T: 58755 Episode Num: 995 Episode T: 475 Reward: 725.033 Memory Size: 58755
+2023-04-05 10:07:00,345 - General-Log - INFO - Total T: 58840 Episode Num: 996 Episode T: 85 Reward: 169.412 Memory Size: 58840
+2023-04-05 10:07:04,573 - General-Log - INFO - Total T: 59175 Episode Num: 997 Episode T: 335 Reward: 188.696 Memory Size: 59175
+2023-04-05 10:07:05,929 - General-Log - INFO - Total T: 59296 Episode Num: 998 Episode T: 121 Reward: 202.280 Memory Size: 59296
+2023-04-05 10:07:06,984 - General-Log - INFO - Total T: 59393 Episode Num: 999 Episode T: 97 Reward: 133.656 Memory Size: 59393
+2023-04-05 10:07:08,498 - General-Log - INFO - Total T: 59522 Episode Num: 1000 Episode T: 129 Reward: 295.377 Memory Size: 59522
+2023-04-05 10:07:10,077 - General-Log - INFO - Total T: 59638 Episode Num: 1001 Episode T: 116 Reward: 205.213 Memory Size: 59638
+2023-04-05 10:07:11,978 - General-Log - INFO - Total T: 59812 Episode Num: 1002 Episode T: 174 Reward: 282.123 Memory Size: 59812
+2023-04-05 10:07:13,594 - General-Log - INFO - Total T: 59961 Episode Num: 1003 Episode T: 149 Reward: 297.387 Memory Size: 59961
+2023-04-05 10:07:14,586 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:07:14,586 - General-Log - INFO - Evaluation over 6 episodes: 12.603
+2023-04-05 10:07:14,586 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:07:54,245 - General-Log - INFO - Total T: 60147 Episode Num: 1004 Episode T: 186 Reward: 11.816 Memory Size: 60147
+2023-04-05 10:07:55,795 - General-Log - INFO - Total T: 60286 Episode Num: 1005 Episode T: 139 Reward: 240.568 Memory Size: 60286
+2023-04-05 10:07:57,944 - General-Log - INFO - Total T: 60486 Episode Num: 1006 Episode T: 200 Reward: 102.718 Memory Size: 60486
+2023-04-05 10:08:10,048 - General-Log - INFO - Total T: 61486 Episode Num: 1007 Episode T: 1000 Reward: 872.349 Memory Size: 61486
+2023-04-05 10:08:21,596 - General-Log - INFO - Total T: 62486 Episode Num: 1008 Episode T: 1000 Reward: 1047.256 Memory Size: 62486
+2023-04-05 10:08:22,075 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:08:22,076 - General-Log - INFO - Evaluation over 6 episodes: 172.720
+2023-04-05 10:08:22,076 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:09:00,319 - General-Log - INFO - Total T: 62582 Episode Num: 1009 Episode T: 96 Reward: 162.230 Memory Size: 62582
+2023-04-05 10:09:01,196 - General-Log - INFO - Total T: 62662 Episode Num: 1010 Episode T: 80 Reward: 132.936 Memory Size: 62662
+2023-04-05 10:09:03,405 - General-Log - INFO - Total T: 62866 Episode Num: 1011 Episode T: 204 Reward: 55.879 Memory Size: 62866
+2023-04-05 10:09:06,507 - General-Log - INFO - Total T: 63148 Episode Num: 1012 Episode T: 282 Reward: 132.662 Memory Size: 63148
+2023-04-05 10:09:10,447 - General-Log - INFO - Total T: 63515 Episode Num: 1013 Episode T: 367 Reward: 319.461 Memory Size: 63515
+2023-04-05 10:09:11,604 - General-Log - INFO - Total T: 63615 Episode Num: 1014 Episode T: 100 Reward: 54.205 Memory Size: 63615
+2023-04-05 10:09:22,503 - General-Log - INFO - Total T: 64615 Episode Num: 1015 Episode T: 1000 Reward: 818.426 Memory Size: 64615
+2023-04-05 10:09:26,331 - General-Log - INFO - Total T: 64923 Episode Num: 1016 Episode T: 308 Reward: 410.517 Memory Size: 64923
+2023-04-05 10:09:28,766 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:09:28,767 - General-Log - INFO - Evaluation over 6 episodes: 231.753
+2023-04-05 10:09:28,767 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:10:07,061 - General-Log - INFO - Total T: 65056 Episode Num: 1017 Episode T: 133 Reward: 234.584 Memory Size: 65056
+2023-04-05 10:10:08,874 - General-Log - INFO - Total T: 65216 Episode Num: 1018 Episode T: 160 Reward: -27.703 Memory Size: 65216
+2023-04-05 10:10:10,124 - General-Log - INFO - Total T: 65330 Episode Num: 1019 Episode T: 114 Reward: 185.726 Memory Size: 65330
+2023-04-05 10:10:12,402 - General-Log - INFO - Total T: 65511 Episode Num: 1020 Episode T: 181 Reward: 180.310 Memory Size: 65511
+2023-04-05 10:10:14,905 - General-Log - INFO - Total T: 65717 Episode Num: 1021 Episode T: 206 Reward: 266.616 Memory Size: 65717
+2023-04-05 10:10:18,187 - General-Log - INFO - Total T: 66010 Episode Num: 1022 Episode T: 293 Reward: 232.176 Memory Size: 66010
+2023-04-05 10:10:24,663 - General-Log - INFO - Total T: 66519 Episode Num: 1023 Episode T: 509 Reward: 397.579 Memory Size: 66519
+2023-04-05 10:10:29,197 - General-Log - INFO - Total T: 66897 Episode Num: 1024 Episode T: 378 Reward: 467.630 Memory Size: 66897
+2023-04-05 10:10:30,034 - General-Log - INFO - Total T: 66963 Episode Num: 1025 Episode T: 66 Reward: 56.144 Memory Size: 66963
+2023-04-05 10:10:31,287 - General-Log - INFO - Total T: 67061 Episode Num: 1026 Episode T: 98 Reward: 84.137 Memory Size: 67061
+2023-04-05 10:10:35,997 - General-Log - INFO - Total T: 67469 Episode Num: 1027 Episode T: 408 Reward: 576.578 Memory Size: 67469
+2023-04-05 10:10:37,000 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:10:37,001 - General-Log - INFO - Evaluation over 6 episodes: 299.019
+2023-04-05 10:10:37,001 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:11:17,122 - General-Log - INFO - Total T: 67759 Episode Num: 1028 Episode T: 290 Reward: 345.585 Memory Size: 67759
+2023-04-05 10:11:18,892 - General-Log - INFO - Total T: 67927 Episode Num: 1029 Episode T: 168 Reward: -63.306 Memory Size: 67927
+2023-04-05 10:11:20,888 - General-Log - INFO - Total T: 68113 Episode Num: 1030 Episode T: 186 Reward: 37.656 Memory Size: 68113
+2023-04-05 10:11:32,051 - General-Log - INFO - Total T: 69113 Episode Num: 1031 Episode T: 1000 Reward: 902.322 Memory Size: 69113
+2023-04-05 10:11:33,878 - General-Log - INFO - Total T: 69289 Episode Num: 1032 Episode T: 176 Reward: 25.923 Memory Size: 69289
+2023-04-05 10:11:39,680 - General-Log - INFO - Total T: 69818 Episode Num: 1033 Episode T: 529 Reward: 597.158 Memory Size: 69818
+2023-04-05 10:11:43,452 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:11:43,453 - General-Log - INFO - Evaluation over 6 episodes: 245.486
+2023-04-05 10:11:43,453 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:12:22,072 - General-Log - INFO - Total T: 70059 Episode Num: 1034 Episode T: 241 Reward: 279.620 Memory Size: 70059
+2023-04-05 10:12:23,315 - General-Log - INFO - Total T: 70171 Episode Num: 1035 Episode T: 112 Reward: -13.305 Memory Size: 70171
+2023-04-05 10:12:25,099 - General-Log - INFO - Total T: 70333 Episode Num: 1036 Episode T: 162 Reward: -15.949 Memory Size: 70333
+2023-04-05 10:12:27,069 - General-Log - INFO - Total T: 70520 Episode Num: 1037 Episode T: 187 Reward: -33.688 Memory Size: 70520
+2023-04-05 10:12:29,310 - General-Log - INFO - Total T: 70738 Episode Num: 1038 Episode T: 218 Reward: 376.667 Memory Size: 70738
+2023-04-05 10:12:32,434 - General-Log - INFO - Total T: 71032 Episode Num: 1039 Episode T: 294 Reward: 138.073 Memory Size: 71032
+2023-04-05 10:12:34,673 - General-Log - INFO - Total T: 71246 Episode Num: 1040 Episode T: 214 Reward: 245.593 Memory Size: 71246
+2023-04-05 10:12:36,292 - General-Log - INFO - Total T: 71394 Episode Num: 1041 Episode T: 148 Reward: 229.021 Memory Size: 71394
+2023-04-05 10:12:39,349 - General-Log - INFO - Total T: 71679 Episode Num: 1042 Episode T: 285 Reward: 307.649 Memory Size: 71679
+2023-04-05 10:12:40,463 - General-Log - INFO - Total T: 71781 Episode Num: 1043 Episode T: 102 Reward: 131.513 Memory Size: 71781
+2023-04-05 10:12:41,284 - General-Log - INFO - Total T: 71853 Episode Num: 1044 Episode T: 72 Reward: 62.736 Memory Size: 71853
+2023-04-05 10:12:42,175 - General-Log - INFO - Total T: 71929 Episode Num: 1045 Episode T: 76 Reward: 147.504 Memory Size: 71929
+2023-04-05 10:12:44,947 - General-Log - INFO - Total T: 72168 Episode Num: 1046 Episode T: 239 Reward: 263.473 Memory Size: 72168
+2023-04-05 10:12:46,158 - General-Log - INFO - Total T: 72282 Episode Num: 1047 Episode T: 114 Reward: 196.692 Memory Size: 72282
+2023-04-05 10:12:47,183 - General-Log - INFO - Total T: 72371 Episode Num: 1048 Episode T: 89 Reward: 159.984 Memory Size: 72371
+2023-04-05 10:12:48,476 - General-Log - INFO - Total T: 72493 Episode Num: 1049 Episode T: 122 Reward: 61.505 Memory Size: 72493
+2023-04-05 10:12:49,184 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:12:49,184 - General-Log - INFO - Evaluation over 6 episodes: 231.224
+2023-04-05 10:12:49,184 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:13:28,911 - General-Log - INFO - Total T: 72672 Episode Num: 1050 Episode T: 179 Reward: 336.612 Memory Size: 72672
+2023-04-05 10:13:30,815 - General-Log - INFO - Total T: 72841 Episode Num: 1051 Episode T: 169 Reward: 264.493 Memory Size: 72841
+2023-04-05 10:13:33,240 - General-Log - INFO - Total T: 73057 Episode Num: 1052 Episode T: 216 Reward: 274.930 Memory Size: 73057
+2023-04-05 10:13:36,624 - General-Log - INFO - Total T: 73344 Episode Num: 1053 Episode T: 287 Reward: 296.297 Memory Size: 73344
+2023-04-05 10:13:44,243 - General-Log - INFO - Total T: 74037 Episode Num: 1054 Episode T: 693 Reward: 205.472 Memory Size: 74037
+2023-04-05 10:13:46,184 - General-Log - INFO - Total T: 74207 Episode Num: 1055 Episode T: 170 Reward: 356.839 Memory Size: 74207
+2023-04-05 10:13:47,378 - General-Log - INFO - Total T: 74302 Episode Num: 1056 Episode T: 95 Reward: 142.829 Memory Size: 74302
+2023-04-05 10:13:49,012 - General-Log - INFO - Total T: 74432 Episode Num: 1057 Episode T: 130 Reward: 233.244 Memory Size: 74432
+2023-04-05 10:13:52,032 - General-Log - INFO - Total T: 74678 Episode Num: 1058 Episode T: 246 Reward: 296.169 Memory Size: 74678
+2023-04-05 10:13:53,500 - General-Log - INFO - Total T: 74801 Episode Num: 1059 Episode T: 123 Reward: 241.685 Memory Size: 74801
+2023-04-05 10:13:55,789 - General-Log - INFO - Total T: 74989 Episode Num: 1060 Episode T: 188 Reward: 261.999 Memory Size: 74989
+2023-04-05 10:13:56,279 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:13:56,279 - General-Log - INFO - Evaluation over 6 episodes: 111.556
+2023-04-05 10:13:56,279 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:14:35,744 - General-Log - INFO - Total T: 75088 Episode Num: 1061 Episode T: 99 Reward: 157.519 Memory Size: 75088
+2023-04-05 10:14:36,592 - General-Log - INFO - Total T: 75162 Episode Num: 1062 Episode T: 74 Reward: 82.864 Memory Size: 75162
+2023-04-05 10:14:37,444 - General-Log - INFO - Total T: 75237 Episode Num: 1063 Episode T: 75 Reward: 111.006 Memory Size: 75237
+2023-04-05 10:14:40,181 - General-Log - INFO - Total T: 75459 Episode Num: 1064 Episode T: 222 Reward: 152.541 Memory Size: 75459
+2023-04-05 10:14:44,192 - General-Log - INFO - Total T: 75772 Episode Num: 1065 Episode T: 313 Reward: -91.864 Memory Size: 75772
+2023-04-05 10:14:47,971 - General-Log - INFO - Total T: 76054 Episode Num: 1066 Episode T: 282 Reward: 58.615 Memory Size: 76054
+2023-04-05 10:14:49,222 - General-Log - INFO - Total T: 76153 Episode Num: 1067 Episode T: 99 Reward: 38.089 Memory Size: 76153
+2023-04-05 10:14:51,842 - General-Log - INFO - Total T: 76381 Episode Num: 1068 Episode T: 228 Reward: 54.912 Memory Size: 76381
+2023-04-05 10:14:54,548 - General-Log - INFO - Total T: 76583 Episode Num: 1069 Episode T: 202 Reward: 163.512 Memory Size: 76583
+2023-04-05 10:14:56,644 - General-Log - INFO - Total T: 76761 Episode Num: 1070 Episode T: 178 Reward: 307.352 Memory Size: 76761
+2023-04-05 10:15:01,321 - General-Log - INFO - Total T: 77177 Episode Num: 1071 Episode T: 416 Reward: 270.437 Memory Size: 77177
+2023-04-05 10:15:04,081 - General-Log - INFO - Total T: 77382 Episode Num: 1072 Episode T: 205 Reward: 217.818 Memory Size: 77382
+2023-04-05 10:15:06,422 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:15:06,422 - General-Log - INFO - Evaluation over 6 episodes: 153.055
+2023-04-05 10:15:06,422 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:15:43,765 - General-Log - INFO - Total T: 77509 Episode Num: 1073 Episode T: 127 Reward: 24.408 Memory Size: 77509
+2023-04-05 10:15:45,122 - General-Log - INFO - Total T: 77625 Episode Num: 1074 Episode T: 116 Reward: 25.779 Memory Size: 77625
+2023-04-05 10:15:46,253 - General-Log - INFO - Total T: 77723 Episode Num: 1075 Episode T: 98 Reward: 139.722 Memory Size: 77723
+2023-04-05 10:15:47,354 - General-Log - INFO - Total T: 77816 Episode Num: 1076 Episode T: 93 Reward: 128.402 Memory Size: 77816
+2023-04-05 10:15:49,540 - General-Log - INFO - Total T: 77992 Episode Num: 1077 Episode T: 176 Reward: 331.164 Memory Size: 77992
+2023-04-05 10:15:51,828 - General-Log - INFO - Total T: 78193 Episode Num: 1078 Episode T: 201 Reward: 310.500 Memory Size: 78193
+2023-04-05 10:15:53,076 - General-Log - INFO - Total T: 78286 Episode Num: 1079 Episode T: 93 Reward: 177.241 Memory Size: 78286
+2023-04-05 10:15:54,731 - General-Log - INFO - Total T: 78417 Episode Num: 1080 Episode T: 131 Reward: 158.289 Memory Size: 78417
+2023-04-05 10:15:55,745 - General-Log - INFO - Total T: 78508 Episode Num: 1081 Episode T: 91 Reward: 151.741 Memory Size: 78508
+2023-04-05 10:15:57,251 - General-Log - INFO - Total T: 78634 Episode Num: 1082 Episode T: 126 Reward: 246.500 Memory Size: 78634
+2023-04-05 10:15:59,138 - General-Log - INFO - Total T: 78806 Episode Num: 1083 Episode T: 172 Reward: 217.365 Memory Size: 78806
+2023-04-05 10:16:01,868 - General-Log - INFO - Total T: 79014 Episode Num: 1084 Episode T: 208 Reward: 201.640 Memory Size: 79014
+2023-04-05 10:16:02,541 - General-Log - INFO - Total T: 79068 Episode Num: 1085 Episode T: 54 Reward: 38.709 Memory Size: 79068
+2023-04-05 10:16:03,513 - General-Log - INFO - Total T: 79155 Episode Num: 1086 Episode T: 87 Reward: 170.531 Memory Size: 79155
+2023-04-05 10:16:05,161 - General-Log - INFO - Total T: 79291 Episode Num: 1087 Episode T: 136 Reward: 271.469 Memory Size: 79291
+2023-04-05 10:16:06,655 - General-Log - INFO - Total T: 79419 Episode Num: 1088 Episode T: 128 Reward: 234.124 Memory Size: 79419
+2023-04-05 10:16:08,270 - General-Log - INFO - Total T: 79548 Episode Num: 1089 Episode T: 129 Reward: 199.048 Memory Size: 79548
+2023-04-05 10:16:09,745 - General-Log - INFO - Total T: 79664 Episode Num: 1090 Episode T: 116 Reward: 199.959 Memory Size: 79664
+2023-04-05 10:16:11,263 - General-Log - INFO - Total T: 79791 Episode Num: 1091 Episode T: 127 Reward: 201.156 Memory Size: 79791
+2023-04-05 10:16:13,172 - General-Log - INFO - Total T: 79949 Episode Num: 1092 Episode T: 158 Reward: 296.901 Memory Size: 79949
+2023-04-05 10:16:14,476 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:16:14,477 - General-Log - INFO - Evaluation over 6 episodes: 156.832
+2023-04-05 10:16:14,477 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:16:53,427 - General-Log - INFO - Total T: 80102 Episode Num: 1093 Episode T: 153 Reward: 56.736 Memory Size: 80102
+2023-04-05 10:16:55,346 - General-Log - INFO - Total T: 80265 Episode Num: 1094 Episode T: 163 Reward: 207.510 Memory Size: 80265
+2023-04-05 10:16:56,411 - General-Log - INFO - Total T: 80355 Episode Num: 1095 Episode T: 90 Reward: 142.130 Memory Size: 80355
+2023-04-05 10:16:58,073 - General-Log - INFO - Total T: 80477 Episode Num: 1096 Episode T: 122 Reward: 129.087 Memory Size: 80477
+2023-04-05 10:16:59,459 - General-Log - INFO - Total T: 80584 Episode Num: 1097 Episode T: 107 Reward: 132.953 Memory Size: 80584
+2023-04-05 10:17:01,431 - General-Log - INFO - Total T: 80760 Episode Num: 1098 Episode T: 176 Reward: 305.456 Memory Size: 80760
+2023-04-05 10:17:02,224 - General-Log - INFO - Total T: 80830 Episode Num: 1099 Episode T: 70 Reward: 108.627 Memory Size: 80830
+2023-04-05 10:17:03,610 - General-Log - INFO - Total T: 80954 Episode Num: 1100 Episode T: 124 Reward: 215.592 Memory Size: 80954
+2023-04-05 10:17:05,087 - General-Log - INFO - Total T: 81085 Episode Num: 1101 Episode T: 131 Reward: 24.175 Memory Size: 81085
+2023-04-05 10:17:12,258 - General-Log - INFO - Total T: 81713 Episode Num: 1102 Episode T: 628 Reward: 258.859 Memory Size: 81713
+2023-04-05 10:17:15,167 - General-Log - INFO - Total T: 81949 Episode Num: 1103 Episode T: 236 Reward: 282.871 Memory Size: 81949
+2023-04-05 10:17:16,601 - General-Log - INFO - Total T: 82070 Episode Num: 1104 Episode T: 121 Reward: 218.584 Memory Size: 82070
+2023-04-05 10:17:17,807 - General-Log - INFO - Total T: 82176 Episode Num: 1105 Episode T: 106 Reward: 168.097 Memory Size: 82176
+2023-04-05 10:17:19,964 - General-Log - INFO - Total T: 82361 Episode Num: 1106 Episode T: 185 Reward: 78.924 Memory Size: 82361
+2023-04-05 10:17:21,933 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:17:21,934 - General-Log - INFO - Evaluation over 6 episodes: 180.385
+2023-04-05 10:17:21,934 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:18:00,512 - General-Log - INFO - Total T: 82592 Episode Num: 1107 Episode T: 231 Reward: 397.878 Memory Size: 82592
+2023-04-05 10:18:01,757 - General-Log - INFO - Total T: 82701 Episode Num: 1108 Episode T: 109 Reward: 21.025 Memory Size: 82701
+2023-04-05 10:18:03,767 - General-Log - INFO - Total T: 82875 Episode Num: 1109 Episode T: 174 Reward: 227.714 Memory Size: 82875
+2023-04-05 10:18:09,466 - General-Log - INFO - Total T: 83382 Episode Num: 1110 Episode T: 507 Reward: 537.361 Memory Size: 83382
+2023-04-05 10:18:10,375 - General-Log - INFO - Total T: 83471 Episode Num: 1111 Episode T: 89 Reward: 93.960 Memory Size: 83471
+2023-04-05 10:18:13,925 - General-Log - INFO - Total T: 83779 Episode Num: 1112 Episode T: 308 Reward: 441.116 Memory Size: 83779
+2023-04-05 10:18:18,313 - General-Log - INFO - Total T: 84171 Episode Num: 1113 Episode T: 392 Reward: -110.023 Memory Size: 84171
+2023-04-05 10:18:27,854 - General-Log - INFO - Total T: 84972 Episode Num: 1114 Episode T: 801 Reward: 668.313 Memory Size: 84972
+2023-04-05 10:18:32,285 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:18:32,288 - General-Log - INFO - Evaluation over 6 episodes: 918.338
+2023-04-05 10:18:32,288 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:19:13,138 - General-Log - INFO - Total T: 85225 Episode Num: 1115 Episode T: 253 Reward: 328.158 Memory Size: 85225
+2023-04-05 10:19:14,725 - General-Log - INFO - Total T: 85374 Episode Num: 1116 Episode T: 149 Reward: 286.681 Memory Size: 85374
+2023-04-05 10:19:18,642 - General-Log - INFO - Total T: 85730 Episode Num: 1117 Episode T: 356 Reward: 500.408 Memory Size: 85730
+2023-04-05 10:19:21,736 - General-Log - INFO - Total T: 86013 Episode Num: 1118 Episode T: 283 Reward: 482.565 Memory Size: 86013
+2023-04-05 10:19:22,588 - General-Log - INFO - Total T: 86093 Episode Num: 1119 Episode T: 80 Reward: 124.009 Memory Size: 86093
+2023-04-05 10:19:23,851 - General-Log - INFO - Total T: 86205 Episode Num: 1120 Episode T: 112 Reward: 31.704 Memory Size: 86205
+2023-04-05 10:19:25,937 - General-Log - INFO - Total T: 86398 Episode Num: 1121 Episode T: 193 Reward: 346.569 Memory Size: 86398
+2023-04-05 10:19:27,127 - General-Log - INFO - Total T: 86506 Episode Num: 1122 Episode T: 108 Reward: 182.150 Memory Size: 86506
+2023-04-05 10:19:33,781 - General-Log - INFO - Total T: 87115 Episode Num: 1123 Episode T: 609 Reward: 424.930 Memory Size: 87115
+2023-04-05 10:19:36,644 - General-Log - INFO - Total T: 87365 Episode Num: 1124 Episode T: 250 Reward: 399.368 Memory Size: 87365
+2023-04-05 10:19:38,028 - General-Log - INFO - Total T: 87484 Episode Num: 1125 Episode T: 119 Reward: 186.101 Memory Size: 87484
+2023-04-05 10:19:39,732 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:19:39,733 - General-Log - INFO - Evaluation over 6 episodes: 464.011
+2023-04-05 10:19:39,733 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:20:20,312 - General-Log - INFO - Total T: 87645 Episode Num: 1126 Episode T: 161 Reward: 295.190 Memory Size: 87645
+2023-04-05 10:20:22,692 - General-Log - INFO - Total T: 87867 Episode Num: 1127 Episode T: 222 Reward: 351.204 Memory Size: 87867
+2023-04-05 10:20:24,417 - General-Log - INFO - Total T: 88030 Episode Num: 1128 Episode T: 163 Reward: 230.623 Memory Size: 88030
+2023-04-05 10:20:26,736 - General-Log - INFO - Total T: 88256 Episode Num: 1129 Episode T: 226 Reward: 416.554 Memory Size: 88256
+2023-04-05 10:20:28,843 - General-Log - INFO - Total T: 88437 Episode Num: 1130 Episode T: 181 Reward: 386.946 Memory Size: 88437
+2023-04-05 10:20:29,746 - General-Log - INFO - Total T: 88519 Episode Num: 1131 Episode T: 82 Reward: 171.118 Memory Size: 88519
+2023-04-05 10:20:41,778 - General-Log - INFO - Total T: 89519 Episode Num: 1132 Episode T: 1000 Reward: 901.937 Memory Size: 89519
+2023-04-05 10:20:48,560 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:20:48,561 - General-Log - INFO - Evaluation over 6 episodes: 304.968
+2023-04-05 10:20:48,563 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:21:33,522 - General-Log - INFO - Total T: 90519 Episode Num: 1133 Episode T: 1000 Reward: 931.368 Memory Size: 90519
+2023-04-05 10:21:34,654 - General-Log - INFO - Total T: 90614 Episode Num: 1134 Episode T: 95 Reward: 185.498 Memory Size: 90614
+2023-04-05 10:21:46,332 - General-Log - INFO - Total T: 91614 Episode Num: 1135 Episode T: 1000 Reward: 948.528 Memory Size: 91614
+2023-04-05 10:21:47,594 - General-Log - INFO - Total T: 91722 Episode Num: 1136 Episode T: 108 Reward: 175.510 Memory Size: 91722
+2023-04-05 10:21:51,659 - General-Log - INFO - Total T: 92079 Episode Num: 1137 Episode T: 357 Reward: 440.074 Memory Size: 92079
+2023-04-05 10:21:55,121 - General-Log - INFO - Total T: 92366 Episode Num: 1138 Episode T: 287 Reward: 568.708 Memory Size: 92366
+2023-04-05 10:21:57,172 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:21:57,173 - General-Log - INFO - Evaluation over 6 episodes: 166.921
+2023-04-05 10:21:57,173 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:22:38,029 - General-Log - INFO - Total T: 92594 Episode Num: 1139 Episode T: 228 Reward: 160.539 Memory Size: 92594
+2023-04-05 10:22:39,994 - General-Log - INFO - Total T: 92757 Episode Num: 1140 Episode T: 163 Reward: 222.153 Memory Size: 92757
+2023-04-05 10:22:43,145 - General-Log - INFO - Total T: 93018 Episode Num: 1141 Episode T: 261 Reward: 65.314 Memory Size: 93018
+2023-04-05 10:22:47,787 - General-Log - INFO - Total T: 93401 Episode Num: 1142 Episode T: 383 Reward: 373.835 Memory Size: 93401
+2023-04-05 10:22:49,840 - General-Log - INFO - Total T: 93561 Episode Num: 1143 Episode T: 160 Reward: 81.569 Memory Size: 93561
+2023-04-05 10:22:50,620 - General-Log - INFO - Total T: 93621 Episode Num: 1144 Episode T: 60 Reward: 46.322 Memory Size: 93621
+2023-04-05 10:23:02,869 - General-Log - INFO - Total T: 94621 Episode Num: 1145 Episode T: 1000 Reward: 972.725 Memory Size: 94621
+2023-04-05 10:23:05,057 - General-Log - INFO - Total T: 94811 Episode Num: 1146 Episode T: 190 Reward: 257.988 Memory Size: 94811
+2023-04-05 10:23:08,229 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:23:08,229 - General-Log - INFO - Evaluation over 6 episodes: 333.571
+2023-04-05 10:23:08,232 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:23:48,865 - General-Log - INFO - Total T: 95048 Episode Num: 1147 Episode T: 237 Reward: 406.079 Memory Size: 95048
+2023-04-05 10:23:51,031 - General-Log - INFO - Total T: 95239 Episode Num: 1148 Episode T: 191 Reward: 67.005 Memory Size: 95239
+2023-04-05 10:23:55,642 - General-Log - INFO - Total T: 95628 Episode Num: 1149 Episode T: 389 Reward: 530.711 Memory Size: 95628
+2023-04-05 10:23:56,652 - General-Log - INFO - Total T: 95720 Episode Num: 1150 Episode T: 92 Reward: 47.804 Memory Size: 95720
+2023-04-05 10:23:58,126 - General-Log - INFO - Total T: 95842 Episode Num: 1151 Episode T: 122 Reward: 182.633 Memory Size: 95842
+2023-04-05 10:24:08,624 - General-Log - INFO - Total T: 96842 Episode Num: 1152 Episode T: 1000 Reward: 1189.975 Memory Size: 96842
+2023-04-05 10:24:17,969 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:24:17,969 - General-Log - INFO - Evaluation over 6 episodes: 429.491
+2023-04-05 10:24:17,969 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:24:59,136 - General-Log - INFO - Total T: 97631 Episode Num: 1153 Episode T: 789 Reward: 503.720 Memory Size: 97631
+2023-04-05 10:25:02,031 - General-Log - INFO - Total T: 97880 Episode Num: 1154 Episode T: 249 Reward: 373.037 Memory Size: 97880
+2023-04-05 10:25:06,612 - General-Log - INFO - Total T: 98260 Episode Num: 1155 Episode T: 380 Reward: 283.926 Memory Size: 98260
+2023-04-05 10:25:09,372 - General-Log - INFO - Total T: 98492 Episode Num: 1156 Episode T: 232 Reward: 476.927 Memory Size: 98492
+2023-04-05 10:25:12,138 - General-Log - INFO - Total T: 98736 Episode Num: 1157 Episode T: 244 Reward: 437.830 Memory Size: 98736
+2023-04-05 10:25:21,622 - General-Log - INFO - Total T: 99530 Episode Num: 1158 Episode T: 794 Reward: 1006.244 Memory Size: 99530
+2023-04-05 10:25:25,459 - General-Log - INFO - Total T: 99859 Episode Num: 1159 Episode T: 329 Reward: 511.708 Memory Size: 99859
+2023-04-05 10:25:26,988 - General-Log - INFO - Total T: 99996 Episode Num: 1160 Episode T: 137 Reward: 116.434 Memory Size: 99996
+2023-04-05 10:25:27,238 - General-Log - INFO - ---------------------------------------
+2023-04-05 10:25:27,238 - General-Log - INFO - Evaluation over 6 episodes: 33.260
+2023-04-05 10:25:27,238 - General-Log - INFO - ---------------------------------------
